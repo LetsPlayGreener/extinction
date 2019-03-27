@@ -350,7 +350,7 @@ MonoBehaviour:
     controllerButton: 10
     m_Enabled: 0
   Jump:
-    key: 122
+    key: 32
     controllerButton: 1
     m_Enabled: 1
   Horizontal:

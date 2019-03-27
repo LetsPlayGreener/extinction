@@ -7,7 +7,7 @@ public class LearningAnalyticsGenerator : MonoBehaviour
 {
     public static LearningAnalyticsGenerator instance;
     public bool canGenerateLA = true;
-    public float frequenceForContinuous = 0.5f;
+    public float frequenceForContinuous = 1f;
     private float continuousTimer = float.MaxValue;
 
     public Transform player;

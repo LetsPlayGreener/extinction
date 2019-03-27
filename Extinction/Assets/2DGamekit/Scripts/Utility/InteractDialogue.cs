@@ -34,6 +34,12 @@ namespace Gamekit2D {
 
         //Event called when this dialogue ends
         public DialogueEndEvent OnEndDialogue;
+        //Event called when this dialogue is skipped by the player
+        public InteractDialogueEvent OnSkipDialogue;
+
+        //when the dialogue is skipped, all events in this list will be called
+        //this list is filled with the event of each elements in the dialogue  that has "callEventFunctionsOnSkipDialogue" set to true
+        private List<DialogueElementReadEvent> readEventsCalledOnSkip;
 
         private bool simulateValidatePressed = false;
 
@@ -95,6 +101,10 @@ namespace Gamekit2D {
                 {
                     currentText.OnElementRead.Invoke(currentText);
 
+                    if (readEventsCalledOnSkip != null)
+                        readEventsCalledOnSkip.Clear();
+                    CheckDialogueListeners(currentText);
+
                     if (LearningAnalyticsGenerator.instance && LearningAnalyticsGenerator.instance.canGenerateLA)
                     {
                         if (currentText.speakerIsPlayer)
@@ -116,6 +126,10 @@ namespace Gamekit2D {
                     currentText = currentText.nextDialogElems[selectedChoice];
                     //invoke event for the selected choice
                     currentText.OnElementRead.Invoke(currentText);
+
+                    if (readEventsCalledOnSkip != null)
+                        readEventsCalledOnSkip.Clear();
+                    CheckDialogueListeners(currentText);
 
                     if (LearningAnalyticsGenerator.instance && LearningAnalyticsGenerator.instance.canGenerateLA)
                     {
@@ -169,7 +183,7 @@ namespace Gamekit2D {
                     else
                     {
                         speakerImage.gameObject.SetActive(true);
-                        if (currentText.selectRandomly)
+                        if (false)
                         {
                             if (tmpElemsList == null)
                                 tmpElemsList = new List<DialogueElement>();
@@ -247,6 +261,7 @@ namespace Gamekit2D {
                 }
             }
 
+            #region Navigation among choices
             //if "up" input pressed
             if (selectedChoice > -1 && (Input.GetKeyDown(playerInput.Vertical.positive) || Input.GetKeyDown(KeyCode.UpArrow)))
             {
@@ -292,6 +307,7 @@ namespace Gamekit2D {
                         }
                 }
             }
+
             //if "down" input pressed
             else if (selectedChoice > -1 && (Input.GetKeyDown(playerInput.Vertical.negative) || Input.GetKeyDown(KeyCode.DownArrow)))
             {
@@ -337,12 +353,29 @@ namespace Gamekit2D {
                         }
                 }
             }
+#endregion
 
             //close dialogue on press interact button
             if (Input.GetKeyDown(playerInput.Interact.key))
             {
+                OnSkipDialogue.Invoke(this);
+
+                foreach (DialogueElementReadEvent onRead in readEventsCalledOnSkip)
+                    onRead.Invoke(onRead.elem);
+                readEventsCalledOnSkip.Clear();
+
                 dcc.DeactivateCanvasWithDelay(0);
                 playerInput.GainControl();
+
+                if (currentText)
+                    tmpString = currentText.text;
+                else
+                    tmpString = "";
+
+                GBL_Interface.SendStatement("skipped", "dialog", gameObject.name, new Dictionary<string, List<string>>()
+                {
+                    { "from", new List<string>() { tmpString } }
+                });
             }
         }
 
@@ -383,11 +416,35 @@ namespace Gamekit2D {
                 }
             }
         }
+
+        private void CheckDialogueListeners(DialogueElement elem)
+        {
+            if (readEventsCalledOnSkip == null)
+                readEventsCalledOnSkip = new List<DialogueElementReadEvent>();
+
+            if (elem.callEventFunctionsOnSkipDialogue)
+                readEventsCalledOnSkip.Add(elem.OnElementRead);
+
+            if (elem.nextDialogElems != null && elem.nextDialogElems.Count > 0)
+            {
+                foreach (DialogueElement next in elem.nextDialogElems)
+                {
+                    if (next && next.callEventFunctionsOnSkipDialogue && (readEventsCalledOnSkip == null || !readEventsCalledOnSkip.Contains(next.OnElementRead)))
+                        CheckDialogueListeners(next);
+                }
+            }
+        }
     }
 
     [Serializable]
-    public class DialogueElementReadEvent: UnityEvent<DialogueElement> { }
+    public class DialogueElementReadEvent: UnityEvent<DialogueElement>
+    {
+        public DialogueElement elem;
+    }
 
     [Serializable]
     public class DialogueEndEvent: UnityEvent<GameObject> { }
+
+    [Serializable]
+    public class InteractDialogueEvent: UnityEvent<InteractDialogue> { }
 }

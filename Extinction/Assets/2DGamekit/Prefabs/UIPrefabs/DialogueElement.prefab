@@ -51,8 +51,14 @@ MonoBehaviour:
   text: 
   nextDialogElems:
   - {fileID: 0}
+  speakerIsPlayer: 1
+  selectRandomly: 0
+  numberSelectedRandomly: 0
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
   OnElementRead:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
