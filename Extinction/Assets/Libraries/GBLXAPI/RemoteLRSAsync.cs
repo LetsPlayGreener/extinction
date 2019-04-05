@@ -192,6 +192,7 @@ namespace TinCan {
 
             yield return data; // Wait until the download is done
 
+            Debug.Log("Satement sending error: " + data.error);
             // ok
             if (data.error == null){
 				this.success = true;

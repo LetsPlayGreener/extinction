@@ -9,6 +9,7 @@ public class MiniMapManager : MonoBehaviour
     public Camera mapCamera;
     public RawImage mapLittleImage;
     public RawImage mapBigImage;
+    private bool bigMapDisplayed = false;
 
     private RenderTexture renderTexture;
     public int renderTextureWidth = 1024;
@@ -33,5 +34,19 @@ public class MiniMapManager : MonoBehaviour
     {
         mapLittleImage.transform.parent.gameObject.SetActive(!Input.GetKey(KeyCode.M));
         mapBigImage.transform.parent.gameObject.SetActive(Input.GetKey(KeyCode.M));
+
+
+        if (Input.GetKey(KeyCode.M) && !bigMapDisplayed)
+        {
+            bigMapDisplayed = true;
+            if (LearningAnalyticsGenerator.instance && LearningAnalyticsGenerator.instance.canGenerateLA)
+                GBL_Interface.SendStatement("activated", "viewable", gameObject.name);
+        }
+        else if (bigMapDisplayed && !Input.GetKey(KeyCode.M))
+        {
+            bigMapDisplayed = false;
+            if (LearningAnalyticsGenerator.instance && LearningAnalyticsGenerator.instance.canGenerateLA)
+                GBL_Interface.SendStatement("exitedView", "viewable", gameObject.name);
+        }
     }
 }

@@ -65,11 +65,12 @@ namespace Gamekit2D
                             for(int i = 0; i < CollectionManager.instance.types.Values.Count; i++)
                             {
                                 randomID = (int)Random.Range(0, tmpTypeList.Count - 0.001f);
-                                if (!tmpIntList.Contains(tmpTypeList[randomID].feature))
+                                if (tmpTypeList[randomID].collectableByPlayer && !tmpIntList.Contains(tmpTypeList[randomID].feature))
                                 {
                                     type = tmpTypeList[randomID];
                                     break;
                                 }
+                                tmpTypeList.RemoveAt(randomID);
                             }
                             break;
 
@@ -86,11 +87,12 @@ namespace Gamekit2D
                             for (int i = 0; i < CollectionManager.instance.types.Values.Count; i++)
                             {
                                 randomID = (int)Random.Range(0, tmpTypeList.Count - 0.001f);
-                                if (!tmpIntList.Contains(tmpTypeList[randomID].classification))
+                                if (tmpTypeList[randomID].collectableByPlayer && !tmpIntList.Contains(tmpTypeList[randomID].classification))
                                 {
                                     type = tmpTypeList[randomID];
                                     break;
                                 }
+                                tmpTypeList.RemoveAt(randomID);
                             }
                             break;
 
@@ -107,11 +109,12 @@ namespace Gamekit2D
                             for (int i = 0; i < CollectionManager.instance.types.Values.Count; i++)
                             {
                                 randomID = (int)Random.Range(0, tmpTypeList.Count - 0.001f);
-                                if (!tmpIntList.Contains(tmpTypeList[randomID].zone))
+                                if (tmpTypeList[randomID].collectableByPlayer && !tmpIntList.Contains(tmpTypeList[randomID].zone))
                                 {
                                     type = tmpTypeList[randomID];
                                     break;
                                 }
+                                tmpTypeList.RemoveAt(randomID);
                             }
                             break;
 

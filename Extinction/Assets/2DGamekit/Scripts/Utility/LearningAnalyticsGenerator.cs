@@ -19,7 +19,12 @@ public class LearningAnalyticsGenerator : MonoBehaviour
         {
             instance = this;
             if (!GBLXAPI.Instance.IsInit())
-                GBLXAPI.Instance.init(GBL_Interface.lrsAddresses, GBL_Interface.standardsConfigDefault, GBL_Interface.standardsConfigUser);
+            {
+                if(Application.isEditor)
+                    GBLXAPI.Instance.init(GBL_Interface.lrsAddressesEditor, GBL_Interface.standardsConfigDefault, GBL_Interface.standardsConfigUser);
+                else
+                    GBLXAPI.Instance.init(GBL_Interface.lrsAddressesBuild, GBL_Interface.standardsConfigDefault, GBL_Interface.standardsConfigUser);
+            }
 
             if (player)
             {
@@ -37,7 +42,7 @@ public class LearningAnalyticsGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -58,5 +63,10 @@ public class LearningAnalyticsGenerator : MonoBehaviour
                 continuousTimer = Time.time;
             }
         }
+    }
+
+    private void OnApplicationQuit()
+    {
+        canGenerateLA = false;
     }
 }

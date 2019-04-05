@@ -9,59 +9,38 @@ public class SceneLauncher : MonoBehaviour
 
     public static string loadingSceneName = "MyLoading";
 
-    private string sceneNameToLoad;
-    private bool loadingLoadingScene = false;
-    private bool loadingScene = false;
-
     private void Awake()
     {
-        instance = this;
+        if (!instance)
+        {
+            if(this.transform.parent == null)
+                instance = this;
+            else
+            {
+                SceneLauncher sceneLauncher = new GameObject().AddComponent<SceneLauncher>();
+                instance = sceneLauncher;
+                this.enabled = false;
+            }
+        }
+        else
+            this.enabled = false;
     }
 
     private void Update()
     {
-        if (loadingLoadingScene)
-        {
-            if(SceneManager.GetActiveScene().name == loadingSceneName)
-            {
-                try
-                {
-                    loadingLoadingScene = false;
-                    loadingScene = true;
-                    SceneManager.LoadSceneAsync(sceneNameToLoad);
-                }
-                catch (System.Exception)
-                {
-                    Debug.LogError(string.Concat("Unable to load scene \"", sceneNameToLoad, "\""));
-                }
-            }
-        }
-        else if (loadingScene)
-        {
-            if (SceneManager.GetActiveScene().name == sceneNameToLoad)
-            {
-                loadingScene = false;
-                if (instance != this)
-                    Destroy(this.gameObject);
-            }
-        }
     }
 
     public void LoadScene(string sceneName)
     {
         if (Application.CanStreamedLevelBeLoaded(sceneName))
-        {
-            try
-            {
-                DontDestroyOnLoad(this);
-                sceneNameToLoad = sceneName;
-                loadingLoadingScene = true;
-                SceneManager.LoadSceneAsync(SceneLauncher.loadingSceneName);
-            }
-            catch (System.Exception)
-            {
-                Debug.LogError(string.Concat("Unable to load scene \"", sceneName, "\""));
-            }
-        }
+            instance.StartCoroutine(LoadSceneCoroutine(sceneName));
+    }
+
+    public IEnumerator LoadSceneCoroutine(string sceneName)
+    {
+        DontDestroyOnLoad(instance);
+        yield return SceneManager.LoadSceneAsync(SceneLauncher.loadingSceneName);
+        yield return SceneManager.LoadSceneAsync(sceneName);
+        Time.timeScale = 1;
     }
 }

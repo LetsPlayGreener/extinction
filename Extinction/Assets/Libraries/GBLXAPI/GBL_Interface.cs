@@ -44,14 +44,18 @@ public static class GBL_Interface {
 
     // Fill in these fields for GBLxAPI setup.
     //Statements will be sent to all addresses in this list
-    public static List<LRSAddress> lrsAddresses = new List<LRSAddress>() {
-        //new LRSAddress("https://lrsmocah.lip6.fr/data/xAPI", "0cba1c6d1fb844993cec4ebc3ee458d271ad6d84", "6e4d81bb34ba308397943b8d1c40db389524b34a")    //default lip6 LRS
-        new LRSAddress(" ", "", "")
+    //address for dev store on LRS
+    public static List<LRSAddress> lrsAddressesEditor = new List<LRSAddress>() {
+        new LRSAddress("https://lrsmocah.lip6.fr/data/xAPI", "1d8ea8c3198206f6323d07d0a8e9bc5f5e8ab922", "9fc36f86b3e65cf1bfa12da620ae5ff4dfcc506c")
+    };
+    //address for build store on LRS
+    public static List<LRSAddress> lrsAddressesBuild = new List<LRSAddress>() {
+        new LRSAddress("https://lrsmocah.lip6.fr/data/xAPI", "9b57fbafcb350daef78c6efec918c981c3771f54", "9e45c0c31db58186009030482f7ad91bd55b7798")
     };
 	public static string standardsConfigDefault = "data/GBLxAPI_Vocab_Default";
 	public static string standardsConfigUser = "data/GBLxAPI_Vocab_User";
-	public static string gameURI = "https://www.lip6.fr/mocah/invalidURI/activity-types/serious-game/LearningScape";
-	public static string gameName = "E-LearningScape";
+	public static string gameURI = "https://www.lip6.fr/mocah/invalidURI/activity-types/serious-game/Extinction";
+	public static string gameName = "Extinction";
 	public static string companyURI = "https://www.lip6.fr/mocah/";
 	public static string userUUID = "f1cd58aa-ad22-49e5-8567-d59d97d3b209";
     public static string playerName = "player";

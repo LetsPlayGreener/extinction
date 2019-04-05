@@ -25,6 +25,9 @@ namespace Gamekit2D {
         private DialogueElement currentText = null;
         private int selectedChoice = -1; //-1 if no choice selected
 
+        //if true the player can press the interact button to leave the dialogue
+        public bool skippableDialogue = false;
+
         //this variable is true if the component is enable and when dcc.DeactivateCanvasWithDelay is called
         //set to false when the component is enabled again
         private bool disabling = false;
@@ -32,8 +35,10 @@ namespace Gamekit2D {
         //true if the start of this component has been called at least once
         private bool initialized = false;
 
+        //Event called when this dialogue starts
+        public InteractDialogueEvent OnStartDialogue;
         //Event called when this dialogue ends
-        public DialogueEndEvent OnEndDialogue;
+        public InteractDialogueEvent OnEndDialogue;
         //Event called when this dialogue is skipped by the player
         public InteractDialogueEvent OnSkipDialogue;
 
@@ -123,6 +128,9 @@ namespace Gamekit2D {
                 //set the selected choice as currentText to prepere the next text
                 if (selectedChoice > -1)
                 {
+                    if (!currentText.nextDialogElems[selectedChoice].gameObject.activeInHierarchy)
+                        currentText.nextDialogElems[selectedChoice].InitRandom();
+
                     currentText = currentText.nextDialogElems[selectedChoice];
                     //invoke event for the selected choice
                     currentText.OnElementRead.Invoke(currentText);
@@ -155,6 +163,9 @@ namespace Gamekit2D {
                             if (currentText.nextDialogElems[0].text == "")
                                 simulateValidatePressed = true;
 
+                            if (!currentText.nextDialogElems[0].gameObject.activeInHierarchy)
+                                currentText.nextDialogElems[0].InitRandom();
+
                             //change text displayed
                             dialogueText.text = currentText.nextDialogElems[0].text;
                             currentText = currentText.nextDialogElems[0];
@@ -176,7 +187,7 @@ namespace Gamekit2D {
                             //disable this gameobject
                             disabling = true;
                             currentText = null;
-                            OnEndDialogue.Invoke(gameObject);
+                            OnEndDialogue.Invoke(this);
                             dcc.DeactivateCanvasWithDelay(0);
                         }
                     }
@@ -185,6 +196,7 @@ namespace Gamekit2D {
                         speakerImage.gameObject.SetActive(true);
                         if (false)
                         {
+                            //old random choice replaced by the function SelectNextRandomly in DialogueElemnt
                             if (tmpElemsList == null)
                                 tmpElemsList = new List<DialogueElement>();
                             tmpElemsList.Clear();
@@ -238,7 +250,7 @@ namespace Gamekit2D {
                                     //disable this gameobject
                                     disabling = true;
                                     currentText = null;
-                                    OnEndDialogue.Invoke(gameObject);
+                                    OnEndDialogue.Invoke(this);
                                     dcc.DeactivateCanvasWithDelay(0);
                                 }
                             }
@@ -256,7 +268,7 @@ namespace Gamekit2D {
                     //else disable this gameobject
                     disabling = true;
                     currentText = null;
-                    OnEndDialogue.Invoke(gameObject);
+                    OnEndDialogue.Invoke(this);
                     dcc.DeactivateCanvasWithDelay(0);
                 }
             }
@@ -356,7 +368,7 @@ namespace Gamekit2D {
 #endregion
 
             //close dialogue on press interact button
-            if (Input.GetKeyDown(playerInput.Interact.key))
+            if (Input.GetKeyDown(playerInput.Interact.key) && skippableDialogue)
             {
                 OnSkipDialogue.Invoke(this);
 
@@ -372,10 +384,11 @@ namespace Gamekit2D {
                 else
                     tmpString = "";
 
-                GBL_Interface.SendStatement("skipped", "dialog", gameObject.name, new Dictionary<string, List<string>>()
-                {
-                    { "from", new List<string>() { tmpString } }
-                });
+                if (LearningAnalyticsGenerator.instance && LearningAnalyticsGenerator.instance.canGenerateLA)
+                    GBL_Interface.SendStatement("skipped", "dialog", gameObject.name, new Dictionary<string, List<string>>()
+                        {
+                            { "from", new List<string>() { tmpString } }
+                        });
             }
         }
 
@@ -409,6 +422,7 @@ namespace Gamekit2D {
 
             if (firstText)
             {
+                OnStartDialogue.Invoke(this);
                 dcc.ActivateCanvasWithText(firstText.text);
                 if (LearningAnalyticsGenerator.instance && LearningAnalyticsGenerator.instance.canGenerateLA)
                 {
@@ -441,9 +455,6 @@ namespace Gamekit2D {
     {
         public DialogueElement elem;
     }
-
-    [Serializable]
-    public class DialogueEndEvent: UnityEvent<GameObject> { }
 
     [Serializable]
     public class InteractDialogueEvent: UnityEvent<InteractDialogue> { }
