@@ -5,10 +5,14 @@ using UnityEngine;
 public class SpriteAnimator : MonoBehaviour
 {
     public List<Sprite> sprites;
+    public List<Sprite> moving;
     public List<Sprite> animationOnce;
+    private List<Sprite> readAnimation;
     private bool playingAnimationOnce = false;
     public float nbImagePerSeconds;
-    public float nbAnimationImagePerSeconds;
+    private float fpsLoop;
+    public float fpsMoving = -1;
+    public float fpsAnimationOnce = -1;
     private float lastFrameChange = float.MinValue;
     private int selectedSprite = 0;
     private SpriteRenderer sprite;
@@ -19,6 +23,8 @@ public class SpriteAnimator : MonoBehaviour
     public float movingSpeed;
     public Vector2 range;
 
+    private bool disableAfterAnimationOnce = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +32,12 @@ public class SpriteAnimator : MonoBehaviour
         around = transform.position;
         target = transform.position;
         initialOrientation = sprite.flipX;
+        readAnimation = sprites;
+        fpsLoop = nbImagePerSeconds;
+        if (fpsMoving < 0)
+            fpsMoving = nbImagePerSeconds;
+        if (fpsAnimationOnce < 0)
+            fpsAnimationOnce = nbImagePerSeconds;
     }
 
     // Update is called once per frame
@@ -33,22 +45,22 @@ public class SpriteAnimator : MonoBehaviour
     {
         if (!playingAnimationOnce)
         {
-            if (nbImagePerSeconds <= 0)
-                nbImagePerSeconds = 0.0001f;
-            if (Time.time - lastFrameChange > 1 / nbImagePerSeconds)
+            if (fpsLoop <= 0)
+                fpsLoop = 0.0001f;
+            if (Time.time - lastFrameChange > 1 / fpsLoop)
             {
                 lastFrameChange = Time.time;
                 selectedSprite++;
-                if (selectedSprite >= sprites.Count)
+                if (selectedSprite >= readAnimation.Count)
                     selectedSprite = 0;
-                sprite.sprite = sprites[selectedSprite];
+                sprite.sprite = readAnimation[selectedSprite];
             }
         }
         else
         {
-            if (nbAnimationImagePerSeconds <= 0)
-                nbAnimationImagePerSeconds = 0.0001f;
-            if (Time.time - lastFrameChange > 1 / nbAnimationImagePerSeconds)
+            if (fpsAnimationOnce <= 0)
+                fpsAnimationOnce = 0.0001f;
+            if (Time.time - lastFrameChange > 1 / fpsAnimationOnce)
             {
                 lastFrameChange = Time.time;
                 selectedSprite++;
@@ -57,9 +69,11 @@ public class SpriteAnimator : MonoBehaviour
                 else
                 {
                     selectedSprite = 0;
-                    sprite.sprite = sprites[selectedSprite];
+                    sprite.sprite = readAnimation[selectedSprite];
                     lastFrameChange = Time.time;
                     playingAnimationOnce = false;
+                    if (disableAfterAnimationOnce)
+                        gameObject.SetActive(false);
                 }
             }
         }
@@ -89,7 +103,7 @@ public class SpriteAnimator : MonoBehaviour
         Gizmos.DrawWireCube(around, new Vector3(range.x * 2, range.y * 2, 0));
     }
 
-    public void PlayAnimationOnce()
+    public void PlayAnimationOnce(bool disableAfter = false)
     {
         if(animationOnce != null && animationOnce.Count > 0)
         {
@@ -97,6 +111,19 @@ public class SpriteAnimator : MonoBehaviour
             sprite.sprite = animationOnce[selectedSprite];
             lastFrameChange = Time.time;
             playingAnimationOnce = true;
+            disableAfterAnimationOnce = disableAfter;
         }
+    }
+
+    public void StartIdle()
+    {
+        readAnimation = sprites;
+        fpsLoop = nbImagePerSeconds;
+    }
+
+    public void StartMoving()
+    {
+        readAnimation = moving;
+        fpsLoop = fpsMoving;
     }
 }

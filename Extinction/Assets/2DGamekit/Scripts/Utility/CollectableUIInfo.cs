@@ -14,8 +14,8 @@ namespace Gamekit2D
             Species = 0,
             Feature = 1,
             Classification = 2,
-            Zone = 3,
-            AlreadyHasType = -1
+            Zone = 3/*,
+            AlreadyHasType = -1*/
         }
 
         public SelectByUnique selectByUnique;

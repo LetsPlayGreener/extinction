@@ -23,8 +23,8 @@ namespace Gamekit2D
         private bool degradationPaused = false;
         private float spentTimeAtPause;
 
-        private int nbDegradedElements;
-        public int nbDegradedGoal;
+        private int nbDegradedElements = 0;
+        public int nbDegradedGoal = -1;
 
         private List<Collectable> cantReach;
 
@@ -92,7 +92,7 @@ namespace Gamekit2D
                 {
                     foreach (Collectable elem in CollectionManager.instance.collectables[degradedType.Id])
                     {
-                        if (!cantReach.Contains(elem))
+                        if (!cantReach.Contains(elem) && !elem.destroyed)
                         {
                             if (movingTarget == null)
                                 movingTarget = elem.transform;
@@ -121,16 +121,21 @@ namespace Gamekit2D
                     degradationBlinkTimer = Time.time;
                 }
 
-
                 if(Time.time - degradingTimer > degradingDuration)
                 {
-                    //disable degraded object
-                    degradingTarget.gameObject.SetActive(false);
+                    degradingTarget.Image.color = Color.white;
+                    //animate and disable degraded object
+                    degradingTarget.gameObject.GetComponent<SpriteAnimator>().PlayAnimationOnce(true);
+                    degradingTarget.destroyed = true;
 
                     degradingTarget = null;
                     movingTarget = null;
 
                     degradationBlinkTimer = float.MaxValue;
+
+                    nbDegradedElements++;
+                    if (nbDegradedElements >= nbDegradedGoal)
+                        PauseDegradation();
                 }
             }
         }

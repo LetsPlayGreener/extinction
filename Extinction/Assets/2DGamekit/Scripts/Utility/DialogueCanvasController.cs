@@ -48,6 +48,12 @@ namespace Gamekit2D
                     });
         }
 
+        public void ActivateCanvasWithDialogueElement(DialogueElement elem)
+        {
+            elem.SetTextWithLanguage();
+            ActivateCanvasWithText(elem.text);
+        }
+
         public void ActivateCanvasWithTranslatedText (string phraseKey)
         {
             if (m_DeactivationCoroutine != null)

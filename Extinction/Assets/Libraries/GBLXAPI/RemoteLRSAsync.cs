@@ -11,6 +11,7 @@
 // -------------------------------------------------------------------------------------------------
 
 using UnityEngine;
+using UnityEngine.Networking;
 using System;
 using System.Text;	// encoding
 using System.Collections;	// coroutines
@@ -40,7 +41,7 @@ namespace TinCan {
         private bool sendingFromQueue = false;
         private bool connexionFailed = false;
         private float retryTimer = float.MaxValue;
-        private byte[] tmpByteArray = null;
+        private string tmpStatement = null;
 
         public RemoteLRSAsync()
         {
@@ -69,8 +70,8 @@ namespace TinCan {
                 {
                     connexionFailed = false;
                     sendingFromQueue = true;
-                    tmpByteArray = Encoding.UTF8.GetBytes(unsentStatements.Peek());
-                    SaveStatement(tmpByteArray, true);
+                    tmpStatement = unsentStatements.Peek();
+                    SaveStatement(tmpStatement, true);
                 }
         }
 
@@ -102,19 +103,8 @@ namespace TinCan {
                 // reinit state
                 this.initState();
 
-                // post header
-                Dictionary<string, string> postHeader = new Dictionary<string, string>();
-                postHeader.Add("Content-Type", "application/json");
-                postHeader.Add("X-Experience-API-Version", this.version.ToString());
-                if( address.lrsUser != "" && address.lrsPassword == "")
-                    postHeader.Add("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(address.lrsUser)));
-                else if( address.lrsUser == "" && address.lrsPassword != "")
-                    postHeader.Add("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(address.lrsPassword)));
-                else if( address.lrsUser != "" && address.lrsPassword != "")
-                    postHeader.Add("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(string.Concat(address.lrsUser, ":", address.lrsPassword))));
-
                 // form data
-                byte[] formBytes = Encoding.UTF8.GetBytes(statement.ToJSON(this.version));
+                string jsonStatement = statement.ToJSON(this.version);
 
                 string queryURL;
                 // endpoint should have trailing /
@@ -123,6 +113,18 @@ namespace TinCan {
                 else
                     // https://learninglocker.dig-itgames.com/data/xAPI/statements?statementId=58098b7c-3353-4f9c-b812-1bddb08876fd
                     queryURL = address.lrsURL + "statements";
+
+                UnityWebRequest www = UnityWebRequest.Post(queryURL, statement.ToJSON(this.version));
+
+                // post header
+                www.SetRequestHeader("Content-Type", "application/json");
+                www.SetRequestHeader("X-Experience-API-Version", this.version.ToString());
+                if (address.lrsUser != "" && address.lrsPassword == "")
+                    www.SetRequestHeader("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(address.lrsUser)));
+                else if (address.lrsUser == "" && address.lrsPassword != "")
+                    www.SetRequestHeader("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(address.lrsPassword)));
+                else if (address.lrsUser != "" && address.lrsPassword != "")
+                    www.SetRequestHeader("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(string.Concat(address.lrsUser, ":", address.lrsPassword))));
 
                 /*
                 // debug
@@ -135,14 +137,13 @@ namespace TinCan {
                 */
 
                 // post via www
-                WWW www = new WWW(queryURL, formBytes, postHeader);
-                StartCoroutine(WaitForRequest(www, formBytes, false));
+                StartCoroutine(WaitForRequest(www, jsonStatement, false));
             }
 		}
 
 		// ------------------------------------------------------------------------
 		// ------------------------------------------------------------------------
-		public void SaveStatement(byte[] formBytes, bool statementFromQueue = false)
+		public void SaveStatement(string jsonStatement, bool statementFromQueue = false)
         {
             //send statements to each address in the LRS config file
             foreach (LRSAddress address in lrsAddresses)
@@ -150,17 +151,6 @@ namespace TinCan {
                 // reinit state
                 this.initState();
 
-                // post header
-                Dictionary<string, string> postHeader = new Dictionary<string, string>();
-                postHeader.Add("Content-Type", "application/json");
-                postHeader.Add("X-Experience-API-Version", this.version.ToString());
-                if (address.lrsUser != "" && address.lrsPassword == "")
-                    postHeader.Add("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(address.lrsUser)));
-                else if (address.lrsUser == "" && address.lrsPassword != "")
-                    postHeader.Add("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(address.lrsPassword)));
-                else if (address.lrsUser != "" && address.lrsPassword != "")
-                    postHeader.Add("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(string.Concat(address.lrsUser, ":", address.lrsPassword))));
-
                 string queryURL;
                 // endpoint should have trailing /
                 if (address.lrsURL[address.lrsURL.Length - 1] != '/')
@@ -168,6 +158,19 @@ namespace TinCan {
                 else
                     // https://learninglocker.dig-itgames.com/data/xAPI/statements?statementId=58098b7c-3353-4f9c-b812-1bddb08876fd
                     queryURL = address.lrsURL + "statements";
+
+                UnityWebRequest www = UnityWebRequest.Post(queryURL, jsonStatement);
+
+                // post header
+                Dictionary<string, string> postHeader = new Dictionary<string, string>();
+                www.SetRequestHeader("Content-Type", "application/json");
+                www.SetRequestHeader("X-Experience-API-Version", this.version.ToString());
+                if (address.lrsUser != "" && address.lrsPassword == "")
+                    www.SetRequestHeader("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(address.lrsUser)));
+                else if (address.lrsUser == "" && address.lrsPassword != "")
+                    www.SetRequestHeader("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(address.lrsPassword)));
+                else if (address.lrsUser != "" && address.lrsPassword != "")
+                    www.SetRequestHeader("Authorization", "Basic " + Convert.ToBase64String(Encoding.UTF8.GetBytes(string.Concat(address.lrsUser, ":", address.lrsPassword))));
 
                 /*
                 // debug
@@ -180,30 +183,30 @@ namespace TinCan {
                 */
 
                 // post via www
-                WWW www = new WWW(queryURL, formBytes, postHeader);
-                StartCoroutine(WaitForRequest(www, formBytes, statementFromQueue));
+                StartCoroutine(WaitForRequest(www, jsonStatement, statementFromQueue));
             }
 		}
 
 		// ------------------------------------------------------------------------
 		// ------------------------------------------------------------------------
-		IEnumerator WaitForRequest(WWW data, byte[] formBytes, bool statementFromQueue)
+		IEnumerator WaitForRequest(UnityWebRequest data, string jsonStatement, bool statementFromQueue)
         {
 
-            yield return data; // Wait until the download is done
+            yield return data.SendWebRequest(); // Wait until the download is done
 
             Debug.Log("Satement sending error: " + data.error);
             // ok
             if (data.error == null){
 				this.success = true;
-				JArray ids = JArray.Parse(data.text);
-				this.response = ids[0].ToString();
+				//JArray ids = JArray.Parse(data.text);
+				//this.response = ids[0].ToString();
+				this.response = data.downloadHandler.text;
                 if (statementFromQueue)
                 {
                     sendingFromQueue = false;
                     unsentStatements.Dequeue();
                     List<string> unsentStoredData = new List<string>(File.ReadAllLines("Data/UnsentData.txt"));
-                    unsentStoredData.Remove(Encoding.UTF8.GetString(tmpByteArray));
+                    unsentStoredData.Remove(tmpStatement);
                     File.WriteAllLines("Data/UnsentData.txt", unsentStoredData.ToArray());
                 }
 			}
@@ -214,11 +217,11 @@ namespace TinCan {
                 if (!statementFromQueue)
                 {
                     //if the sending failed and the statement wasn't in the waiting queue, add the statement to the queue and save it in the file
-                    unsentStatements.Enqueue(Encoding.UTF8.GetString(formBytes));
+                    unsentStatements.Enqueue(jsonStatement);
                     if (!File.Exists("Data/UnsentData.txt") || File.ReadAllText("Data/UnsentData.txt") == "")
-                        File.WriteAllText("Data/UnsentData.txt", Encoding.UTF8.GetString(formBytes));
+                        File.WriteAllText("Data/UnsentData.txt", jsonStatement);
                     else
-                        File.AppendAllText("Data/UnsentData.txt", string.Concat(System.Environment.NewLine, Encoding.UTF8.GetString(formBytes)));
+                        File.AppendAllText("Data/UnsentData.txt", string.Concat(System.Environment.NewLine, jsonStatement));
                 }
                 else
                     sendingFromQueue = false;

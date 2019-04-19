@@ -19,13 +19,12 @@ namespace Gamekit2D
         public List<DialogueElement> nextDialogElems;
         private List<DialogueElement> initialNextDialogElems;
         public bool speakerIsPlayer = true;
-        [HideInInspector]
-        public bool selectRandomly = false;
         public int numberSelectedRandomly = 0;
         //this list of elem will be added to nextDialogElems after the random choice
         public List<DialogueElement> addAfterRandom;
         public bool callEventFunctionsOnSkipDialogue = false;
 
+        [HideInInspector]
         public AudioClip audio;
         public AudioClip englishAudio;
         public AudioClip frenchAudio;
@@ -41,30 +40,34 @@ namespace Gamekit2D
         {
             OnElementRead.elem = this;
 
-            //if (DataManager.playerData == null)
-            //    DataManager.LoadData();
-            //switch (DataManager.playerData.PlayerLanguage)
-            //{
-            //    case PlayerData.Language.french:
-            //        text = french;
-            //        audio = frenchAudio;
-            //        break;
+            if (DataManager.playerData == null)
+                DataManager.LoadData();
+            switch (DataManager.playerData.PlayerLanguage)
+            {
+                case PlayerData.Language.french:
+                    if(french != "")
+                        text = french;
+                    audio = frenchAudio;
+                    break;
 
-            //    case PlayerData.Language.italian:
-            //        text = italian;
-            //        audio = italianAudio;
-            //        break;
+                case PlayerData.Language.italian:
+                    if (italian != "")
+                        text = italian;
+                    audio = italianAudio;
+                    break;
 
-            //    case PlayerData.Language.romanian:
-            //        text = romanian;
-            //        audio = romanianAudio;
-            //        break;
+                case PlayerData.Language.romanian:
+                    if (romanian != "")
+                        text = romanian;
+                    audio = romanianAudio;
+                    break;
 
-            //    default:
-            //        text = english;
-            //        audio = englishAudio;
-            //        break;
-            //}
+                default:
+                    if (english != "")
+                        text = english;
+                    audio = englishAudio;
+                    break;
+            }
         }
 
         private void OnEnable()
@@ -106,6 +109,36 @@ namespace Gamekit2D
             {
                 initialNextDialogElems = new List<DialogueElement>(nextDialogElems);
                 SelectNextRandomly(numberSelectedRandomly);
+            }
+        }
+
+        public void SetTextWithLanguage()
+        {
+            switch (DataManager.playerData.PlayerLanguage)
+            {
+                case PlayerData.Language.french:
+                    if (french != "")
+                        text = french;
+                    audio = frenchAudio;
+                    break;
+
+                case PlayerData.Language.italian:
+                    if (italian != "")
+                        text = italian;
+                    audio = italianAudio;
+                    break;
+
+                case PlayerData.Language.romanian:
+                    if (romanian != "")
+                        text = romanian;
+                    audio = romanianAudio;
+                    break;
+
+                default:
+                    if (english != "")
+                        text = english;
+                    audio = englishAudio;
+                    break;
             }
         }
     }

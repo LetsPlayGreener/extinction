@@ -16,6 +16,9 @@ namespace Gamekit2D
         public CollectableEvent OnCollected;
         public CollectableEvent OnFailCollection;
 
+        [HideInInspector]
+        public bool destroyed = false;
+
         public CollectableType Type
         {
             get

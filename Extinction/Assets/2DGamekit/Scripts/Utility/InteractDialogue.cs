@@ -166,6 +166,7 @@ namespace Gamekit2D {
                             if (!currentText.nextDialogElems[0].gameObject.activeInHierarchy)
                                 currentText.nextDialogElems[0].InitRandom();
 
+                            currentText.SetTextWithLanguage();
                             //change text displayed
                             dialogueText.text = currentText.nextDialogElems[0].text;
                             currentText = currentText.nextDialogElems[0];
@@ -194,65 +195,54 @@ namespace Gamekit2D {
                     else
                     {
                         speakerImage.gameObject.SetActive(true);
-                        if (false)
+
+                        //display choices and wait for the player to choose
+                        int initialChoice = -1;
+                        int oneNotNull = -1;
+                        //set the first choice
+                        for (int i = 0; i < currentText.nextDialogElems.Count; i++)
+                            if (currentText.nextDialogElems[i] && currentText.nextDialogElems[i].text != "")
+                            {
+                                oneNotNull = i;
+                                if (currentText.nextDialogElems[i].text != "")
+                                {
+                                    currentText.nextDialogElems[i].SetTextWithLanguage();
+                                    dialogueText.text = string.Concat("<color=\"yellow\">", currentText.nextDialogElems[i].text, "<color=#", ColorUtility.ToHtmlStringRGBA(dialogueText.color), ">");
+                                    initialChoice = i;
+                                    break;
+                                }
+                            }
+                        if (initialChoice != -1)
                         {
-                            //old random choice replaced by the function SelectNextRandomly in DialogueElemnt
-                            if (tmpElemsList == null)
-                                tmpElemsList = new List<DialogueElement>();
-                            tmpElemsList.Clear();
-                            foreach (DialogueElement elem in currentText.nextDialogElems)
-                                if (elem)
-                                    tmpElemsList.Add(elem);
-                            currentText = tmpElemsList[(int)(UnityEngine.Random.Range(0, tmpElemsList.Count - 0.01f))];
-                            simulateValidatePressed = true;
-                            selectedChoice = -1;
+                            //if there is an initial choice set others choices too
+                            for (int i = initialChoice + 1; i < currentText.nextDialogElems.Count; i++)
+                                if (currentText.nextDialogElems[i] && currentText.nextDialogElems[i].text != "")
+                                {
+                                    currentText.nextDialogElems[i].SetTextWithLanguage();
+                                    dialogueText.text = string.Concat(dialogueText.text, System.Environment.NewLine, currentText.nextDialogElems[i].text);
+                                }
+                            selectedChoice = initialChoice;
                         }
                         else
                         {
-                            //display choices and wait for the player to choose
-                            int initialChoice = -1;
-                            int oneNotNull = -1;
-                            //set the first choice
-                            for (int i = 0; i < currentText.nextDialogElems.Count; i++)
-                                if (currentText.nextDialogElems[i] && currentText.nextDialogElems[i].text != "")
-                                {
-                                    oneNotNull = i;
-                                    if (currentText.nextDialogElems[i].text != "")
-                                    {
-                                        dialogueText.text = string.Concat("<color=\"yellow\">", currentText.nextDialogElems[i].text, "<color=#", ColorUtility.ToHtmlStringRGBA(dialogueText.color), ">");
-                                        initialChoice = i;
-                                        break;
-                                    }
-                                }
-                            if (initialChoice != -1)
+                            if (oneNotNull != -1)
                             {
-                                //if there is an initial choice set others choices too
-                                for (int i = initialChoice + 1; i < currentText.nextDialogElems.Count; i++)
-                                    if (currentText.nextDialogElems[i] && currentText.nextDialogElems[i].text != "")
-                                        dialogueText.text = string.Concat(dialogueText.text, System.Environment.NewLine, currentText.nextDialogElems[i].text);
-                                selectedChoice = initialChoice;
+                                selectedChoice = oneNotNull;
+                                simulateValidatePressed = true;
                             }
                             else
                             {
-                                if (oneNotNull != -1)
-                                {
-                                    selectedChoice = oneNotNull;
-                                    simulateValidatePressed = true;
-                                }
-                                else
-                                {
-                                    //if all choices are null, close dialogue
-                                    selectedChoice = -1;
+                                //if all choices are null, close dialogue
+                                selectedChoice = -1;
 
-                                    playerInput.GainControl();
-                                    playerDamageable.enabled = true;
+                                playerInput.GainControl();
+                                playerDamageable.enabled = true;
 
-                                    //disable this gameobject
-                                    disabling = true;
-                                    currentText = null;
-                                    OnEndDialogue.Invoke(this);
-                                    dcc.DeactivateCanvasWithDelay(0);
-                                }
+                                //disable this gameobject
+                                disabling = true;
+                                currentText = null;
+                                OnEndDialogue.Invoke(this);
+                                dcc.DeactivateCanvasWithDelay(0);
                             }
                         }
                     }
@@ -301,6 +291,7 @@ namespace Gamekit2D {
                     for (int i = 0; i < currentText.nextDialogElems.Count; i++)
                         if (currentText.nextDialogElems[i])
                         {
+                            currentText.nextDialogElems[i].SetTextWithLanguage();
                             if (i == selectedChoice)
                                 dialogueText.text = string.Concat("<color=\"yellow\">", currentText.nextDialogElems[i].text, "<color=#", ColorUtility.ToHtmlStringRGBA(dialogueText.color), ">");
                             else
@@ -312,6 +303,7 @@ namespace Gamekit2D {
                     for (int i = initialChoice + 1; i < currentText.nextDialogElems.Count; i++)
                         if (currentText.nextDialogElems[i])
                         {
+                            currentText.nextDialogElems[i].SetTextWithLanguage();
                             if(i == selectedChoice)
                                 dialogueText.text = string.Concat(dialogueText.text, System.Environment.NewLine, "<color=\"yellow\">", currentText.nextDialogElems[i].text, "<color=#", ColorUtility.ToHtmlStringRGBA(dialogueText.color), ">");
                             else
@@ -347,6 +339,7 @@ namespace Gamekit2D {
                     for (int i = 0; i < currentText.nextDialogElems.Count; i++)
                         if (currentText.nextDialogElems[i])
                         {
+                            currentText.nextDialogElems[i].SetTextWithLanguage();
                             if (i == selectedChoice)
                                 dialogueText.text = string.Concat("<color=\"yellow\">", currentText.nextDialogElems[i].text, "<color=#", ColorUtility.ToHtmlStringRGBA(dialogueText.color), ">");
                             else
@@ -358,6 +351,7 @@ namespace Gamekit2D {
                     for (int i = initialChoice + 1; i < currentText.nextDialogElems.Count; i++)
                         if (currentText.nextDialogElems[i])
                         {
+                            currentText.nextDialogElems[i].SetTextWithLanguage();
                             if (i == selectedChoice)
                                 dialogueText.text = string.Concat(dialogueText.text, System.Environment.NewLine, "<color=\"yellow\">", currentText.nextDialogElems[i].text, "<color=#", ColorUtility.ToHtmlStringRGBA(dialogueText.color), ">");
                             else
