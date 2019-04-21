@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelection.unity
     guid: 7b51d582fb911d24580425ce2c592474
   - enabled: 0
-    path: Assets/2DGamekit/Scenes/Start.unity
+    path: Assets/Scenes/Start.unity
     guid: 57df1e417250bc247976c2c0dc088efe
   - enabled: 0
     path: Assets/2DGamekit/Scenes/Zone1.unity
