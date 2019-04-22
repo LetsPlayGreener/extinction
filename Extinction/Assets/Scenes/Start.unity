@@ -2271,8 +2271,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00004005432, y: -0.025024414}
-  m_SizeDelta: {x: -16.35, y: -0}
+  m_AnchoredPosition: {x: -0.00004005432, y: -0.012512207}
+  m_SizeDelta: {x: -16.35, y: -0.025024414}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &511016183
 MonoBehaviour:
@@ -2295,7 +2295,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "\n<b>CREDITS\nUnity Content Team\r</b>\n\r\nProducer: Aurore Dimopoulos
+  m_text: "\n<b>CREDITS\nLetsPlayGreener.com Team</b>\n\r\nProducers: Hugues Labarthe,
+    Fabrice Morel\nAssociate Producers: Daniela Cendron, Mirandolina Matei\n\nLead
+    Programmer: Mounswif Darkaoui\r \nLead Sound Designer: David Delgado\nLead Artists:
+    Sofia Merlin, Am\xE9lie Baechle, Miruna Galma, Mo\xEFra Vital-Fati, Sofia Gadouche
+    \n\rGameplay Programmers: Lisa Chebihi, Alicia Mallet\nGame Designers, Translators:
+    Ioana Ciocoiu, C\xE9lia Ayadi, Giorgia Lamaddalena, Sabrina Botta\nGraphics Managers:
+    Destina Dirhem, \rRebeca Matei, Helin Kunduru, Eitan Delille\nGraphists: Bianca
+    Fumea, Mohamed Camara, Kenza El Mahalli, Chayma Ihmad, Sofiane Larache, C\xE9lia
+    Machado Domingues, Marika Amatuzzi, Cecilia Botto, Ambrogio D'Onofrio, Martina
+    Lovera, Alessia Milanesio, Alice Rivetti, Paola Tuninetti, \nUnity Editors: Valentin
+    Dumitrache, Rares Ghinda, Ioan Savu, Fabio Milanesio\nSound Designers: Eleonora
+    Esposito, Safae Lagdani\n\n<b>Unity Content Team\r</b>\r\nProducer: Aurore Dimopoulos
     \r\nAssociate Producer: Kat Woolley\r\nLead Artist: Peet Lee\r\nLead Programmer:
     Simon Wittber\r\nGameplay Programmer: James Bouckley\r\nTools and Graphics Engineer:
     Guillaume Saby\r\nArt Direction: David Llewelyn \r\nAnimator & Artist: Stefano

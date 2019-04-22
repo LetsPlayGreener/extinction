@@ -13,6 +13,9 @@ public class InfoDisplayer : MonoBehaviour
     public TextMeshProUGUI infoDisplayerText;
     //strings used to set the text to bold and centered
     string[] boldCentered;
+    string[] legend;
+    string legendValue;
+    string title;
     //rectTransform to move to follow mouse position
     private RectTransform displayerRect;
     [HideInInspector]
@@ -25,6 +28,7 @@ public class InfoDisplayer : MonoBehaviour
     private PointerEventData pointerEventData;
     private List<RaycastResult> raycastResults;
     private Displayable raycastedDisplayable = null;
+
 
     private void Awake()
     {
@@ -42,6 +46,7 @@ public class InfoDisplayer : MonoBehaviour
             displayerRect = infoDisplayerText.transform.parent.GetComponent<RectTransform>();
 
         boldCentered = new string[2] { "<align=\"center\"><b>", "</b></align>" };
+        legend = new string[3] { "<align=\"center\"><b>Seuil critique</b></align>\n", "<align=\"center\"><b>Vigilance</b></align>\n", "<align=\"center\"><b>Bonne santé</b></align>\n" };
         raycastResults = new List<RaycastResult>();
         pointerEventData = new PointerEventData(eventSystem);
     }
@@ -78,7 +83,6 @@ public class InfoDisplayer : MonoBehaviour
 
             if (raycastedDisplayable)
             {
-
                 if (raycastedDisplayable != displayedInfo)
                 {
                     displayedInfo = raycastedDisplayable;
@@ -89,8 +93,19 @@ public class InfoDisplayer : MonoBehaviour
                     //display gauge percentage
                     if (displayedInfo is GaugeInfo)
                     {
+                        //display title
+                        title = "<align=\"center\"><b>NOM INDICATEUR</b></align>\n";
+
+                        //display comment
+                        if (((GaugeInfo)displayedInfo).Value < 50)
+                            { legendValue = legend[0]; }
+                        else if (((GaugeInfo)displayedInfo).Value < 80)
+                            { legendValue = legend[1]; }
+                        else
+                            legendValue = legend[2];
+
                         if (displayedInfo.elementName == "" && displayedInfo.description == "")
-                            infoDisplayerText.text = string.Concat("<align=\"center\">", ((GaugeInfo)displayedInfo).Value, "%</align>");
+                            infoDisplayerText.text = string.Concat(title, legendValue, "<align=\"center\">", ((GaugeInfo)displayedInfo).Value, "%</align>");
                         else
                             infoDisplayerText.text = string.Concat(infoDisplayerText.text, System.Environment.NewLine, "<align=\"center\">Score: ", ((GaugeInfo)displayedInfo).Value, "%</align>");
                     }
