@@ -32,8 +32,7 @@ namespace Gamekit2D
 
         public bool CheckType(CollectableType typeToCheck)
         {
-            return typeToCheck && type.zone == typeToCheck.zone && type.classification == typeToCheck.classification && 
-                type.feature == typeToCheck.feature && type.species == typeToCheck.species;
+            return typeToCheck && type.feature == typeToCheck.feature && type.typeName == typeToCheck.typeName;
         }
     }
 }

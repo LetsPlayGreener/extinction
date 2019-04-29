@@ -173,7 +173,10 @@ namespace Gamekit2D {
                             selectedChoice = -1;
 
                             if(currentText.audio && playerAudioSource)
+                            {
+                                playerAudioSource.Stop();
                                 playerAudioSource.PlayOneShot(currentText.audio);
+                            }
 
                             speakerImage.gameObject.SetActive(currentText.speakerIsPlayer);
                         }
@@ -400,7 +403,10 @@ namespace Gamekit2D {
             {
                 currentText = firstText;
                 if (currentText.audio && playerAudioSource)
+                {
+                    playerAudioSource.Stop();
                     playerAudioSource.PlayOneShot(currentText.audio);
+                }
                 speakerImage.gameObject.SetActive(currentText.speakerIsPlayer);
 
                 if (currentText.text == "")

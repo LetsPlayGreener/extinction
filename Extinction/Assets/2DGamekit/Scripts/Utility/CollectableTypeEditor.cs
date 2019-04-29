@@ -17,13 +17,16 @@ namespace Gamekit2D
             DrawDefaultInspector();
 
             CollectableType type = target as CollectableType;
-            
-            if (CollectionManager.instance)
+
+            EditorGUI.BeginChangeCheck();
+            int feature = EditorGUILayout.Popup("Feature", type.feature, CollectionManager.instance.listFeatures);
+            int typeName = EditorGUILayout.Popup("Species", type.typeName, CollectionManager.instance.listNames);
+
+            if (CollectionManager.instance && EditorGUI.EndChangeCheck())
             {
-                type.zone = EditorGUILayout.Popup("Zone", type.zone, CollectionManager.instance.listZones);
-                type.classification = EditorGUILayout.Popup("Classification", type.classification, CollectionManager.instance.listClassifications);
-                type.feature = EditorGUILayout.Popup("Feature", type.feature, CollectionManager.instance.listFeatures);
-                type.species = EditorGUILayout.Popup("Species", type.species, CollectionManager.instance.listSpecies);
+                Undo.RecordObject(target, "CollectableType value changed");
+                type.feature = feature;
+                type.typeName = typeName;
             }
         }
     }

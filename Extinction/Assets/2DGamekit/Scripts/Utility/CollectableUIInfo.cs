@@ -12,9 +12,7 @@ namespace Gamekit2D
         public enum SelectByUnique: int
         {
             Species = 0,
-            Feature = 1,
-            Classification = 2,
-            Zone = 3/*,
+            Feature = 1/*,
             AlreadyHasType = -1*/
         }
 
@@ -74,50 +72,6 @@ namespace Gamekit2D
                             }
                             break;
 
-                        case 2:
-                            //store all used classifications
-                            tmpIntList.Clear();
-                            foreach (CollectableType t in usedTypes)
-                            {
-                                if (!tmpIntList.Contains(t.classification))
-                                    tmpIntList.Add(t.classification);
-                            }
-                            //find a type with unused classification
-                            tmpTypeList = new List<CollectableType>(CollectionManager.instance.types.Values);
-                            for (int i = 0; i < CollectionManager.instance.types.Values.Count; i++)
-                            {
-                                randomID = (int)Random.Range(0, tmpTypeList.Count - 0.001f);
-                                if (tmpTypeList[randomID].collectableByPlayer && !tmpIntList.Contains(tmpTypeList[randomID].classification))
-                                {
-                                    type = tmpTypeList[randomID];
-                                    break;
-                                }
-                                tmpTypeList.RemoveAt(randomID);
-                            }
-                            break;
-
-                        case 3:
-                            //store all used zones
-                            tmpIntList.Clear();
-                            foreach (CollectableType t in usedTypes)
-                            {
-                                if (!tmpIntList.Contains(t.zone))
-                                    tmpIntList.Add(t.zone);
-                            }
-                            //find a type with unused zone
-                            tmpTypeList = new List<CollectableType>(CollectionManager.instance.types.Values);
-                            for (int i = 0; i < CollectionManager.instance.types.Values.Count; i++)
-                            {
-                                randomID = (int)Random.Range(0, tmpTypeList.Count - 0.001f);
-                                if (tmpTypeList[randomID].collectableByPlayer && !tmpIntList.Contains(tmpTypeList[randomID].zone))
-                                {
-                                    type = tmpTypeList[randomID];
-                                    break;
-                                }
-                                tmpTypeList.RemoveAt(randomID);
-                            }
-                            break;
-
                         default:
                             break;
                     }
@@ -144,8 +98,8 @@ namespace Gamekit2D
                         usedTypes.Add(type);
 
                         //set Displayable elementName and description
-                        elementName = CollectionManager.instance.listSpecies[type.species];
-                        description = string.Concat(CollectionManager.instance.listZones[type.zone], " - ", CollectionManager.instance.listClassifications[type.classification], " - ", CollectionManager.instance.listFeatures[type.feature]);
+                        elementName = CollectionManager.instance.listNames[type.typeName];
+                        description = CollectionManager.instance.listFeatures[type.feature];
 
                         //bind event to OnCollected of the type
                         type.OnCollected.AddListener(InvokeEventOnCollected);

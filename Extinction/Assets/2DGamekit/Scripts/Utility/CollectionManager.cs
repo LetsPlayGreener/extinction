@@ -16,10 +16,8 @@ namespace Gamekit2D
         public static CollectionManager instance;
 
         //list to define CollectableType possible values
-        public string[] listZones;
-        public string[] listClassifications;
         public string[] listFeatures;
-        public string[] listSpecies;
+        public string[] listNames;
 
         //variables used for raycast
         Collider2D[] colliders;
@@ -193,7 +191,7 @@ namespace Gamekit2D
                                     if (matches)
                                     {
                                         //check if player is in the correct zone
-                                        if (playerCurrentZone == collectableUIBG[i - 1].type.zone)
+                                        if (!ZoneTracking.instance || playerCurrentZone == collectableUIBG[i - 1].type.feature)
                                         {
                                             OnGeneration.Invoke(collectableUIBG[i - 1].type);
 

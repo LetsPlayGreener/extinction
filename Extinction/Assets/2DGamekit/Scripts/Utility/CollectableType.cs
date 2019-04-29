@@ -14,13 +14,9 @@ namespace Gamekit2D
         public CollectableEvent OnGenerated;
 
         [HideInInspector]
-        public int zone;
-        [HideInInspector]
-        public int classification;
-        [HideInInspector]
         public int feature;
         [HideInInspector]
-        public int species;
+        public int typeName;
         public Sprite sprite;
 
         private float height;
@@ -83,7 +79,7 @@ namespace Gamekit2D
 
         public void SetID()
         {
-            id = string.Concat(zone, ".", classification, ".", feature, ".", species);
+            id = string.Concat(feature, ".", typeName);
         }
 
         public void SetAsCollectedAtLeastOnce()
@@ -94,7 +90,7 @@ namespace Gamekit2D
         public override string ToString()
         {
             if (CollectionManager.instance)
-                return string.Concat(CollectionManager.instance.listZones[zone], ".", CollectionManager.instance.listClassifications[classification], ".", CollectionManager.instance.listFeatures[feature], ".", CollectionManager.instance.listSpecies[species]);
+                return string.Concat(CollectionManager.instance.listFeatures[feature], ".", CollectionManager.instance.listNames[typeName]);
             return "";
         }
     }

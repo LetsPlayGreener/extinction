@@ -84,6 +84,9 @@ namespace Gamekit2D
                 }
                 if (!CollectionManager.instance.collectables[Type.Id].Contains(this))
                     CollectionManager.instance.collectables[Type.Id].Add(this);
+
+                if (!Type.sprite && GetComponent<SpriteRenderer>())
+                    Type.sprite = GetComponent<SpriteRenderer>().sprite;
             }
         }
 
