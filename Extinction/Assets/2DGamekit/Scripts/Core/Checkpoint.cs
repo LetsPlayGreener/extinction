@@ -20,6 +20,7 @@ namespace Gamekit2D
             if(c != null)
             {
                 c.SetChekpoint(this);
+                DataManager.SaveData();
             }
         }
     }

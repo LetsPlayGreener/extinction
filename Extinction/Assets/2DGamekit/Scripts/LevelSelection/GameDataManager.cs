@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Gamekit2D;
 
 public class GameDataManager : MonoBehaviour
@@ -15,6 +16,11 @@ public class GameDataManager : MonoBehaviour
 
     public GaugeInfo lifeGauge;
     public Damageable player;
+
+    public bool levelIsLevelSelection = false;
+
+    private float continuousTimer;
+    private float frequencyForTimer = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +52,16 @@ public class GameDataManager : MonoBehaviour
                 else
                     bioGauge.Value = DataManager.playerData.BioGaugeValue;
             }
+
+            if (!levelIsLevelSelection)
+            {
+                DataManager.playerData.AddLevelToHistory(SceneManager.GetActiveScene().name);
+                if (player)
+                {
+                    DataManager.playerData.AddPosition(player.transform.position);
+                    continuousTimer = Time.time;
+                }
+            }
         }
     }
 
@@ -60,6 +76,29 @@ public class GameDataManager : MonoBehaviour
             DataManager.playerData.BioGaugeValue = bioGauge.Value;
         if (lifeGauge && player)
             lifeGauge.Value = (float)player.CurrentHealth / player.startingHealth * 100;
+
+        if(!levelIsLevelSelection && Time.time - continuousTimer > frequencyForTimer && player)
+        {
+            DataManager.playerData.AddPosition(player.transform.position);
+            continuousTimer = Time.time;
+        }
+    }
+
+    public void PlayerAcquiredSkill(string skillName)
+    {
+        if(DataManager.playerData != null)
+            DataManager.playerData.SetSkill(skillName, true);
+    }
+
+    public void PlayerAttemptedSkill(string skillName)
+    {
+        if(DataManager.playerData != null)
+            DataManager.playerData.SetSkill(skillName, false);
+    }
+
+    public void PlayerMetEnemy(string enemyType)
+    {
+        DataManager.playerData.PlayerMetEnemy(enemyType, SceneManager.GetActiveScene().name);
     }
 }
 
@@ -102,6 +141,15 @@ public class PlayerData
         romanian = 3
     }
     private Language playerLanguage = Language.french;
+
+    //Dictionary<skill name, whether the skill was acquired>
+    private Dictionary<string, bool> skills;
+
+    //Dictionary<enemy type, List<Level name where it was met>>
+    private Dictionary<string, List<string>> enemies;
+
+    private LinkedList<KeyValuePair<string, List<Vector2>>> levelsHistory;
+
 
     public PlayerData()
     {
@@ -166,6 +214,100 @@ public class PlayerData
         {
             playerLanguage = value;
             DataManager.SaveData();
+        }
+    }
+
+    public List<KeyValuePair<string, List<Vector2>>> LevelsHistoryToList
+    {
+        get
+        {
+            if (levelsHistory == null)
+                return null;
+
+            List<KeyValuePair<string, List<Vector2>>> list = new List<KeyValuePair<string, List<Vector2>>>();
+            LinkedListNode<KeyValuePair<string, List<Vector2>>> node = levelsHistory.First;
+            while(node != null)
+            {
+                list.Add(node.Value);
+                node = node.Next;
+            }
+            return list;
+        }
+    }
+
+    private string FormatString(string s)
+    {
+        // format answer
+        s = s.Replace('é', 'e');
+        s = s.Replace('è', 'e');
+        s = s.Replace('à', 'a');
+        s = s.ToLower();
+        return s;
+    }
+
+    public void SetSkill(string skillName, bool skillAcquired)
+    {
+        skillName = FormatString(skillName);
+
+        if (skills == null)
+            skills = new Dictionary<string, bool>();
+
+        if (skills.ContainsKey(skillName))
+            skills[skillName] = skillAcquired;
+        else
+            skills.Add(skillName, skillAcquired);
+    }
+
+    public bool? CheckSkill(string skillName)
+    {
+        skillName = FormatString(skillName);
+
+        if (skills.ContainsKey(skillName))
+            return skills[skillName];
+
+        return null;
+    }
+
+    public void PlayerMetEnemy(string enemyType, string levelName)
+    {
+        enemyType = FormatString(enemyType);
+
+        if (enemies == null)
+            enemies = new Dictionary<string, List<string>>();
+
+        if (!enemies.ContainsKey(enemyType))
+            enemies.Add(enemyType, new List<string>());
+
+        if (enemies[enemyType] == null)
+            enemies[enemyType] = new List<string>();
+
+        if (!enemies[enemyType].Contains(levelName))
+            enemies[enemyType].Add(levelName);
+    }
+
+    public void AddLevelToHistory(string levelName)
+    {
+        if (levelsHistory == null)
+            levelsHistory = new LinkedList<KeyValuePair<string, List<Vector2>>>();
+
+        levelsHistory.AddFirst(new LinkedListNode<KeyValuePair<string, List<Vector2>>>(new KeyValuePair<string, List<Vector2>>(levelName, new List<Vector2>())));
+
+        while (levelsHistory.Count > 10)
+            levelsHistory.RemoveLast();
+    }
+
+    public void AddPosition(Vector2 position)
+    {
+        if (levelsHistory == null)
+            levelsHistory = new LinkedList<KeyValuePair<string, List<Vector2>>>();
+
+        if(levelsHistory.Count > 0)
+        {
+            if (levelsHistory.First.Value.Value == null)
+                levelsHistory.First.Value = new KeyValuePair<string, List<Vector2>>(levelsHistory.First.Value.Key, new List<Vector2>());
+
+            levelsHistory.First.Value.Value.Add(position);
+            levelsHistory.First.Value = new KeyValuePair<string, List<Vector2>>(levelsHistory.First.Value.Key, levelsHistory.First.Value.Value);
         }
     }
 }

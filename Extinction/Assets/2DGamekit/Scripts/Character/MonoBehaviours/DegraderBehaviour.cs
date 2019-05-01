@@ -30,6 +30,14 @@ namespace Gamekit2D
 
         private float degradationBlinkTimer = float.MaxValue;
 
+        public SpriteRenderer Sprite
+        {
+            get
+            {
+                return sprite;
+            }
+        }
+
         // Start is called before the first frame update
         void Start()
         {

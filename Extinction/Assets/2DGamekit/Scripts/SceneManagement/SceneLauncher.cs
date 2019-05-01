@@ -32,6 +32,7 @@ public class SceneLauncher : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        DataManager.SaveData();
         if (Application.CanStreamedLevelBeLoaded(sceneName))
             instance.StartCoroutine(LoadSceneCoroutine(sceneName));
     }
