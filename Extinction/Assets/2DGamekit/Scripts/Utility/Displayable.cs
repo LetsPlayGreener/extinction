@@ -10,6 +10,21 @@ public class Displayable : MonoBehaviour
     [HideInInspector]
     public bool focused = false;
 
+    private bool infoCanBeDisplayed = true;
+
+    public bool InfoCanBeDisplayed
+    {
+        get
+        {
+            return infoCanBeDisplayed;
+        }
+
+        set
+        {
+            infoCanBeDisplayed = value;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {

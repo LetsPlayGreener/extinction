@@ -81,7 +81,7 @@ public class InfoDisplayer : MonoBehaviour
                     break;
             }
 
-            if (raycastedDisplayable)
+            if (raycastedDisplayable && raycastedDisplayable.InfoCanBeDisplayed)
             {
                 if (raycastedDisplayable != displayedInfo)
                 {

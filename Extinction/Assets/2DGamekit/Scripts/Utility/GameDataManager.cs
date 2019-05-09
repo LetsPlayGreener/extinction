@@ -148,7 +148,7 @@ public class PlayerData
     //Dictionary<enemy type, List<Level name where it was met>>
     private Dictionary<string, List<string>> enemies;
 
-    private LinkedList<KeyValuePair<string, List<Vector2>>> levelsHistory;
+    private LinkedList<KeyValuePair<string, List<Vector3>>> levelsHistory;
 
 
     public PlayerData()
@@ -217,15 +217,15 @@ public class PlayerData
         }
     }
 
-    public List<KeyValuePair<string, List<Vector2>>> LevelsHistoryToList
+    public List<KeyValuePair<string, List<Vector3>>> LevelsHistoryToList
     {
         get
         {
             if (levelsHistory == null)
                 return null;
 
-            List<KeyValuePair<string, List<Vector2>>> list = new List<KeyValuePair<string, List<Vector2>>>();
-            LinkedListNode<KeyValuePair<string, List<Vector2>>> node = levelsHistory.First;
+            List<KeyValuePair<string, List<Vector3>>> list = new List<KeyValuePair<string, List<Vector3>>>();
+            LinkedListNode<KeyValuePair<string, List<Vector3>>> node = levelsHistory.First;
             while(node != null)
             {
                 list.Add(node.Value);
@@ -235,7 +235,23 @@ public class PlayerData
         }
     }
 
-    private string FormatString(string s)
+    public List<KeyValuePair<string, bool>> Skills
+    {
+        get
+        {
+            if(skills != null)
+            {
+                List<KeyValuePair<string, bool>> skillsPairs = new List<KeyValuePair<string, bool>>();
+                foreach (string skillName in skills.Keys)
+                    skillsPairs.Add(new KeyValuePair<string, bool>(skillName, skills[skillName]));
+                return skillsPairs;
+            }
+
+            return null;
+        }
+    }
+
+    public static string FormatString(string s)
     {
         // format answer
         s = s.Replace('é', 'e');
@@ -268,46 +284,56 @@ public class PlayerData
         return null;
     }
 
-    public void PlayerMetEnemy(string enemyType, string levelName)
+    public void PlayerMetEnemy(string enemyName, string levelName)
     {
-        enemyType = FormatString(enemyType);
+        enemyName = FormatString(enemyName);
 
         if (enemies == null)
             enemies = new Dictionary<string, List<string>>();
 
-        if (!enemies.ContainsKey(enemyType))
-            enemies.Add(enemyType, new List<string>());
+        if (!enemies.ContainsKey(enemyName))
+            enemies.Add(enemyName, new List<string>());
 
-        if (enemies[enemyType] == null)
-            enemies[enemyType] = new List<string>();
+        if (enemies[enemyName] == null)
+            enemies[enemyName] = new List<string>();
 
-        if (!enemies[enemyType].Contains(levelName))
-            enemies[enemyType].Add(levelName);
+        if (!enemies[enemyName].Contains(levelName))
+            enemies[enemyName].Add(levelName);
+    }
+
+    public List<string> CheckEnemyMet(string enemyName)
+    {
+        if (enemies == null)
+            enemies = new Dictionary<string, List<string>>();
+
+        if (enemies.ContainsKey(FormatString(enemyName)))
+            return new List<string>(enemies[FormatString(enemyName)]);
+        return null;
     }
 
     public void AddLevelToHistory(string levelName)
     {
         if (levelsHistory == null)
-            levelsHistory = new LinkedList<KeyValuePair<string, List<Vector2>>>();
+            levelsHistory = new LinkedList<KeyValuePair<string, List<Vector3>>>();
 
-        levelsHistory.AddFirst(new LinkedListNode<KeyValuePair<string, List<Vector2>>>(new KeyValuePair<string, List<Vector2>>(levelName, new List<Vector2>())));
+        levelsHistory.AddFirst(new LinkedListNode<KeyValuePair<string, List<Vector3>>>(new KeyValuePair<string, List<Vector3>>(levelName, new List<Vector3>())));
 
         while (levelsHistory.Count > 10)
             levelsHistory.RemoveLast();
     }
 
-    public void AddPosition(Vector2 position)
+    public void AddPosition(Vector3 position)
     {
         if (levelsHistory == null)
-            levelsHistory = new LinkedList<KeyValuePair<string, List<Vector2>>>();
+            levelsHistory = new LinkedList<KeyValuePair<string, List<Vector3>>>();
 
         if(levelsHistory.Count > 0)
         {
             if (levelsHistory.First.Value.Value == null)
-                levelsHistory.First.Value = new KeyValuePair<string, List<Vector2>>(levelsHistory.First.Value.Key, new List<Vector2>());
+                levelsHistory.First.Value = new KeyValuePair<string, List<Vector3>>(levelsHistory.First.Value.Key, new List<Vector3>());
 
             levelsHistory.First.Value.Value.Add(position);
-            levelsHistory.First.Value = new KeyValuePair<string, List<Vector2>>(levelsHistory.First.Value.Key, levelsHistory.First.Value.Value);
+            levelsHistory.First.Value = new KeyValuePair<string, List<Vector3>>(levelsHistory.First.Value.Key, levelsHistory.First.Value.Value);
         }
     }
 }
