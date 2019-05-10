@@ -114,6 +114,9 @@ namespace Gamekit2D
 
         public void SetTextWithLanguage()
         {
+            if (DataManager.playerData == null)
+                DataManager.LoadData();
+
             switch (DataManager.playerData.PlayerLanguage)
             {
                 case PlayerData.Language.french:

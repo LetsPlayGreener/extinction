@@ -23,6 +23,8 @@ public class SpriteAnimator : MonoBehaviour
     public float movingSpeed;
     public Vector2 range;
 
+    public bool flipWhenChangingDirection = true;
+
     private bool disableAfterAnimationOnce = false;
 
     // Start is called before the first frame update
@@ -85,10 +87,13 @@ public class SpriteAnimator : MonoBehaviour
                 //find new target
                 Vector2 random = new Vector2(Random.value * range.x * 2 - range.x, Random.value * range.y * 2 - range.y);
                 target = around + new Vector3(random.x, random.y, 0);
-                if (target.x > transform.position.x)
-                    sprite.flipX = initialOrientation;
-                else
-                    sprite.flipX = !initialOrientation;
+                if (flipWhenChangingDirection)
+                {
+                    if (target.x > transform.position.x)
+                        sprite.flipX = initialOrientation;
+                    else
+                        sprite.flipX = !initialOrientation;
+                }
             }
             else
                 transform.position = Vector3.MoveTowards(transform.position, target, movingSpeed * Time.deltaTime);

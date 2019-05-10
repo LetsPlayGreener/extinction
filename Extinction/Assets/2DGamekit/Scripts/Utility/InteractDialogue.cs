@@ -56,6 +56,7 @@ namespace Gamekit2D {
         {
             if (firstText)
             {
+                firstText.SetTextWithLanguage();
                 initialized = true;
                 //initialize variables
                 playerInput = PlayerInput.Instance;
@@ -185,8 +186,10 @@ namespace Gamekit2D {
                             //if the next elem is null close dialogue
                             selectedChoice = -1;
 
-                            playerInput.GainControl();
-                            playerDamageable.enabled = true;
+                            if(playerInput)
+                                playerInput.GainControl();
+                            if (playerDamageable)
+                                playerDamageable.enabled = true;
 
                             //disable this gameobject
                             disabling = true;
@@ -238,8 +241,10 @@ namespace Gamekit2D {
                                 //if all choices are null, close dialogue
                                 selectedChoice = -1;
 
-                                playerInput.GainControl();
-                                playerDamageable.enabled = true;
+                                if(playerInput)
+                                    playerInput.GainControl();
+                                if (playerDamageable)
+                                    playerDamageable.enabled = true;
 
                                 //disable this gameobject
                                 disabling = true;
@@ -255,8 +260,10 @@ namespace Gamekit2D {
                     //if there are no next dialogue element, close dialogue
                     selectedChoice = -1;
 
-                    playerInput.GainControl();
-                    playerDamageable.enabled = true;
+                    if (playerInput)
+                        playerInput.GainControl();
+                    if (playerDamageable)
+                        playerDamageable.enabled = true;
 
                     //else disable this gameobject
                     disabling = true;
@@ -365,7 +372,7 @@ namespace Gamekit2D {
 #endregion
 
             //close dialogue on press interact button
-            if (Input.GetKeyDown(playerInput.Interact.key) && skippableDialogue)
+            if (playerInput && Input.GetKeyDown(playerInput.Interact.key) && skippableDialogue)
             {
                 OnSkipDialogue.Invoke(this);
 
@@ -374,7 +381,8 @@ namespace Gamekit2D {
                 readEventsCalledOnSkip.Clear();
 
                 dcc.DeactivateCanvasWithDelay(0);
-                playerInput.GainControl();
+                if (playerInput)
+                    playerInput.GainControl();
 
                 if (currentText)
                     tmpString = currentText.text;
@@ -396,8 +404,10 @@ namespace Gamekit2D {
             if (!initialized)
                 //init this component
                 Start();
-            playerInput.ReleaseControl();
-            playerDamageable.enabled = false;
+            if(playerInput)
+                playerInput.ReleaseControl();
+            if(playerDamageable)
+                playerDamageable.enabled = false;
 
             if (firstText)
             {
