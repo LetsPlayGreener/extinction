@@ -16,6 +16,8 @@ namespace Gamekit2D
     
         protected readonly int m_HashActivePara = Animator.StringToHash ("Active");
 
+        private AudioSource playerAudioSource;
+
         IEnumerator SetAnimatorParameterWithDelay (float delay)
         {
             yield return new WaitForSeconds (delay);
@@ -52,6 +54,14 @@ namespace Gamekit2D
         {
             elem.SetTextWithLanguage();
             ActivateCanvasWithText(elem.text);
+
+            if (!playerAudioSource && PlayerInput.Instance)
+                playerAudioSource = PlayerInput.Instance.GetComponent<AudioSource>();
+            if (elem.audio && playerAudioSource)
+            {
+                playerAudioSource.Stop();
+                playerAudioSource.PlayOneShot(elem.audio);
+            }
         }
 
         public void ActivateCanvasWithTranslatedText (string phraseKey)
