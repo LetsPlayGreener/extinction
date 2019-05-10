@@ -128,6 +128,32 @@ public class DataManager
 [Serializable]
 public class PlayerData
 {
+    [Serializable]
+    public struct SerializableVector3
+    {
+        public float x;
+        public float y;
+        public float z;
+
+        public SerializableVector3(Vector3 v)
+        {
+            x = v.x;
+            y = v.y;
+            z = v.z;
+        }
+
+        public void Fill(Vector3 v)
+        {
+            x = v.x;
+            y = v.y;
+            z = v.z;
+        }
+
+        public Vector3 ToVector3()
+        {
+            return new Vector3(x, y, z);
+        }
+    }
 
     private float airGaugeValue = -1;
     private float waterGaugeValue = -1;
@@ -148,7 +174,7 @@ public class PlayerData
     //Dictionary<enemy type, List<Level name where it was met>>
     private Dictionary<string, List<string>> enemies;
 
-    private LinkedList<KeyValuePair<string, List<Vector3>>> levelsHistory;
+    private LinkedList<KeyValuePair<string, List<SerializableVector3>>> levelsHistory;
 
 
     public PlayerData()
@@ -224,11 +250,17 @@ public class PlayerData
             if (levelsHistory == null)
                 return null;
 
+            List<Vector3> tmpList;
             List<KeyValuePair<string, List<Vector3>>> list = new List<KeyValuePair<string, List<Vector3>>>();
-            LinkedListNode<KeyValuePair<string, List<Vector3>>> node = levelsHistory.First;
+            LinkedListNode<KeyValuePair<string, List<SerializableVector3>>> node = levelsHistory.First;
             while(node != null)
             {
-                list.Add(node.Value);
+                tmpList = new List<Vector3>();
+                for(int i = 0; i < node.Value.Value.Count; i++)
+                {
+                    tmpList.Add(node.Value.Value[i].ToVector3());
+                }
+                list.Add(new KeyValuePair<string, List<Vector3>>(node.Value.Key, tmpList));
                 node = node.Next;
             }
             return list;
@@ -314,9 +346,9 @@ public class PlayerData
     public void AddLevelToHistory(string levelName)
     {
         if (levelsHistory == null)
-            levelsHistory = new LinkedList<KeyValuePair<string, List<Vector3>>>();
+            levelsHistory = new LinkedList<KeyValuePair<string, List<SerializableVector3>>>();
 
-        levelsHistory.AddFirst(new LinkedListNode<KeyValuePair<string, List<Vector3>>>(new KeyValuePair<string, List<Vector3>>(levelName, new List<Vector3>())));
+        levelsHistory.AddFirst(new LinkedListNode<KeyValuePair<string, List<SerializableVector3>>>(new KeyValuePair<string, List<SerializableVector3>>(levelName, new List<SerializableVector3>())));
 
         while (levelsHistory.Count > 10)
             levelsHistory.RemoveLast();
@@ -325,15 +357,14 @@ public class PlayerData
     public void AddPosition(Vector3 position)
     {
         if (levelsHistory == null)
-            levelsHistory = new LinkedList<KeyValuePair<string, List<Vector3>>>();
+            levelsHistory = new LinkedList<KeyValuePair<string, List<SerializableVector3>>>();
 
         if(levelsHistory.Count > 0)
         {
             if (levelsHistory.First.Value.Value == null)
-                levelsHistory.First.Value = new KeyValuePair<string, List<Vector3>>(levelsHistory.First.Value.Key, new List<Vector3>());
+                levelsHistory.First.Value = new KeyValuePair<string, List<SerializableVector3>>(levelsHistory.First.Value.Key, new List<SerializableVector3>());
 
-            levelsHistory.First.Value.Value.Add(position);
-            levelsHistory.First.Value = new KeyValuePair<string, List<Vector3>>(levelsHistory.First.Value.Key, levelsHistory.First.Value.Value);
+            levelsHistory.First.Value.Value.Add(new SerializableVector3(position));
         }
     }
 }

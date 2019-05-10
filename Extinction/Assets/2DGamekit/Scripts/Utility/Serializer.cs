@@ -35,6 +35,7 @@ public class Serializer
             BinaryFormatter binary = new BinaryFormatter();
             FileStream file = File.Open(filePath, FileMode.Open);
             obj = (T)binary.Deserialize(file);
+            file.Close();
         }
         else
         {
