@@ -11,7 +11,7 @@ namespace Gamekit2D
 
         public enum SelectByUnique: int
         {
-            Species = 0,
+            TypeName = 0,
             Feature = 1/*,
             AlreadyHasType = -1*/
         }
