@@ -39,13 +39,13 @@ EditorBuildSettings:
     path: Assets/2DGamekit/Scenes/UI/MyLoading.unity
     guid: b33f3a7b62a2228408ab5f7aabf86aa1
   - enabled: 1
-    path: Assets/Scenes/Tropical1.unity
+    path: Assets/Scenes/Tropical Forest Level 3.unity
     guid: 345cef896ac61fb40adbf0291656bb91
   - enabled: 1
-    path: Assets/Scenes/Tropical2.unity
+    path: Assets/Scenes/Tropical Forest Level 2.unity
     guid: a72b15991bad23d419de3ec6da26a1b0
   - enabled: 1
-    path: Assets/Scenes/Tropical3.unity
+    path: Assets/Scenes/Tropical Forest Level 1.unity
     guid: 4a08463cb461ae741a4472e8441c58a7
   - enabled: 1
     path: Assets/Scenes/Factory1.unity
