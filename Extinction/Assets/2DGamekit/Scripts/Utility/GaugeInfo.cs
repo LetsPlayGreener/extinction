@@ -142,7 +142,7 @@ public class GaugeInfo : Displayable
     public void DecreaseValue(float byValue)
     {
         Value = value - variationLeft;
-        variationValue = byValue;
+        variationValue = -byValue;
         variationLeft = variationValue;
 
         if (LearningAnalyticsGenerator.instance && LearningAnalyticsGenerator.instance.canGenerateLA)

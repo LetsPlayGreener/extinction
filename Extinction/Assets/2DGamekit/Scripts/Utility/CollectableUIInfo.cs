@@ -9,7 +9,7 @@ namespace Gamekit2D
     {
         public static List<CollectableType> usedTypes = new List<CollectableType>();
 
-        public enum SelectByUnique: int
+        public enum SelectByUnique : int
         {
             TypeName = 0,
             Feature = 1/*,
@@ -60,7 +60,7 @@ namespace Gamekit2D
                             }
                             //find a type with unused feature
                             tmpTypeList = new List<CollectableType>(CollectionManager.instance.types.Values);
-                            for(int i = 0; i < CollectionManager.instance.types.Values.Count; i++)
+                            for (int i = 0; i < CollectionManager.instance.types.Values.Count; i++)
                             {
                                 randomID = (int)Random.Range(0, tmpTypeList.Count - 0.001f);
                                 if (tmpTypeList[randomID].collectableByPlayer && !tmpIntList.Contains(tmpTypeList[randomID].feature))
@@ -78,15 +78,20 @@ namespace Gamekit2D
 
                     if (!type)
                     {
+                        if (tmpTypeList == null)
+                            tmpTypeList = new List<CollectableType>();
+                        tmpTypeList.Clear();
                         //if no type found, find an unused species/type
                         foreach (CollectableType t in CollectionManager.instance.types.Values)
                         {
                             if (!usedTypes.Contains(t))
                             {
-                                type = t;
-                                break;
+                                tmpTypeList.Add(t);
                             }
                         }
+
+                        if (tmpTypeList.Count > 0)
+                            type = tmpTypeList[(int)(Random.Range(0, tmpTypeList.Count - 0.001f))];
                     }
 
                     if (!type)
