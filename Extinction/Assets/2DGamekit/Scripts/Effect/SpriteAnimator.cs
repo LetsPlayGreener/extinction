@@ -45,7 +45,7 @@ public class SpriteAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!playingAnimationOnce)
+        if (!playingAnimationOnce && readAnimation.Count > 0)
         {
             if (fpsLoop <= 0)
                 fpsLoop = 0.0001f;
@@ -58,7 +58,7 @@ public class SpriteAnimator : MonoBehaviour
                 sprite.sprite = readAnimation[selectedSprite];
             }
         }
-        else
+        else if(animationOnce.Count > 0 || readAnimation.Count > 0)
         {
             if (fpsAnimationOnce <= 0)
                 fpsAnimationOnce = 0.0001f;
