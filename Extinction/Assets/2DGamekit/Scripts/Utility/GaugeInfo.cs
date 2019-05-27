@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using TMPro;
 
@@ -18,6 +19,9 @@ public class GaugeInfo : Displayable
     public float maxRed = 50;
 
     public float value = 100;
+
+    public float eventValue = 100;
+    public GaugeEvent OnEnableWithValueReached;
 
     private float variationValue;
     private float variationPerFrame;
@@ -74,6 +78,13 @@ public class GaugeInfo : Displayable
         maxRed = maxRed > 100 ? 100 : maxRed < 0 ? 0 : maxRed;
 
         value = Value;
+    }
+
+    private void OnEnable()
+    {
+        eventValue = eventValue > 100 ? 100 : eventValue < 0 ? 0 : eventValue;
+        if (value >= eventValue)
+            OnEnableWithValueReached.Invoke(this);
     }
 
     private void Update()
@@ -197,3 +208,5 @@ public class GaugeInfo : Displayable
         variationTimer = Time.time;
     }
 }
+
+public class GaugeEvent: UnityEvent<GaugeInfo> { }
