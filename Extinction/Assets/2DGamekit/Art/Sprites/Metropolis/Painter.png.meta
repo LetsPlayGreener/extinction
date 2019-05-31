@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: 312d9bfb3f02b3e4b90bc5ddcecbf9b4
+guid: 4e915e4add2107f4dadadb1ea95f8b70
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SolarPanel_0
-    21300002: SolarPanel_1
+    21300000: Painter_0
+    21300002: Painter_1
+    21300004: Painter_2
+    21300006: Painter_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -86,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SolarPanel_0
+      name: Painter_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 458
-        width: 458
-        height: 458
+        y: 456
+        width: 490
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b368eb6f4b49c79448d2291e24ab8eb9
+      spriteID: 970ce34d14d2500428d44acef2090889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SolarPanel_1
+      name: Painter_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 458
-        height: 458
+        x: 490
+        y: 456
+        width: 490
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +122,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 941dd092525275440b69742eacfe14b1
+      spriteID: bcb8287695235f743abe74cf6e6e5c2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painter_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 490
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b163b13f49963db4084109888d36fc37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Painter_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 490
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef9fc5e6b4afbf4aab0a01a3a7e36e0
       vertices: []
       indices: 
       edges: []
@@ -128,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e1fe16f7355750d43956eabfc48d3a5b
+    spriteID: 847cb609c8fe5b74982f61348b7ae188
     vertices: []
     indices: 
     edges: []

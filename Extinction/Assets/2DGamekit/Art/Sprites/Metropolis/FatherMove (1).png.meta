@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: 312d9bfb3f02b3e4b90bc5ddcecbf9b4
+guid: 5d1955676d2bdd64abc91efe9a426fed
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SolarPanel_0
-    21300002: SolarPanel_1
+    21300000: FatherMove (1)_0
+    21300002: FatherMove (1)_1
+    21300004: FatherMove (1)_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -86,13 +87,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SolarPanel_0
+      name: FatherMove (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 458
-        width: 458
-        height: 458
+        y: 422
+        width: 350
+        height: 422
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +101,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b368eb6f4b49c79448d2291e24ab8eb9
+      spriteID: af0e027d039665f489d98dd0a7f6256c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SolarPanel_1
+      name: FatherMove (1)_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 458
-        height: 458
+        x: 350
+        y: 422
+        width: 350
+        height: 422
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +121,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 941dd092525275440b69742eacfe14b1
+      spriteID: 8a8c3329d8fb04946823deadc33b8bbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FatherMove (1)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef0079aefcded9429c24f93c8dafd8f
       vertices: []
       indices: 
       edges: []
@@ -128,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e1fe16f7355750d43956eabfc48d3a5b
+    spriteID: baf08371b0c1e36439bc19a70554591e
     vertices: []
     indices: 
     edges: []

@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: 312d9bfb3f02b3e4b90bc5ddcecbf9b4
+guid: 9bbb85702c388b34dafff4566eaa053f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SolarPanel_0
-    21300002: SolarPanel_1
+    21300000: DeskControl_0
+    21300002: DeskControl_1
+    21300004: DeskControl_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -86,13 +87,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SolarPanel_0
+      name: DeskControl_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 458
-        width: 458
-        height: 458
+        y: 268
+        width: 225
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +101,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b368eb6f4b49c79448d2291e24ab8eb9
+      spriteID: 11fbf4a0b5d78534596a77f7fff8e911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SolarPanel_1
+      name: DeskControl_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 458
-        height: 458
+        y: 134
+        width: 225
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +121,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 941dd092525275440b69742eacfe14b1
+      spriteID: 9adae7328ceffe24c97f185942ea14a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeskControl_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 225
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cf7fc82f77c054e84e1f509a63b7bc
       vertices: []
       indices: 
       edges: []
@@ -128,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e1fe16f7355750d43956eabfc48d3a5b
+    spriteID: 72f8dd8e3fb55e443bea2914195d5f49
     vertices: []
     indices: 
     edges: []

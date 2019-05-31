@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: 312d9bfb3f02b3e4b90bc5ddcecbf9b4
+guid: 13f9a446311e8ca43be6f04671e31808
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SolarPanel_0
-    21300002: SolarPanel_1
+    21300000: TrafficLight _0
+    21300002: TrafficLight _1
+    21300004: TrafficLight _2
+    21300006: TrafficLight _3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -86,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SolarPanel_0
+      name: TrafficLight _0
       rect:
         serializedVersion: 2
         x: 0
-        y: 458
-        width: 458
-        height: 458
+        y: 679
+        width: 285
+        height: 679
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b368eb6f4b49c79448d2291e24ab8eb9
+      spriteID: 8234e4f07a7fb8248aaf0466d0b71540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SolarPanel_1
+      name: TrafficLight _1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 458
-        height: 458
+        x: 285
+        y: 679
+        width: 285
+        height: 679
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +122,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 941dd092525275440b69742eacfe14b1
+      spriteID: 260e1a54c67ebad429c170ee42d8f6a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrafficLight _2
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 679
+        width: 285
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05d54d2a4d282b4aaacb93688061085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrafficLight _3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 285
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652c1d805a7fa7b4abe8805dbb228798
       vertices: []
       indices: 
       edges: []
@@ -128,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e1fe16f7355750d43956eabfc48d3a5b
+    spriteID: ca452a7da424ad6478a88add1a345a9d
     vertices: []
     indices: 
     edges: []
