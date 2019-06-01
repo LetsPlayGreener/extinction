@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 638b0a77764636743aef79c9eb7a04aa
+guid: fa5f83aab524ff14cbef123030bf56af
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Truck _0
-    21300002: Truck _1
+    21300000: GretaThunbergStrike_0
+    21300002: GretaThunbergStrike_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -86,13 +86,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Truck _0
+      name: GretaThunbergStrike_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 375
-        width: 500
-        height: 375
+        y: 0
+        width: 433
+        height: 577
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +100,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a66d445f161921469f0733bde6bc777
+      spriteID: e0adef8212cca8e43840bc3767d45cc7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Truck _1
+      name: GretaThunbergStrike_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 433
         y: 0
-        width: 500
-        height: 375
+        width: 433
+        height: 577
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebff83c5b3f449942be2915369199734
+      spriteID: e1b1e52384c91f24c97407c8067e2a69
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 00be0e3053691874184228cd31687a62
+    spriteID: 5a1b4d9e6c556744f8a797e31cb168f0
     vertices: []
     indices: 
     edges: []

@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 638b0a77764636743aef79c9eb7a04aa
+guid: 8f20b971b10db6c4f96d6391554ba031
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Truck _0
-    21300002: Truck _1
+    21300000: New Piskel (1)_0
+    21300002: New Piskel (1)_1
+    21300004: New Piskel (1)_2
+    21300006: New Piskel (1)_3
+    21300008: New Piskel (1)_4
+    21300010: New Piskel (1)_5
+    21300012: New Piskel (1)_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -86,13 +91,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Truck _0
+      name: New Piskel (1)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 375
-        width: 500
-        height: 375
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +105,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a66d445f161921469f0733bde6bc777
+      spriteID: 23e5001f7a64f9b48b922fcb3678f3ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Truck _1
+      name: New Piskel (1)_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 500
-        height: 375
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +125,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebff83c5b3f449942be2915369199734
+      spriteID: facb002081dcfe940a67615ac5326665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel (1)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79c34ec714612e4b9714cbda1a358a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel (1)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71091e6dbfe288b4fbc01a142ea71fee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel (1)_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d378da53e5ba1b54997e1374ff717154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel (1)_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02fbea4809920148b2ee291f213e508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New Piskel (1)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797444edc5b49f4469c89e3bc5941e8f
       vertices: []
       indices: 
       edges: []
@@ -128,7 +233,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 00be0e3053691874184228cd31687a62
+    spriteID: d281844c0ae15cb498e012708a7c0bc3
     vertices: []
     indices: 
     edges: []
