@@ -124,41 +124,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
-        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
-        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
-        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
-        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 2113470352}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
-        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -263,6 +228,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
+        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
+        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
+        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
+        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 2113470352}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
+        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -9698,41 +9698,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Salut, moi c'est Alex ;) Styl\xE9 mon planeur, non ? \nTape ESPACE pour
-        avancer"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Salut, moi c'est Alex ;) Styl\xE9 mon planeur, non ? \nTape ESPACE pour
-        avancer"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Salut, moi c'est Alex ;) Styl\xE9 mon planeur, non ? \nTape ESPACE pour
-        avancer"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Salut, moi c'est Alex ;) Styl\xE9 mon planeur, non ? \nTape ESPACE pour
-        avancer"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 867529430}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Salut, moi c'est Alex ;) Styl\xE9 mon planeur, non ?  Tape ESPACE pour
-        avancer"
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9837,6 +9802,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Salut, moi c'est Alex ;) Styl\xE9 mon vaisseau, non ? \nTape ESPACE
+        pour avancer"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Salut, moi c'est Alex ;) Styl\xE9 mon vaisseau, non ? \nTape ESPACE
+        pour avancer"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Salut, moi c'est Alex ;) Styl\xE9 mon vaisseau, non ? \nTape ESPACE
+        pour avancer"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Salut, moi c'est Alex ;) Styl\xE9 mon vaisseau, non ? \nTape ESPACE
+        pour avancer"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 867529430}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Salut, moi c'est Alex ;) Styl\xE9 mon vaisseau, non ?  Tape ESPACE pour
+        avancer"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -14700,41 +14700,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
-        les courants a\xE9riens :))  Je t'embarque ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
-        les courants a\xE9riens :))  Je t'embarque ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
-        les courants a\xE9riens :))  Je t'embarque ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
-        les courants a\xE9riens :))  Je t'embarque ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 462828473}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je suis les  :))
-        Je voltige entre les courants a\xE9riens. Je t'embarque ?"
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14839,6 +14804,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
+        les courants a\xE9riens :))  Je t'embarque ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
+        les courants a\xE9riens :))  Je t'embarque ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
+        les courants a\xE9riens :))  Je t'embarque ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
+        les courants a\xE9riens :))  Je t'embarque ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 462828473}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je suis les  :))
+        Je voltige entre les courants a\xE9riens. Je t'embarque ?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -15008,76 +15008,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
-        grimpes ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
-        grimpes ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
-        grimpes ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
-        grimpes ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 539158726}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: FadeOut
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir !  Alors ? Tu grimpes
-        ? "
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15183,6 +15113,76 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
+        grimpes ? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
+        grimpes ? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
+        grimpes ? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
+        grimpes ? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 539158726}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FadeOut
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir !  Alors ? Tu grimpes
+        ? "
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!114 &1310915736 stripped
@@ -15208,41 +15208,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DialogueElement (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
-        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
-        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
-        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
-        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 1310915736}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
-        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -15348,6 +15313,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
+        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
+        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
+        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
+        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 1310915736}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
+        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -15522,41 +15522,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
-        pollutions industrielles.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
-        pollutions industrielles.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
-        pollutions industrielles.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
-        pollutions industrielles.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 1376052324}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
-        pollutions industrielles.
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15661,6 +15626,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
+        pollutions industrielles.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
+        pollutions industrielles.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
+        pollutions industrielles.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
+        pollutions industrielles.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 1376052324}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
+        pollutions industrielles.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -15838,7 +15838,7 @@ PrefabInstance:
     - target: {fileID: 2745428962065767661, guid: da4f044ccac5e14439c7302f9370eef6,
         type: 3}
       propertyPath: OnFadingOutFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Start
+      value: LevelSelection
       objectReference: {fileID: 0}
     - target: {fileID: 2745428962065767660, guid: da4f044ccac5e14439c7302f9370eef6,
         type: 3}

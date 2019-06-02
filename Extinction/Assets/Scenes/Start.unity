@@ -3059,7 +3059,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.062, y: 0.13}
   m_AnchorMax: {x: 0.96, y: 0.89}
-  m_AnchoredPosition: {x: -54.399906, y: -1.165802}
+  m_AnchoredPosition: {x: -54.39991, y: -1.165802}
   m_SizeDelta: {x: -152.31, y: -43.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &360703452
@@ -12701,7 +12701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.062, y: 0.13}
   m_AnchorMax: {x: 0.96, y: 0.89}
-  m_AnchoredPosition: {x: -54.399906, y: -1.165802}
+  m_AnchoredPosition: {x: -54.39991, y: -1.165802}
   m_SizeDelta: {x: -152.31, y: -43.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098907501
@@ -31524,7 +31524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.062, y: 0.13}
   m_AnchorMax: {x: 0.96, y: 0.89}
-  m_AnchoredPosition: {x: -54.399906, y: -1.165802}
+  m_AnchoredPosition: {x: -54.39991, y: -1.165802}
   m_SizeDelta: {x: -152.31, y: -43.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803656753
@@ -33769,7 +33769,7 @@ PrefabInstance:
     - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698,
         type: 3}
       propertyPath: newSceneName
-      value: LevelSelection
+      value: Introduction
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
@@ -34401,6 +34401,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 496257556, guid: 6f1fcdc32ee51f74d9fd63bf708a84d1, type: 3}
+      propertyPath: m_Name
+      value: ErasmusLogo
+      objectReference: {fileID: 0}
     - target: {fileID: 6153357135276434903, guid: 6f1fcdc32ee51f74d9fd63bf708a84d1,
         type: 3}
       propertyPath: m_Camera
@@ -34439,7 +34443,7 @@ PrefabInstance:
     - target: {fileID: 6335123280953792467, guid: 6f1fcdc32ee51f74d9fd63bf708a84d1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: LevelSelection
+      value: Introduction
       objectReference: {fileID: 0}
     - target: {fileID: 6335068422368487551, guid: 6f1fcdc32ee51f74d9fd63bf708a84d1,
         type: 3}
@@ -34562,10 +34566,6 @@ PrefabInstance:
     - target: {fileID: 496257557, guid: 6f1fcdc32ee51f74d9fd63bf708a84d1, type: 3}
       propertyPath: m_SizeDelta.x
       value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 496257556, guid: 6f1fcdc32ee51f74d9fd63bf708a84d1, type: 3}
-      propertyPath: m_Name
-      value: ErasmusLogo
       objectReference: {fileID: 0}
     - target: {fileID: 1650430113, guid: 6f1fcdc32ee51f74d9fd63bf708a84d1, type: 3}
       propertyPath: m_Name
