@@ -232,8 +232,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
-        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
+      value: '"You''re too young to act!" Do you hear them? Remember one thing: you''re
+        never too small to know the difference! '
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -244,8 +244,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: "Tu les entends ? Ils me disent 'Tu es trop jeune pour agir !' Retiens
-        une chose : on est jamais trop petit pour faire la diff\xE9rence ! "
+      value: '"Sei troppo giovane per recitare!" Riesci a sentirli? Ricordate una
+        cosa: non siete mai troppo piccoli per capire la differenza! '
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -9806,8 +9806,7 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "Salut, moi c'est Alex ;) Styl\xE9 mon vaisseau, non ? \nTape ESPACE
-        pour avancer"
+      value: "Hi, I'm Alex;) Styled my ship, right? \r\nType SPACE to move forward"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -9818,8 +9817,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: "Salut, moi c'est Alex ;) Styl\xE9 mon vaisseau, non ? \nTape ESPACE
-        pour avancer"
+      value: "Ciao, sono Alex;) Disegnato la mia nave, giusto? \r\nDigitare SPAZIO
+        per andare avanti"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -14808,8 +14807,7 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
-        les courants a\xE9riens :))  Je t'embarque ?"
+      value: Fuel? Nuclear? Hydrogen? Not at all! I am propelled by ionic wind;)
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -14820,8 +14818,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: "Fuel ? Nucl\xE9aire ? Hydrog\xE8ne ? Pas du tout ! Je voltige entre
-        les courants a\xE9riens :))  Je t'embarque ?"
+      value: Carburante? Nucleare? Idrogeno? No, per niente! sono spinto dal vento
+        ionico;)
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -15121,20 +15119,20 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
-        grimpes ? "
+      value: "We don't have much time, you know, to act! \r\nSo? Are you joining me
+        in the adventure? "
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
-        grimpes ? "
+      value: "On a plus beaucoup de temps, tu sais, pour agir ! \r\nAlors ? Tu me
+        rejoins dans l'aventure ? "
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir ! \nAlors ? Tu
-        grimpes ? "
+      value: "Non abbiamo molto tempo, sai, per agire! \r\nE allora? Ti unisci a me
+        in questa avventura? "
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -15180,8 +15178,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: text
-      value: "On a plus beaucoup de temps, tu sais, pour r\xE9agir !  Alors ? Tu grimpes
-        ? "
+      value: 'On a plus beaucoup de temps, tu sais, pour agir !  Alors ? Tu me rejoins
+        dans l''aventure ? '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -15317,8 +15315,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
-        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
+      value: Our house is on fire... The sixth extinction of the species has begun.
+        We call it the anthropocene.
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -15329,8 +15327,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: "Notre maison est en feu... La sixi\xE8me extinction des esp\xE8ces a
-        commenc\xE9. On l'appelle l'anthropoc\xE8ne."
+      value: "La nostra casa \xE8 in fiamme..... La sesta estinzione della specie
+        \xE8 iniziata. Lo chiamiamo antropocene."
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -15630,8 +15628,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
-        pollutions industrielles.
+      value: Life collapses under the effect of the plundering of multinationals and
+        industrial pollution.
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -15642,8 +15640,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: Le vivant s'effondre sous l'effet du pillage des multinationales et des
-        pollutions industrielles.
+      value: La vita crolla sotto l'effetto del saccheggio delle multinazionali e
+        dell'inquinamento industriale.
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
