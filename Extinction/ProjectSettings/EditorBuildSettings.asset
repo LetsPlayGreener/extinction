@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Factoryland Level 2.unity
     guid: 30b5f1c7249e35c48b85099a1264b8cd
   - enabled: 0
-    path: Assets/Scenes/Factory Level 1.unity
+    path: Assets/Scenes/FactoryLevel1.unity
     guid: 0a133568d44e2614cb824edaee370bb0
   - enabled: 0
     path: Assets/Scenes/City1.unity
