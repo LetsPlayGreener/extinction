@@ -1105,6 +1105,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: VolatileOrganicCoumpound
       objectReference: {fileID: 0}
+    - target: {fileID: 4749201213441570547, guid: 3fc6e06b85442e4428dad47f697cc70c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9095812624426015143, guid: 3fc6e06b85442e4428dad47f697cc70c,
         type: 3}
       propertyPath: OnInteractWithNoUI.m_PersistentCalls.m_Calls.Array.size
@@ -1509,11 +1514,6 @@ PrefabInstance:
         type: 3}
       propertyPath: OnCollected.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4749201213441570547, guid: 3fc6e06b85442e4428dad47f697cc70c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fc6e06b85442e4428dad47f697cc70c, type: 3}
@@ -3051,6 +3051,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 3652698357170494573, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: type
+      value: 
+      objectReference: {fileID: 601010101}
     - target: {fileID: 1886016979384734298, guid: 9110b9f942830ef43b8e239eb7671c1c,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
@@ -3121,11 +3126,6 @@ PrefabInstance:
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3652698357170494573, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: type
-      value: 
-      objectReference: {fileID: 601010101}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9110b9f942830ef43b8e239eb7671c1c, type: 3}
 --- !u!1 &241149435
@@ -3317,6 +3317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GreenhouseGases
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749201213441570547, guid: 3fc6e06b85442e4428dad47f697cc70c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9095812624426015143, guid: 3fc6e06b85442e4428dad47f697cc70c,
         type: 3}
@@ -3728,11 +3733,6 @@ PrefabInstance:
       propertyPath: OnGenerated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 4749201213441570547, guid: 3fc6e06b85442e4428dad47f697cc70c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fc6e06b85442e4428dad47f697cc70c, type: 3}
 --- !u!224 &285137849 stripped
@@ -3913,6 +3913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SuspendedParticles
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749201213441570547, guid: 3fc6e06b85442e4428dad47f697cc70c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9095812624426015143, guid: 3fc6e06b85442e4428dad47f697cc70c,
         type: 3}
@@ -4317,11 +4322,6 @@ PrefabInstance:
     - target: {fileID: 9095812624426015143, guid: 3fc6e06b85442e4428dad47f697cc70c,
         type: 3}
       propertyPath: OnCollected.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4749201213441570547, guid: 3fc6e06b85442e4428dad47f697cc70c,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6696,6 +6696,11 @@ PrefabInstance:
       propertyPath: m_FlipY
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3652698357170494573, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: type
+      value: 
+      objectReference: {fileID: 1136140898}
     - target: {fileID: 1886016979384734298, guid: 9110b9f942830ef43b8e239eb7671c1c,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
@@ -6761,11 +6766,6 @@ PrefabInstance:
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 3652698357170494573, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: type
-      value: 
-      objectReference: {fileID: 1136140898}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9110b9f942830ef43b8e239eb7671c1c, type: 3}
 --- !u!1001 &637358992
@@ -7379,41 +7379,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PopupKerosene
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
-        est \xE0 l'origine de 13% des \xE9missions de dioxyde de carbone (CO2) li\xE9es
-        aux activit\xE9s de transport. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
-        est \xE0 l'origine de 13% des \xE9missions de dioxyde de carbone (CO2) li\xE9es
-        aux activit\xE9s de transport. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
-        est \xE0 l'origine de 13% des \xE9missions de dioxyde de carbone (CO2) li\xE9es
-        aux activit\xE9s de transport. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
-        est \xE0 l'origine de 13% des \xE9missions de dioxyde de carbone (CO2) li\xE9es
-        aux activit\xE9s de transport. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
-        est \xE0 l'origine de 13% des \xE9missions de gaz carbonique li\xE9es aux
-        activit\xE9s de transport. "
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7518,6 +7483,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
+        est \xE0 l'origine de 13% des \xE9missions de dioxyde de carbone (CO2) li\xE9es
+        aux activit\xE9s de transport. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
+        est \xE0 l'origine de 13% des \xE9missions de dioxyde de carbone (CO2) li\xE9es
+        aux activit\xE9s de transport. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
+        est \xE0 l'origine de 13% des \xE9missions de dioxyde de carbone (CO2) li\xE9es
+        aux activit\xE9s de transport. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
+        est \xE0 l'origine de 13% des \xE9missions de dioxyde de carbone (CO2) li\xE9es
+        aux activit\xE9s de transport. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "40 millions de vols desservent les m\xE9tropoles en 2020. L'aviation
+        est \xE0 l'origine de 13% des \xE9missions de gaz carbonique li\xE9es aux
+        activit\xE9s de transport. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -7773,41 +7773,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legend
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
-        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
-        et nickel (Ni). "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
-        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
-        et nickel (Ni). "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
-        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
-        et nickel (Ni). "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
-        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
-        et nickel (Ni). "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
-        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
-        et nickel (Ni). "
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7912,6 +7877,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
+        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
+        et nickel (Ni). "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
+        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
+        et nickel (Ni). "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
+        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
+        et nickel (Ni). "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
+        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
+        et nickel (Ni). "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "La combustion des ordures m\xE9nag\xE8res rejette des m\xE9taux lourds
+        dans l'atmosph\xE8re : plomb (Pb), mercure (Hg), arsenic (As), cadmium (Cd)
+        et nickel (Ni). "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -8347,16 +8347,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1060914277981120940, guid: 247586c36b1c25a46a7adae5dbac2f92,
-        type: 3}
-      propertyPath: range.y
-      value: 1.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 2640294762683708676, guid: 247586c36b1c25a46a7adae5dbac2f92,
-        type: 3}
-      propertyPath: m_Name
-      value: SO2
-      objectReference: {fileID: 0}
     - target: {fileID: 2640294762683708681, guid: 247586c36b1c25a46a7adae5dbac2f92,
         type: 3}
       propertyPath: type
@@ -8477,6 +8467,16 @@ PrefabInstance:
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2640294762683708676, guid: 247586c36b1c25a46a7adae5dbac2f92,
+        type: 3}
+      propertyPath: m_Name
+      value: SO2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060914277981120940, guid: 247586c36b1c25a46a7adae5dbac2f92,
+        type: 3}
+      propertyPath: range.y
+      value: 1.27
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 247586c36b1c25a46a7adae5dbac2f92, type: 3}
 --- !u!4 &761224643 stripped
@@ -8567,36 +8567,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowCab
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
-        NO2) !  "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
-        NO2) !  "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
-        NO2) !  "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
-        NO2) !  "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
-        NO2) !  "
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -8702,6 +8672,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
+        NO2) !  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
+        NO2) !  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
+        NO2) !  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
+        NO2) !  "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Pouah ! Ce taxi rejette un max de monoxyde et dioxyde d\u2019azote (NO,
+        NO2) !  "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -9640,6 +9640,111 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
@@ -9680,111 +9785,6 @@ PrefabInstance:
       propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!114 &859381449 stripped
@@ -9811,31 +9811,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legend
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: E pour collecter
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: E pour collecter
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: E pour collecter
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: E pour collecter
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: E pour collecter
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9940,6 +9915,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: E pour collecter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: E pour collecter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: E pour collecter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: E pour collecter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: E pour collecter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -10475,6 +10475,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.2980598
       objectReference: {fileID: 0}
+    - target: {fileID: 3652698357170494573, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: type
+      value: 
+      objectReference: {fileID: 1143615396}
     - target: {fileID: 1886016979384734298, guid: 9110b9f942830ef43b8e239eb7671c1c,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
@@ -10575,11 +10580,6 @@ PrefabInstance:
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3652698357170494573, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: type
-      value: 
-      objectReference: {fileID: 1143615396}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9110b9f942830ef43b8e239eb7671c1c, type: 3}
 --- !u!1001 &935060697
@@ -11185,36 +11185,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteTruck
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
-        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
-        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
-        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
-        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
-        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11334,6 +11304,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
+        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
+        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
+        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
+        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Ce camion rejette un max d'oxydes d\u2019azote (NOx). Ce sont des pr\xE9curseurs
+        de l\u2019ozone, un polluant de la basse atmosph\xE8re."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -11534,6 +11534,61 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3652698357170494573, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: type
+      value: 
+      objectReference: {fileID: 601010101}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.6992188
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.0078125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 4.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.17
+      objectReference: {fileID: 0}
     - target: {fileID: 1886016979384734298, guid: 9110b9f942830ef43b8e239eb7671c1c,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
@@ -11609,61 +11664,6 @@ PrefabInstance:
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 3652698357170494573, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: type
-      value: 
-      objectReference: {fileID: 601010101}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.6992188
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.0078125
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 8.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 4.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 2.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3413395819083903879, guid: 9110b9f942830ef43b8e239eb7671c1c,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.17
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9110b9f942830ef43b8e239eb7671c1c, type: 3}
 --- !u!1001 &1014130123
@@ -11677,36 +11677,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bravo
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Super, j'ai r\xE9ussi !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Super, j'ai r\xE9ussi !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Super, j'ai r\xE9ussi !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Super, j'ai r\xE9ussi !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Super, j'ai r\xE9ussi !"
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -11812,6 +11782,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Super, j'ai r\xE9ussi !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Super, j'ai r\xE9ussi !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Super, j'ai r\xE9ussi !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Super, j'ai r\xE9ussi !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Super, j'ai r\xE9ussi !"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -11997,43 +11997,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legend
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Les chantiers \xE9mettent 10 % des particules en suspension : les Compos\xE9s
-        Organiques Volatiles. Les particules PM10, de taille inf\xE9rieure \xE0 10
-        \xB5m (6 \xE0 8 fois plus petites que l'\xE9paisseur d'un cheveu) p\xE9n\xE8trent
-        dans l'appareil respiratoire."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Les chantiers \xE9mettent 10 % des particules en suspension : les Compos\xE9s
-        Organiques Volatiles. Les particules PM10, de taille inf\xE9rieure \xE0 10
-        \xB5m (6 \xE0 8 fois plus petites que l'\xE9paisseur d'un cheveu) p\xE9n\xE8trent
-        dans l'appareil respiratoire."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Les chantiers \xE9mettent 10 % des particules en suspension : les Compos\xE9s
-        Organiques Volatiles. Les particules PM10, de taille inf\xE9rieure \xE0 10
-        \xB5m (6 \xE0 8 fois plus petites que l'\xE9paisseur d'un cheveu) p\xE9n\xE8trent
-        dans l'appareil respiratoire."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Les chantiers \xE9mettent 10 % des particules en suspension : les Compos\xE9s
-        Organiques Volatiles. Les particules PM10, de taille inf\xE9rieure \xE0 10
-        \xB5m (6 \xE0 8 fois plus petites que l'\xE9paisseur d'un cheveu) p\xE9n\xE8trent
-        dans l'appareil respiratoire."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Les chantiers \xE9mettent 10 % des COV."
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12153,6 +12116,43 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Les chantiers \xE9mettent 10 % des particules en suspension : les Compos\xE9s
+        Organiques Volatiles. Les particules PM10, de taille inf\xE9rieure \xE0 10
+        \xB5m (6 \xE0 8 fois plus petites que l'\xE9paisseur d'un cheveu) p\xE9n\xE8trent
+        dans l'appareil respiratoire."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Les chantiers \xE9mettent 10 % des particules en suspension : les Compos\xE9s
+        Organiques Volatiles. Les particules PM10, de taille inf\xE9rieure \xE0 10
+        \xB5m (6 \xE0 8 fois plus petites que l'\xE9paisseur d'un cheveu) p\xE9n\xE8trent
+        dans l'appareil respiratoire."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Les chantiers \xE9mettent 10 % des particules en suspension : les Compos\xE9s
+        Organiques Volatiles. Les particules PM10, de taille inf\xE9rieure \xE0 10
+        \xB5m (6 \xE0 8 fois plus petites que l'\xE9paisseur d'un cheveu) p\xE9n\xE8trent
+        dans l'appareil respiratoire."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Les chantiers \xE9mettent 10 % des particules en suspension : les Compos\xE9s
+        Organiques Volatiles. Les particules PM10, de taille inf\xE9rieure \xE0 10
+        \xB5m (6 \xE0 8 fois plus petites que l'\xE9paisseur d'un cheveu) p\xE9n\xE8trent
+        dans l'appareil respiratoire."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Les chantiers \xE9mettent 10 % des COV."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -12326,46 +12326,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 326987451}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CheckCollected
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12470,6 +12430,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326987451}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CheckCollected
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -12981,41 +12981,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PopupKerosene
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "A l'atterrissage, la combustion du k\xE9ros\xE8ne sera incompl\xE8te.
-        Cet avion \xE9mettra du benz\xE8ne. Ce Compos\xE9 Organique Volatile (COV)
-        est canc\xE9rig\xE8ne."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "A l'atterrissage, la combustion du k\xE9ros\xE8ne sera incompl\xE8te.
-        Cet avion \xE9mettra du benz\xE8ne. Ce Compos\xE9 Organique Volatile (COV)
-        est canc\xE9rig\xE8ne."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "A l'atterrissage, la combustion du k\xE9ros\xE8ne sera incompl\xE8te.
-        Cet avion \xE9mettra du benz\xE8ne. Ce Compos\xE9 Organique Volatile (COV)
-        est canc\xE9rig\xE8ne."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "A l'atterrissage, la combustion du k\xE9ros\xE8ne sera incompl\xE8te.
-        Cet avion \xE9mettra du benz\xE8ne. Ce Compos\xE9 Organique Volatile (COV)
-        est canc\xE9rig\xE8ne."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Celui-ci va bient\xF4t atterir... Au roulage, la combustion incompl\xE8te
-        du k\xE9ros\xE8ne \xE9met du benz\xE8ne, un Compos\xE9 Organique Volatile
-        (COV). Le benz\xE8ne a un effet sur la sant\xE9 des populations : il est canc\xE9rig\xE8ne."
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13120,6 +13085,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "A l'atterrissage, la combustion du k\xE9ros\xE8ne sera incompl\xE8te.
+        Cet avion \xE9mettra du benz\xE8ne. Ce Compos\xE9 Organique Volatile (COV)
+        est canc\xE9rig\xE8ne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "A l'atterrissage, la combustion du k\xE9ros\xE8ne sera incompl\xE8te.
+        Cet avion \xE9mettra du benz\xE8ne. Ce Compos\xE9 Organique Volatile (COV)
+        est canc\xE9rig\xE8ne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "A l'atterrissage, la combustion du k\xE9ros\xE8ne sera incompl\xE8te.
+        Cet avion \xE9mettra du benz\xE8ne. Ce Compos\xE9 Organique Volatile (COV)
+        est canc\xE9rig\xE8ne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "A l'atterrissage, la combustion du k\xE9ros\xE8ne sera incompl\xE8te.
+        Cet avion \xE9mettra du benz\xE8ne. Ce Compos\xE9 Organique Volatile (COV)
+        est canc\xE9rig\xE8ne."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Celui-ci va bient\xF4t atterir... Au roulage, la combustion incompl\xE8te
+        du k\xE9ros\xE8ne \xE9met du benz\xE8ne, un Compos\xE9 Organique Volatile
+        (COV). Le benz\xE8ne a un effet sur la sant\xE9 des populations : il est canc\xE9rig\xE8ne."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -14555,41 +14555,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElectricCar
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
-        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SO2) et des
-        oxydes d\u2019azote (NOx)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
-        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SO2) et des
-        oxydes d\u2019azote (NOx)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
-        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SO2) et des
-        oxydes d\u2019azote (NOx)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
-        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SO2) et des
-        oxydes d\u2019azote (NOx)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
-        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SOE) et des
-        oxydes d\u2019azote (NOx)"
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14709,6 +14674,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
+        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SO2) et des
+        oxydes d\u2019azote (NOx)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
+        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SO2) et des
+        oxydes d\u2019azote (NOx)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
+        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SO2) et des
+        oxydes d\u2019azote (NOx)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
+        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SO2) et des
+        oxydes d\u2019azote (NOx)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "L\u2019extraction des m\xE9taux utilis\xE9s dans les batteries de ce
+        v\xE9hicule \xE9lectrique g\xE9n\xE8re du dioxyde de souffre (SOE) et des
+        oxydes d\u2019azote (NOx)"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -15149,11 +15149,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2640294762683708676, guid: 247586c36b1c25a46a7adae5dbac2f92,
-        type: 3}
-      propertyPath: m_Name
-      value: BenzeneCOV
-      objectReference: {fileID: 0}
     - target: {fileID: 2640294762683708681, guid: 247586c36b1c25a46a7adae5dbac2f92,
         type: 3}
       propertyPath: type
@@ -15213,6 +15208,11 @@ PrefabInstance:
         type: 3}
       propertyPath: layers.m_Bits
       value: 8192
+      objectReference: {fileID: 0}
+    - target: {fileID: 2640294762683708676, guid: 247586c36b1c25a46a7adae5dbac2f92,
+        type: 3}
+      propertyPath: m_Name
+      value: BenzeneCOV
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 247586c36b1c25a46a7adae5dbac2f92, type: 3}
@@ -16209,6 +16209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeavyMetals
       objectReference: {fileID: 0}
+    - target: {fileID: 4749201213441570547, guid: 3fc6e06b85442e4428dad47f697cc70c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9095812624426015143, guid: 3fc6e06b85442e4428dad47f697cc70c,
         type: 3}
       propertyPath: OnInteractWithNoUI.m_PersistentCalls.m_Calls.Array.size
@@ -16614,11 +16619,6 @@ PrefabInstance:
       propertyPath: OnCollected.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4749201213441570547, guid: 3fc6e06b85442e4428dad47f697cc70c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fc6e06b85442e4428dad47f697cc70c, type: 3}
 --- !u!1 &1456740996
@@ -16671,41 +16671,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DialogueElement
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
-        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
-        irrite les muqueuses de la peau et des voies respiratoires."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
-        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
-        irrite les muqueuses de la peau et des voies respiratoires."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
-        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
-        irrite les muqueuses de la peau et des voies respiratoires."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
-        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
-        irrite les muqueuses de la peau et des voies respiratoires."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
-        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
-        irrite les muqueuses de la peau et des voies respiratoires."
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -16812,6 +16777,41 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
+        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
+        irrite les muqueuses de la peau et des voies respiratoires."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
+        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
+        irrite les muqueuses de la peau et des voies respiratoires."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
+        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
+        irrite les muqueuses de la peau et des voies respiratoires."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
+        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
+        irrite les muqueuses de la peau et des voies respiratoires."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "A plus de 50 %, le dioxyde de souffre (SO2) est rejet\xE9 dans l'atmosph\xE8re
+        par les activit\xE9s industrielles, comme cette centrale thermique. Ce gaz
+        irrite les muqueuses de la peau et des voies respiratoires."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!4 &1466976431 stripped
@@ -16831,36 +16831,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: StartMetropolis
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Wow... L'air de cette ville est irrespirable.... Je survole l'inventaire
-        (carr\xE9 rouge) pour identifier le polluant \xE0 supprimer."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Wow... L'air de cette ville est irrespirable.... Je survole l'inventaire
-        (carr\xE9 rouge) pour identifier le polluant \xE0 supprimer."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Wow... L'air de cette ville est irrespirable.... Je survole l'inventaire
-        (carr\xE9 rouge) pour identifier le polluant \xE0 supprimer."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Wow... L'air de cette ville est irrespirable.... Je survole l'inventaire
-        (carr\xE9 rouge) pour identifier le polluant \xE0 supprimer."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Wow, c\u2019est agit\xE9 par ici. La salle de contr\xF4le se situe tout
-        en haut, j\u2019ai int\xE9r\xEAt \xE0 vite grimper."
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -16966,6 +16936,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Wow... L'air de cette ville est irrespirable.... Je survole l'inventaire
+        (carr\xE9 rouge) pour identifier le polluant \xE0 supprimer."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Wow... L'air de cette ville est irrespirable.... Je survole l'inventaire
+        (carr\xE9 rouge) pour identifier le polluant \xE0 supprimer."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Wow... L'air de cette ville est irrespirable.... Je survole l'inventaire
+        (carr\xE9 rouge) pour identifier le polluant \xE0 supprimer."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Wow... L'air de cette ville est irrespirable.... Je survole l'inventaire
+        (carr\xE9 rouge) pour identifier le polluant \xE0 supprimer."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Wow, c\u2019est agit\xE9 par ici. La salle de contr\xF4le se situe tout
+        en haut, j\u2019ai int\xE9r\xEAt \xE0 vite grimper."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -17498,46 +17498,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legend
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
-        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
-        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
-        consid\xE9r\xE9s canc\xE9rig\xE8nes."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
-        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
-        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
-        consid\xE9r\xE9s canc\xE9rig\xE8nes."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
-        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
-        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
-        consid\xE9r\xE9s canc\xE9rig\xE8nes."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
-        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
-        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
-        consid\xE9r\xE9s canc\xE9rig\xE8nes."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
-        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
-        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
-        consid\xE9r\xE9s canc\xE9rig\xE8nes."
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17642,6 +17602,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
+        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
+        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
+        consid\xE9r\xE9s canc\xE9rig\xE8nes."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
+        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
+        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
+        consid\xE9r\xE9s canc\xE9rig\xE8nes."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
+        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
+        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
+        consid\xE9r\xE9s canc\xE9rig\xE8nes."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
+        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
+        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
+        consid\xE9r\xE9s canc\xE9rig\xE8nes."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "L'usage de solvants contribuent pour 82 % des \xE9missions anthropiques
+        de Compos\xE9s Organiques Volatiles (COV). Ils provoquent des irritations
+        et une diminution de la capacit\xE9 respiratoire. Certains compos\xE9s sont
+        consid\xE9r\xE9s canc\xE9rig\xE8nes."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -18195,31 +18195,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: Dans quel compartiment devrais-je ranger cette plante?
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 1071541914}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 2015479709}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 859381449}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18325,6 +18300,31 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: Dans quel compartiment devrais-je ranger cette plante?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 1071541914}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[1]
+      value: 
+      objectReference: {fileID: 2015479709}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[2]
+      value: 
+      objectReference: {fileID: 859381449}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!114 &1582933435 stripped
@@ -18970,41 +18970,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PopupKerosene
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
-        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
-        produit le gaz carbonique (CO2)."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
-        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
-        produit le gaz carbonique (CO2)."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
-        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
-        produit le gaz carbonique (CO2)."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
-        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
-        produit le gaz carbonique (CO2)."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
-        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
-        produit le gaz carbonique (CO2)."
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19109,6 +19074,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
+        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
+        produit le gaz carbonique (CO2)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
+        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
+        produit le gaz carbonique (CO2)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
+        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
+        produit le gaz carbonique (CO2)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
+        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
+        produit le gaz carbonique (CO2)."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Cet avion contribue au r\xE9chauffement climatique : il br\xFBle 8 tonnes
+        de k\xE9ros\xE8ne \xE0 l'heure. C'est la combustion du k\xE9ros\xE8ne qui
+        produit le gaz carbonique (CO2)."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -22666,36 +22666,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legend
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
-        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
-        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
-        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
-        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
-        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22800,6 +22770,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
+        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
+        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
+        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
+        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Lors de la combustion, le soufre contenu dans le k\xE9ros\xE8ne est
+        oxyd\xE9. Le dioxyde de souffre (SO2) contribue aux pluies acides. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -23094,46 +23094,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueElement (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 326987451}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CheckCollected
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23238,6 +23198,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326987451}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CheckCollected
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
@@ -52113,11 +52113,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1060914277981120940, guid: 247586c36b1c25a46a7adae5dbac2f92,
-        type: 3}
-      propertyPath: range.y
-      value: 1.27
-      objectReference: {fileID: 0}
     - target: {fileID: 2640294762683708681, guid: 247586c36b1c25a46a7adae5dbac2f92,
         type: 3}
       propertyPath: type
@@ -52237,6 +52232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060914277981120940, guid: 247586c36b1c25a46a7adae5dbac2f92,
+        type: 3}
+      propertyPath: range.y
+      value: 1.27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 247586c36b1c25a46a7adae5dbac2f92, type: 3}

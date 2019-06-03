@@ -9,6 +9,13 @@ TextureImporter:
     21300008: New Piskel (1)_4
     21300010: New Piskel (1)_5
     21300012: New Piskel (1)_6
+    21300014: BGIcon_0
+    21300016: BGIcon_1
+    21300018: BGIcon_2
+    21300020: BGIcon_3
+    21300022: BGIcon_4
+    21300024: BGIcon_5
+    21300026: BGIcon_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -91,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (1)_0
+      name: BGIcon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -105,13 +112,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e5001f7a64f9b48b922fcb3678f3ce
+      spriteID: 84806b26153a22f4bb33691afc1a4441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_1
+      name: BGIcon_1
       rect:
         serializedVersion: 2
         x: 32
@@ -125,13 +132,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: facb002081dcfe940a67615ac5326665
+      spriteID: 0f47b72f823516a4a8c4160e5e1da477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_2
+      name: BGIcon_2
       rect:
         serializedVersion: 2
         x: 64
@@ -145,13 +152,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f79c34ec714612e4b9714cbda1a358a4
+      spriteID: 9a3684bf6c5aa6c49870e1ad94e1da63
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_3
+      name: BGIcon_3
       rect:
         serializedVersion: 2
         x: 0
@@ -165,13 +172,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71091e6dbfe288b4fbc01a142ea71fee
+      spriteID: 7435226f48fe6f749b228271366ac656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_4
+      name: BGIcon_4
       rect:
         serializedVersion: 2
         x: 32
@@ -185,13 +192,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d378da53e5ba1b54997e1374ff717154
+      spriteID: 07581e6d720374146958e29a8b3297a0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_5
+      name: BGIcon_5
       rect:
         serializedVersion: 2
         x: 64
@@ -205,13 +212,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a02fbea4809920148b2ee291f213e508
+      spriteID: 6d33e1cfe10b0c147b25324e8e3037d0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_6
+      name: BGIcon_6
       rect:
         serializedVersion: 2
         x: 0
@@ -225,7 +232,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 797444edc5b49f4469c89e3bc5941e8f
+      spriteID: a99da80e1007d8242a1b38ed40ee27f9
       vertices: []
       indices: 
       edges: []
