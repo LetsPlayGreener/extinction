@@ -112,24 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!224 &2140524 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 302023762}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2140525 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 302023762}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4582064
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,24 +800,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!224 &88683347 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 116025948}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &88683348 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 116025948}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &95643622
@@ -1536,75 +1500,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &104717183
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 943060579}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: DialogueElement (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "...De quel joueur parles-tu Greta? Nous sommes dans la r\xE9alit\xE9
-        pas dans un jeu vid\xE9o.."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "...De quel joueur parles-tu Greta? Nous sommes dans la r\xE9alit\xE9
-        pas dans un jeu vid\xE9o.."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "...De quel joueur parles-tu Greta? Nous sommes dans la r\xE9alit\xE9
-        pas dans un jeu vid\xE9o.."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "...De quel joueur parles-tu Greta? Nous sommes dans la r\xE9alit\xE9
-        pas dans un jeu vid\xE9o.."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "...De quel joueur parles-tu Greta? Nous sommes dans la r\xE9alit\xE9
-        pas dans un jeu vid\xE9o.."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 797674502}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &111555275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1884,377 +1779,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51472b694e589b748b139731ef780da1, type: 3}
---- !u!1001 &116025948
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 797674501}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Q1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Dans la stratosph\xE8re, l'ozone, ou trioxyg\xE8ne (O3), contribue \xE0
-        nous prot\xE9ger des rayonnements ultraviolets du soleil. Mais lorsque sa
-        concentration augmente dans l'air que l'on respire, alors il devient toxique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Dans la stratosph\xE8re, l'ozone, ou trioxyg\xE8ne (O3), contribue \xE0
-        nous prot\xE9ger des rayonnements ultraviolets du soleil. Mais lorsque sa
-        concentration augmente dans l'air que l'on respire, alors il devient toxique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Dans la stratosph\xE8re, l'ozone, ou trioxyg\xE8ne (O3), contribue \xE0
-        nous prot\xE9ger des rayonnements ultraviolets du soleil. Mais lorsque sa
-        concentration augmente dans l'air que l'on respire, alors il devient toxique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Dans la stratosph\xE8re, l'ozone, ou trioxyg\xE8ne (O3), contribue \xE0
-        nous prot\xE9ger des rayonnements ultraviolets du soleil. Mais lorsque sa
-        concentration augmente dans l'air que l'on respire, alors il devient toxique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "L'ozone, ou trioxyg\xE8ne (O3), contribue \xE0 nous prot\xE9ger des
-        rayonnements ultraviolets du soleil. Mais lorsque sa concentration augmente
-        dans l'air que l'on respire, alors il devient toxique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 640566941}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 1671756320}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 2050030564}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[3]
-      value: 
-      objectReference: {fileID: 437254241}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: speakerIsPlayer
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!1001 &116206860
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1300728671}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: HejDa
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 1749889788}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!1001 &123453427
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1300728671}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Sorry
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
-        niveau !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
-        niveau !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
-        niveau !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
-        niveau !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Merci d'avoir r\xE9pondu au sondage !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: speakerIsPlayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayCorrectEffect
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 326482291527018830}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1997024794}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: LoadScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1821759243}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: PlayerAttemptedSkill
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
-      value: Identify ozone precursor gases
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
-      value: 
-      objectReference: {fileID: 1466716783}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: IncreaseCount
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[4].m_Target
-      value: 
-      objectReference: {fileID: 567119546}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_IntArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: LevelSelection
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &126852619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,155 +2068,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &147823926
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1300728671}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Activist
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Okay, notre consum\xE9risme, c\u2019est pas tr\xE8s cool pour la plan\xE8te.
-        Si jeune et d\xE9j\xE0 activiste ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Okay, notre consum\xE9risme, c\u2019est pas tr\xE8s cool pour la plan\xE8te.
-        Si jeune et d\xE9j\xE0 activiste ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Okay, notre consum\xE9risme, c\u2019est pas tr\xE8s cool pour la plan\xE8te.
-        Si jeune et d\xE9j\xE0 activiste ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Okay, notre consum\xE9risme, c\u2019est pas tr\xE8s cool pour la plan\xE8te.
-        Si jeune et d\xE9j\xE0 activiste ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 943060580}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!114 &155879746 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 2140967483}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &158989043
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 88683347}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Precurseur
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Lequel de ces gaz est pr\xE9curseur de l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Lequel de ces gaz est pr\xE9curseur de l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Lequel de ces gaz est pr\xE9curseur de l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Lequel de ces gaz est pr\xE9curseur de l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: '...'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 640566941}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 1671756320}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 2050030564}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: speakerIsPlayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[3]
-      value: 
-      objectReference: {fileID: 437254241}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!4 &160466186 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3652698357170494562, guid: 9110b9f942830ef43b8e239eb7671c1c,
@@ -3122,285 +2497,141 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 165131567}
     m_Modifications:
-    - target: {fileID: 8841806912398126910, guid: b51dce5a693201b44a805b10ce2e3ac6,
+    - target: {fileID: 2867341840571757384, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: m_Name
       value: DialogueWithGreta
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_SizeDelta.x
       value: 100
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_SizeDelta.y
       value: 100
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: english
-      value: "Merci. Mon nom est Greta Thunberg et mon v\xE9lo est l\u2019outil et
-        le symbole de mon activisme pour la plan\xE8te. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: french
-      value: "Merci. Mon nom est Greta Thunberg et mon v\xE9lo est l\u2019outil et
-        le symbole de mon activisme pour la plan\xE8te. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: italian
-      value: "Merci. Mon nom est Greta Thunberg et mon v\xE9lo est l\u2019outil et
-        le symbole de mon activisme pour la plan\xE8te. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: romanian
-      value: "Merci. Mon nom est Greta Thunberg et mon v\xE9lo est l\u2019outil et
-        le symbole de mon activisme pour la plan\xE8te. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: text
-      value: "Merci. Mon nom est Greta Thunberg et mon v\xE9lo est l\u2019outil et
-        le symbole de mon activisme pour la plan\xE8te. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 1102125871}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 1323638201}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 1618524666}
-    - target: {fileID: 4780483593592366674, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[3]
-      value: 
-      objectReference: {fileID: 797674502}
-    - target: {fileID: 4780483594711224151, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: french
-      value: "En quoi ton v\xE9lo aide-t-il la plan\xE8te?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594711224151, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: english
-      value: "En quoi ton v\xE9lo aide-t-il la plan\xE8te?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594711224151, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: text
-      value: "En quoi ton v\xE9lo aide-t-il la plan\xE8te?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594711224151, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: italian
-      value: "En quoi ton v\xE9lo aide-t-il la plan\xE8te?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594711224151, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: romanian
-      value: "En quoi ton v\xE9lo aide-t-il la plan\xE8te?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594711224151, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 974728470}
-    - target: {fileID: 4780483593786922499, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: english
-      value: "Pourquoi ne pas acheter une voiture \xE9lectrique ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593786922499, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: french
-      value: "Pourquoi ne pas acheter une voiture \xE9lectrique ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593786922499, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: italian
-      value: "Pourquoi ne pas acheter une voiture \xE9lectrique ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593786922499, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: romanian
-      value: "Pourquoi ne pas acheter une voiture \xE9lectrique ?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483593786922499, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 781227428}
-    - target: {fileID: 1905131150, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
-      propertyPath: OnStartDialogue.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1905131150, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
-      propertyPath: OnStartDialogue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1905131150, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
-      propertyPath: OnStartDialogue.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1905131150, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+    - target: {fileID: 1300728672, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: OnStartDialogue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1673854159}
-    - target: {fileID: 1905131150, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
-      propertyPath: OnStartDialogue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 1905131150, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
-      propertyPath: OnStartDialogue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1905131150, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
-      propertyPath: OnStartDialogue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483595210861937, guid: b51dce5a693201b44a805b10ce2e3ac6,
+    - target: {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483595210861937, guid: b51dce5a693201b44a805b10ce2e3ac6,
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
-      propertyPath: french
-      value: "Oh, salut jeune fille.  Styl\xE9 le v\xE9lo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483595210861937, guid: b51dce5a693201b44a805b10ce2e3ac6,
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
-      propertyPath: english
-      value: "Oh, salut jeune fille.  Styl\xE9 le v\xE9lo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483595210861937, guid: b51dce5a693201b44a805b10ce2e3ac6,
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
-      propertyPath: italian
-      value: "Oh, salut jeune fille.  Styl\xE9 le v\xE9lo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483595210861937, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: romanian
-      value: "Oh, salut jeune fille.  Styl\xE9 le v\xE9lo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483595210861937, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: text
-      value: "Oh, salut jeune fille.  Styl\xE9 le v\xE9lo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215810121811022024, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: m_Name
-      value: "Styl\xE9"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215810121242161902, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: m_Name
-      value: Bike
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215810122339130347, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: m_Name
-      value: Choix
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215810122400295866, guid: b51dce5a693201b44a805b10ce2e3ac6,
-        type: 3}
-      propertyPath: m_Name
-      value: ElectricCar
-      objectReference: {fileID: 0}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 643879811}
+    - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b51dce5a693201b44a805b10ce2e3ac6, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a64524550c55eb943a810972aa82e886, type: 3}
 --- !u!114 &202538300 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114751280143084318, guid: 114c5f41fd4099445a42c1d9bd01f222,
@@ -4734,100 +3965,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &302023762
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 744870393}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Question
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Lequel de ces \xE9l\xE9ments est \xE9tranger \xE0 la formation de l'ozone
-        ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Lequel de ces \xE9l\xE9ments est \xE9tranger \xE0 la formation de l'ozone
-        ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Lequel de ces \xE9l\xE9ments est \xE9tranger \xE0 la formation de l'ozone
-        ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Lequel de ces \xE9l\xE9ments est \xE9tranger \xE0 la formation de l'ozone
-        ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 2140525}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 513619349}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 933342670}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: speakerIsPlayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[3]
-      value: 
-      objectReference: {fileID: 601158502}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &306694488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5652,70 +4789,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &381573286
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 640566940}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Precurseur (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: Les oxydes d'azote NOx
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: Les oxydes d'azote NOx
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: Les oxydes d'azote NOx
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: Les oxydes d'azote NOx
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: '...'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 552854105}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &385502019
 GameObject:
   m_ObjectHideFlags: 0
@@ -6418,112 +5491,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &428227815
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 797674501}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Q3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "L'ozone que l'on respire est un polluant dit \"secondaire\" car il n'est
-        pas directement rejet\xE9 par une activit\xE9 anthropique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "L'ozone que l'on respire est un polluant dit \"secondaire\" car il n'est
-        pas directement rejet\xE9 par une activit\xE9 anthropique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "L'ozone que l'on respire est un polluant dit \"secondaire\" car il n'est
-        pas directement rejet\xE9 par une activit\xE9 anthropique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "L'ozone que l'on respire est un polluant dit \"secondaire\" car il n'est
-        pas directement rejet\xE9 par une activit\xE9 anthropique. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 2018431261}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 155879746}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 1241608168}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[3]
-      value: 
-      objectReference: {fileID: 1489829654}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: speakerIsPlayer
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!114 &437254241 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1960547555}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &439657638
 GameObject:
   m_ObjectHideFlags: 0
@@ -6835,97 +5802,6 @@ MonoBehaviour:
   movingSpeed: 2
   range: {x: -9.69, y: 0}
   flipWhenChangingDirection: 1
---- !u!1001 &446333811
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 797674501}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: "Enqu\xEAte"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Hey... Tu as deux minutes ? C'est pour une enqu\xEAte... D'accord ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Hey... Tu as deux minutes ? C'est pour une enqu\xEAte... D'accord ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Hey... Tu as deux minutes ? C'est pour une enqu\xEAte... D'accord ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Hey... Tu as deux minutes ? C'est pour une enqu\xEAte... D'accord ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Hey... Tu as deux minutes pour r\xE9pondre \xE0 une enqu\xEAte ? C'est
-        pour \xE9valuer la sensibilit\xE9 de l'opinion publique aux questions environnementales.
-        Merci !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 88683348}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: numberSelectedRandomly
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 744870394}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 1137233977}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: speakerIsPlayer
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &455206762
 GameObject:
   m_ObjectHideFlags: 0
@@ -7299,18 +6175,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &513619349 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 659689515}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &518818587
 GameObject:
   m_ObjectHideFlags: 0
@@ -7479,161 +6343,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e97833b7c43abc418eeee08d291ea3f, type: 3}
---- !u!1001 &552854103
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1300728671}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Bravo
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!1 &552854104 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 552854103}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &552854105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 552854104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
-  english: "Bravo ! Tu as tout juste... Et merci pour l'enqu\xEAte !"
-  french: "Bravo ! Tu as tout juste... Et merci pour l'enqu\xEAte !"
-  italian: "Bravo ! Tu as tout juste... Et merci pour l'enqu\xEAte !"
-  romanian: "Bravo ! Tu as tout juste... Et merci pour l'enqu\xEAte !"
-  nextDialogElems: []
-  speakerIsPlayer: 0
-  numberSelectedRandomly: 0
-  addAfterRandom: []
-  callEventFunctionsOnSkipDialogue: 0
-  audio: {fileID: 0}
-  englishAudio: {fileID: 0}
-  frenchAudio: {fileID: 0}
-  italianAudio: {fileID: 0}
-  romanianAudio: {fileID: 0}
-  OnElementRead:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 643879811}
-        m_MethodName: IncreaseValue
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 3
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 326482291527018830}
-        m_MethodName: PlayCorrectEffect
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1997024794}
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: LevelSelection
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1821759243}
-        m_MethodName: PlayerAcquiredSkill
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Identify ozone precursor gases
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1466716783}
-        m_MethodName: IncreaseCount
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    elem: {fileID: 0}
---- !u!1 &567119546 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8753980041595776470, guid: 51472b694e589b748b139731ef780da1,
-    type: 3}
-  m_PrefabInstance: {fileID: 111555275}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &586431089
 GameObject:
   m_ObjectHideFlags: 0
@@ -7735,18 +6444,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9c570ef92667094ea6916bb35c47735, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &601158502 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1860820016}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &602063556
@@ -8139,24 +6836,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec192536e73ecb447aae73be0f18bac4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!224 &640566940 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 158989043}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &640566941 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 158989043}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &643879810
@@ -8711,70 +7390,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9110b9f942830ef43b8e239eb7671c1c, type: 3}
---- !u!1001 &659689515
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2140524}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: 'Precurseur '
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 977793289}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &660806674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9374,24 +7989,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!224 &744870393 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 2147055325}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &744870394 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 2147055325}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &757756582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9681,18 +8278,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!114 &781227428 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 831218519}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &782878104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9954,100 +8539,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!224 &797674501 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 116206860}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &797674502 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 116206860}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1001 &802243499
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1102125870}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: DialogueElement (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Le v\xE9lo est la solution urbaine la plus \xE9cologique : il ne rejette
-        ni gaz \xE0 effet de serre, ni particules fines, ni compos\xE9s organiques
-        volatils ! En plus \xE7a muscle les mollets et c\u2019est giga styl\xE9."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Le v\xE9lo est la solution urbaine la plus \xE9cologique : il ne rejette
-        ni gaz \xE0 effet de serre, ni particules fines, ni compos\xE9s organiques
-        volatils ! En plus \xE7a muscle les mollets et c\u2019est giga styl\xE9."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Le v\xE9lo est la solution urbaine la plus \xE9cologique : il ne rejette
-        ni gaz \xE0 effet de serre, ni particules fines, ni compos\xE9s organiques
-        volatils ! En plus \xE7a muscle les mollets et c\u2019est giga styl\xE9."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Le v\xE9lo est la solution urbaine la plus \xE9cologique : il ne rejette
-        ni gaz \xE0 effet de serre, ni particules fines, ni compos\xE9s organiques
-        volatils ! En plus \xE7a muscle les mollets et c\u2019est giga styl\xE9."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: " L\u2019usage excessif de la voiture est une des principales causes
-        des \xE9missions de CO2. Le v\xE9lo est l\u2019alternative la plus \xE9cologique
-        : il ne rejette ni gaz \xE0 effet de serre, ni particules fines, ni compos\xE9s
-        organiques volatils ! En plus \xE7a muscle les mollets et c\u2019est giga
-        styl\xE9."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 797674502}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &803098046
 GameObject:
   m_ObjectHideFlags: 0
@@ -10491,160 +8982,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &831218519
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1323638200}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: DialogueElement (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Les voitures \xE9lectriques, \xE0 l\u2019usage, ne polluent pas l\u2019air...
-        Nous sommes les grands gagnants du green washing de l\u2019industrie automobile.
-        De la fabrication des batteries \xE0 la production d\u2019\xE9lectricit\xE9,
-        l\u2019impact \xE9cologique de la voiture \xE9lectrique est d\xE9sastreux
-        ! Et se sont les habitants d\u2019Afrique ou d\u2019Asie qui en p\xE2tissent!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Les voitures \xE9lectriques, \xE0 l\u2019usage, ne polluent pas l\u2019air...
-        Nous sommes les grands gagnants du green washing de l\u2019industrie automobile.
-        De la fabrication des batteries \xE0 la production d\u2019\xE9lectricit\xE9,
-        l\u2019impact \xE9cologique de la voiture \xE9lectrique est d\xE9sastreux
-        ! Et se sont les habitants d\u2019Afrique ou d\u2019Asie qui en p\xE2tissent!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Les voitures \xE9lectriques, \xE0 l\u2019usage, ne polluent pas l\u2019air...
-        Nous sommes les grands gagnants du green washing de l\u2019industrie automobile.
-        De la fabrication des batteries \xE0 la production d\u2019\xE9lectricit\xE9,
-        l\u2019impact \xE9cologique de la voiture \xE9lectrique est d\xE9sastreux
-        ! Et se sont les habitants d\u2019Afrique ou d\u2019Asie qui en p\xE2tissent!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Les voitures \xE9lectriques, \xE0 l\u2019usage, ne polluent pas l\u2019air...
-        Nous sommes les grands gagnants du green washing de l\u2019industrie automobile.
-        De la fabrication des batteries \xE0 la production d\u2019\xE9lectricit\xE9,
-        l\u2019impact \xE9cologique de la voiture \xE9lectrique est d\xE9sastreux
-        ! Et se sont les habitants d\u2019Afrique ou d\u2019Asie qui en p\xE2tissent!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Les voitures \xE9lectriques, \xE0 l\u2019usage, ne polluent pas l\u2019air
-        : il faut beaucoup de sale pour faire du propnous sommes les grands gagnants
-        du green washing de l\u2019industrie automobile. Or, de la fabrication des
-        batteries \xE0 la production d\u2019\xE9lectricit\xE9, l\u2019impact \xE9cologique
-        de la voiture \xE9lectrique est d\xE9sastreux ! Et se sont les habitants d\u2019Afrique
-        ou d\u2019Asie qui en p\xE2tissent!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 797674502}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!1001 &832237163
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2140524}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Precurseur
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action aux fortes temp\xE9ratures
-        du moteur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action aux fortes temp\xE9ratures
-        du moteur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action aux fortes temp\xE9ratures
-        du moteur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action aux fortes temp\xE9ratures
-        du moteur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "...De quel joueur parles-tu Greta? Nous sommes dans la r\xE9alit\xE9
-        pas dans un jeu vid\xE9o.."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 977793289}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &835118221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27807,18 +26144,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9110b9f942830ef43b8e239eb7671c1c, type: 3}
---- !u!114 &933342670 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 832237163}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &935060697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27835,6 +26160,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: text
+      value: "Identifie un polluant atmosph\xE9rique"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: CountGoal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: displayCounter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2113657363}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Register
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3034471856551615193, guid: 8d3162471bf676645acf9b099dac643d,
         type: 3}
@@ -27941,51 +26311,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: text
-      value: "Identifie un polluant atmosph\xE9rique"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: CountGoal
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: displayCounter
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2113657363}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Register
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: OnMissionReachedTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 3034471856551615195, guid: 8d3162471bf676645acf9b099dac643d,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -27998,24 +26323,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d3162471bf676645acf9b099dac643d, type: 3}
---- !u!224 &943060579 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 984215854}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &943060580 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 984215854}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &943161928 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4735414369364886, guid: 599bf135fc0648043bfa32dcd1e26d86,
@@ -28107,30 +26414,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 757756582}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &974728470 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 802243499}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &977793289 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 123453427}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &978096695
 Transform:
   m_ObjectHideFlags: 0
@@ -28229,90 +26512,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &984215854
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1618524665}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: DialogueElement (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Il n\u2019y a pas d\u2019\xE2ge pour agir pour l\u2019environnement.
-        On a essay\xE9 plusieurs fois de me discr\xE9diter \xE0 cause de mon \xE2ge.
-        Mais la v\xE9rit\xE9 c\u2019est qu\u2019on peut tous agir \xE0 notre \xE9chelle.
-        C\u2019est pour \xE7a que le joueur qui lit \xE7a actuellement, aussi jeune
-        qu\u2019il soit, ne doit pas h\xE9siter \xE0 militer !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Il n\u2019y a pas d\u2019\xE2ge pour agir pour l\u2019environnement.
-        On a essay\xE9 plusieurs fois de me discr\xE9diter \xE0 cause de mon \xE2ge.
-        Mais la v\xE9rit\xE9 c\u2019est qu\u2019on peut tous agir \xE0 notre \xE9chelle.
-        C\u2019est pour \xE7a que le joueur qui lit \xE7a actuellement, aussi jeune
-        qu\u2019il soit, ne doit pas h\xE9siter \xE0 militer !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Il n\u2019y a pas d\u2019\xE2ge pour agir pour l\u2019environnement.
-        On a essay\xE9 plusieurs fois de me discr\xE9diter \xE0 cause de mon \xE2ge.
-        Mais la v\xE9rit\xE9 c\u2019est qu\u2019on peut tous agir \xE0 notre \xE9chelle.
-        C\u2019est pour \xE7a que le joueur qui lit \xE7a actuellement, aussi jeune
-        qu\u2019il soit, ne doit pas h\xE9siter \xE0 militer !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Il n\u2019y a pas d\u2019\xE2ge pour agir pour l\u2019environnement.
-        On a essay\xE9 plusieurs fois de me discr\xE9diter \xE0 cause de mon \xE2ge.
-        Mais la v\xE9rit\xE9 c\u2019est qu\u2019on peut tous agir \xE0 notre \xE9chelle.
-        C\u2019est pour \xE7a que le joueur qui lit \xE7a actuellement, aussi jeune
-        qu\u2019il soit, ne doit pas h\xE9siter \xE0 militer !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Il n\u2019y a pas d\u2019\xE2ge pour agir pour l\u2019environnement.
-        On a essay\xE9 plusieurs fois de me discr\xE9diter \xE0 cause de mon \xE2ge.
-        Mais la v\xE9rit\xE9 c\u2019est qu\u2019on peut tous agir \xE0 notre \xE9chelle.
-        C\u2019est pour \xE7a que le joueur qui lit \xE7a actuellement, aussi jeune
-        qu\u2019il soit, ne doit pas h\xE9siter \xE0 militer !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 797674502}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &988533440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29946,24 +28145,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!224 &1102125870 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919646345419, guid: b51dce5a693201b44a805b10ce2e3ac6,
-    type: 3}
-  m_PrefabInstance: {fileID: 188475968}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1102125871 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594711224151, guid: b51dce5a693201b44a805b10ce2e3ac6,
-    type: 3}
-  m_PrefabInstance: {fileID: 188475968}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1135116485
 GameObject:
   m_ObjectHideFlags: 0
@@ -30171,24 +28352,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!224 &1137233976 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 428227815}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1137233977 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 428227815}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1141565044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30921,100 +29084,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1213705210
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1137233976}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Question
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
-        est un pr\xE9curseur de l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
-        est un pr\xE9curseur de l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
-        est un pr\xE9curseur de l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
-        est un pr\xE9curseur de l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Lequel de ces \xE9l\xE9ments chimiques n'est pas un pr\xE9curseur de
-        l'ozone ? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 2018431261}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 155879746}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 1241608168}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: speakerIsPlayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[3]
-      value: 
-      objectReference: {fileID: 1489829654}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &1217665706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37349,18 +35418,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1241608168 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1819798404}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1242431545
 GameObject:
   m_ObjectHideFlags: 0
@@ -37927,13 +35984,13 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!224 &1300728671 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1905131151, guid: b51dce5a693201b44a805b10ce2e3ac6,
+  m_CorrespondingSourceObject: {fileID: 1300728671, guid: a64524550c55eb943a810972aa82e886,
     type: 3}
   m_PrefabInstance: {fileID: 188475968}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1300728672 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1905131150, guid: b51dce5a693201b44a805b10ce2e3ac6,
+  m_CorrespondingSourceObject: {fileID: 1300728672, guid: a64524550c55eb943a810972aa82e886,
     type: 3}
   m_PrefabInstance: {fileID: 188475968}
   m_PrefabAsset: {fileID: 0}
@@ -38264,24 +36321,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!224 &1323638200 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554920838095263, guid: b51dce5a693201b44a805b10ce2e3ac6,
-    type: 3}
-  m_PrefabInstance: {fileID: 188475968}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1323638201 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483593786922499, guid: b51dce5a693201b44a805b10ce2e3ac6,
-    type: 3}
-  m_PrefabInstance: {fileID: 188475968}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1337794729 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
@@ -39439,18 +37478,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!114 &1489829654 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1894669868}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1537838323
 GameObject:
   m_ObjectHideFlags: 0
@@ -40683,24 +38710,6 @@ MonoBehaviour:
   movingSpeed: 2
   range: {x: -22.93, y: 0}
   flipWhenChangingDirection: 1
---- !u!224 &1618524665 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 147823926}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1618524666 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 147823926}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1619791738
 GameObject:
   m_ObjectHideFlags: 0
@@ -40871,70 +38880,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1665148337
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 640566940}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Precurseur (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: Le dioxyde de soufre, SO2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: Le dioxyde de soufre, SO2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: Le dioxyde de soufre, SO2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: Le dioxyde de soufre, SO2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: '...'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 977793289}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1666341566
 GameObject:
   m_ObjectHideFlags: 0
@@ -41014,18 +38959,6 @@ Transform:
   m_Father: {fileID: 1363848440}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1671756320 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1665148337}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1673303433
 GameObject:
   m_ObjectHideFlags: 0
@@ -41631,18 +39564,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1749889788 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 446333811}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1754332254
 GameObject:
   m_ObjectHideFlags: 0
@@ -42027,71 +39948,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1819798404
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2018431260}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: A2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: Le dioxyde de souffre (SO2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: Le dioxyde de souffre (SO2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: Le dioxyde de souffre (SO2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: Le dioxyde de souffre (SO2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "...De quel joueur parles-tu Greta? Nous sommes dans la r\xE9alit\xE9
-        pas dans un jeu vid\xE9o.."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 977793289}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1821759242
 GameObject:
   m_ObjectHideFlags: 0
@@ -42846,70 +40702,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1860820016
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2140524}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Precurseur (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 552854105}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1862241398
 GameObject:
   m_ObjectHideFlags: 0
@@ -43234,6 +41026,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
+        type: 3}
+      propertyPath: text
+      value: "R\xE9ponds au sondage de Greta !"
+      objectReference: {fileID: 0}
     - target: {fileID: 3034471856551615193, guid: 8d3162471bf676645acf9b099dac643d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43338,11 +41135,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
-        type: 3}
-      propertyPath: text
-      value: "R\xE9ponds au sondage de Greta !"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d3162471bf676645acf9b099dac643d, type: 3}
@@ -43754,78 +41546,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1894669868
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2018431260}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: A3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
-        du moteur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
-        du moteur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
-        du moteur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
-        du moteur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Il n\u2019y a pas d\u2019\xE2ge pour agir pour l\u2019environnement.
-        On a essay\xE9 plusieurs fois de me discr\xE9diter \xE0 cause de mon \xE2ge.
-        Mais la v\xE9rit\xE9 c\u2019est qu\u2019on peut tous agir \xE0 notre \xE9chelle.
-        C\u2019est pour \xE7a que le joueur qui lit \xE7a actuellement, aussi jeune
-        qu\u2019il soit, ne doit pas h\xE9siter \xE0 militer !"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 552854105}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1898302023
 GameObject:
   m_ObjectHideFlags: 0
@@ -44461,70 +42181,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1960547555
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 640566940}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Precurseur (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Le m\xE9thane (CH4)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Le m\xE9thane (CH4)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Le m\xE9thane (CH4)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Le m\xE9thane (CH4)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: '...'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 977793289}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1978772612
 GameObject:
   m_ObjectHideFlags: 0
@@ -44969,24 +42625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &2018431260 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1213705210}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2018431261 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1213705210}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2033939093
 GameObject:
   m_ObjectHideFlags: 0
@@ -45261,18 +42899,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2050030564 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-    type: 3}
-  m_PrefabInstance: {fileID: 381573286}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2055767361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56787,7 +54413,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 111555275}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 567119546}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 028323c1220c08a41972c28895b46019, type: 3}
@@ -57030,164 +54656,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &2140967483
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2018431260}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: A1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: Les cristaux de glace (H20) qui forment des cirrus
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: Les cristaux de glace (H20) qui forment des cirrus
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: Les cristaux de glace (H20) qui forment des cirrus
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: Les cristaux de glace (H20) qui forment des cirrus
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Les cristaux de glace (H20) form\xE9s lors de la combustion du k\xE9ros\xE8ne"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 977793289}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
---- !u!1001 &2147055325
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 797674501}
-    m_Modifications:
-    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_Name
-      value: Q2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: english
-      value: "Sous l'action des rayons solaires, l'ozone (O3) se forme par r\xE9actions
-        chimiques entre polluants de l'industrie et du transport routier. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: french
-      value: "Sous l'action des rayons solaires, l'ozone (O3) se forme par r\xE9actions
-        chimiques entre polluants de l'industrie et du transport routier. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: italian
-      value: "Sous l'action des rayons solaires, l'ozone (O3) se forme par r\xE9actions
-        chimiques entre polluants de l'industrie et du transport routier. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: romanian
-      value: "Sous l'action des rayons solaires, l'ozone (O3) se forme par r\xE9actions
-        chimiques entre polluants de l'industrie et du transport routier. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: text
-      value: "Bon j\u2019te laisse, faut que j\u2019aille \xE0 la COP26 l\xE0, j\u2019suis
-        en retard. Hej d\xE5!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[0]
-      value: 
-      objectReference: {fileID: 2140525}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[1]
-      value: 
-      objectReference: {fileID: 513619349}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[2]
-      value: 
-      objectReference: {fileID: 933342670}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: nextDialogElems.Array.data[3]
-      value: 
-      objectReference: {fileID: 601158502}
-    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
-        type: 3}
-      propertyPath: speakerIsPlayer
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &326482291527018829
 GameObject:
   m_ObjectHideFlags: 0
