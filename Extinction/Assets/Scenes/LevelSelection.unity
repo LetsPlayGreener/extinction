@@ -2752,7 +2752,7 @@ PrefabInstance:
     - target: {fileID: 7305461461255468496, guid: 8de590dda767f964697238d573090174,
         type: 3}
       propertyPath: OnButtonPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Factory Level 1
+      value: FactoryLevel1
       objectReference: {fileID: 0}
     - target: {fileID: 7305461461255468496, guid: 8de590dda767f964697238d573090174,
         type: 3}
