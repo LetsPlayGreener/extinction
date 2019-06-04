@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: 1194d2ad7873d9445869e88e447ab470
+guid: 327f375ad45646849a8b0e7890bdb3e5
 TextureImporter:
   fileIDToRecycleName:
-    21300000: TroutDie_0
-    21300002: TroutDie_1
+    21300000: FoxDead_0
+    21300002: FoxDead_1
+    21300004: FoxDead_2
+    21300006: FoxDead_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -82,17 +84,28 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TroutDie_0
+      name: FoxDead_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 459
-        width: 612
-        height: 459
+        y: 813
+        width: 500
+        height: 271
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +113,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28cab0056e23bae439bf27e67ea37834
+      spriteID: b8e383393aec8a94da87303146be0297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TroutDie_1
+      name: FoxDead_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 612
-        height: 459
+        y: 542
+        width: 500
+        height: 271
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +133,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 627a3905fe9993e4bbd147897920e2fc
+      spriteID: e8f2202844ee6cd4ebd2160b9afc2c28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxDead_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 500
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaf58da63d03b04f9f25a1ec1fe61d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FoxDead_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702d60ddcd7c31e49b0bbbc1ec41c9f5
       vertices: []
       indices: 
       edges: []
@@ -128,7 +181,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f80a285955b5ecc4ea1318707983ddcf
+    spriteID: abb396070cac77e45a5e32ac9a2b1d1c
     vertices: []
     indices: 
     edges: []
