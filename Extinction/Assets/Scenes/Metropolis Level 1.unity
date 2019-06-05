@@ -340,8 +340,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "In the areas where there are cement factories, the main source of pollution
-        is:\r"
+      value: "\r\nIn areas where there are cement plants, the main source of pollution
+        is:"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -358,8 +358,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "In the areas where there are cement factories, the main source of pollution
-        is:\r"
+      value: 'In zonele unde exista fabrici de ciment, principala sursa de poluare
+        este:'
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -2099,22 +2099,22 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "covalent\r"
+      value: "Covalent\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: "covalent\r"
+      value: "Covalent\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: "covalent\re"
+      value: "Covalent\re"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "covalent\r"
+      value: "Covalent\re"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -2397,22 +2397,22 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "ionic\r"
+      value: "Ionic\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: ionique
+      value: Ionique
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: ionico
+      value: Ionico
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "ionic\r"
+      value: Ionice
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -2570,8 +2570,7 @@ PrefabInstance:
     - target: {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: Thank you for completing the survey! Don't hesitate to replay the level
-        again!
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2601,11 +2600,12 @@ PrefabInstance:
       objectReference: {fileID: 1466716783}
     - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: english
-      value: Congratulations! You just.... And thank you for the survey!
+      value: Congratulations! You answered everything right.... And thank you for
+        the survey!
       objectReference: {fileID: 0}
     - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: romanian
-      value: Congratulations! You just.... And thank you for the survey!
+      value: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
       objectReference: {fileID: 0}
     - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: italian
@@ -2668,7 +2668,7 @@ PrefabInstance:
     - target: {fileID: 4780483594640601354, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: Well, I have to go to COP26 now, I'm late. See ya!
+      value: Trebuie sa ma duc la COP26 acum, am intarziat. Ne mai vedem!
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594640601354, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2684,8 +2684,8 @@ PrefabInstance:
     - target: {fileID: 4780483594873209136, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: "Okay, our consumerism is not very cool for the planet. So young and
-        already an activist?\r\n"
+      value: Ok, consumul nostru nu este atat de bun pentru planeta. Atat de tanar
+        si deja activist?
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594873209136, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2716,10 +2716,10 @@ PrefabInstance:
     - target: {fileID: 4780483595294662573, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: 'Excessive car use is one of the main causes of CO2 emissions. Cycling
-        is the most environment-friendly alternative: it emits no greenhouse gases,
-        fine particles or volatile organic compounds! Plus it strengthens the calves
-        and it''s super stylish.'
+      value: 'Principala cauza a emisiilor de CO2 este utilizarea excesiva a masinilor.
+        Mersul cu bicicleta este o alternativa mult mai buna: nu emite gazele de sera,
+        particulele fine sau compusi organici volatili! Mai ales ca iti inbunatateste
+        musculatura gambelor si este moderna.'
       objectReference: {fileID: 0}
     - target: {fileID: 4780483595294662573, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2740,10 +2740,10 @@ PrefabInstance:
     - target: {fileID: 4780483594995171153, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: " Electric cars do not pollute the air when they are used\u2026 We are
-        the big winners of the automotive industry's greenwashing. From battery manufacturing
-        to electricity production, the ecological impact of electric cars is disastrous!
-        And it is the people of Africa or Asia who suffer!"
+      value: " Masinile electrice nu polueaza aerul cand sunt folosite\u2026 Noi suntem
+        marii castigatori ai industriei auto verde de spalare. De la productia de
+        baterii la productia de energie electrica, impactul ecologic al masinilor
+        electrice este dezastruos! Iar cei din Africa sau Asia sufera!"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594995171153, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2777,7 +2777,7 @@ PrefabInstance:
     - target: {fileID: 4780483594576797557, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: Hey.... Do you have two minutes? It's for a survey...
+      value: Buna...Imi poti acorda doua minute? Este pentru un sondaj...
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594576797557, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2815,10 +2815,11 @@ PrefabInstance:
     - target: {fileID: 4780483595114802472, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: "There is no age to act for the environment. There have been several
-        attempts to discredit me because of my age. But the truth is that we can all
-        act at our level. That's why the player who reads this right now, no matter
-        how young he is, shouldn't hesitate to campaign!\r\n"
+      value: Nu exista vreo varsta pentru a actiona pentru mediul inconjurator. Au
+        fost cateva incercari de a ma discredita din cauza varstei mele. Dar adevarul
+        este ca putem toti sa actionam la nivelul nostru. De aceea, jucatorul care
+        citeste chiar acum acest lucru, indiferent cat de tanar este, nu ar trebui
+        sa ezite in a lua atitudine!
       objectReference: {fileID: 0}
     - target: {fileID: 4780483595114802472, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2842,7 +2843,7 @@ PrefabInstance:
     - target: {fileID: 4780483595168746541, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: 'Volatile organic compounds '
+      value: Compusii organici volatili
       objectReference: {fileID: 0}
     - target: {fileID: 4780483595168746541, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2862,7 +2863,7 @@ PrefabInstance:
     - target: {fileID: 4780483594996249197, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: 'Nitrogen oxides (NOx)  '
+      value: 'Oxizii de azot (NOx)  '
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594996249197, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2887,7 +2888,7 @@ PrefabInstance:
     - target: {fileID: 4780483594238181430, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: Oxygen (O2)
+      value: Oxigenul (O2)
       objectReference: {fileID: 0}
     - target: {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2907,7 +2908,7 @@ PrefabInstance:
     - target: {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: 'Ice crystals (H2O) '
+      value: 'Cristalele de gheata (H2O) '
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594161207735, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2922,7 +2923,113 @@ PrefabInstance:
     - target: {fileID: 4780483594161207735, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
-      value: Sulphur dioxide, SO2
+      value: Dioxidul de sulf, SO2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594640815706, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: "In stratosfera, ozonul sau trioxigenul(O3), contribuie la protectia
+        noastra fata de radiatiile  ultraiolete ale soarelui. Dar cand concentratia
+        sa creste in aerul pe care il respiram, devine automat toxic.\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594640815706, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: english
+      value: "\r\nIn the stratosphere, ozone, or trioxygen (O3), helps protect us
+        from the sun's ultraviolet radiation. But when its concentration increases
+        in the air that people breathe, then it becomes toxic."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594592821473, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: Ozonul pe care il respiram este un poluant numit "secundar" pentru ca
+        nu este direct respins de o activitate antropogena.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594592821473, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: english
+      value: "\r\nThe ozone we breathe is a pollutant called \"secondary\" because
+        it is not directly rejected by an anthropogenic activity. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483593954061019, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: english
+      value: "\r\nUnder the action of solar rays, ozone (O3) is formed by chemical
+        reactions between industrial pollutants  and road transport."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483593954061019, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: "\r\nSub actiunea razelor solare, ozonul (O3) este format din reactiile
+        chimice dintre poluantii din industrie si transportul rutier."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594450573396, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: english
+      value: Which of these elements is foreign to the formation of ozone?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594450573396, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: "\r\nCare dintre aceste elemente este strain formarii ozonului?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: "\r\nCare dintre aceste elemente, eliminate prin arderea kerosenului,
+        este un precursor al ozonului?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: english
+      value: "\r\nWhich of these elements, rejected by the combustion of kerosene
+        is a precursor of ozone?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: Dioxidul de sulf (SO2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: english
+      value: The suflur dioxide (SO2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: english
+      value: Nitrogen oxides (NOx) formed by reaction to the engine temperature.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: Oxizii de azot (NOx) formati prin reactia la temperatura motorului.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594868385525, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: Care dintre aceste gaze este precursor al ozonului?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594868385525, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: english
+      value: Which of these gases is a precursor of ozone?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594377348256, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: Oxizii de azot NOx
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483593867888869, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: Metanul (CH4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594654205817, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: romanian
+      value: Despre ce jucator vorbesti tu, Greta? Traim in realitate, nu intr-un
+        joc video...
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a64524550c55eb943a810972aa82e886, type: 3}
@@ -2964,25 +3071,22 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: 'An electric car :'
+      value: 'An electric car:'
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
-        est un pr\xE9curseur de l'ozone ? "
+      value: "Une voiture \xE9lectrique:"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
-        est un pr\xE9curseur de l'ozone ? "
+      value: ' '
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
-        est un pr\xE9curseur de l'ozone ? "
+      value: 'O masina electrica:'
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -4544,22 +4648,22 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "generates only organic emissions\r"
+      value: "Generates only organic emissions\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: "ne g\xE9n\xE8re que des \xE9missions organiques"
+      value: "Ne g\xE9n\xE8re que des \xE9missions organiques"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: "genera solo emissioni organiche\r\n"
+      value: "Genera solo emissioni organiche\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "generates only organic emissions\r"
+      value: Genereaza doar emisii organice
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -4681,7 +4785,9 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "The ash\r\n"
+      value: 'Cenusa
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -5857,22 +5963,22 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: generates emissions
+      value: Generates emissions
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: "g\xE9n\xE8re des \xE9missions"
+      value: "G\xE9n\xE8re des \xE9missions"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: genera emissioni
+      value: Genera emissioni
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: generates emissions
+      value: Genereaza emisii
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -7888,9 +7994,8 @@ PrefabInstance:
     - target: {fileID: 7553275593974926639, guid: 5bf5c70367df30d4cbc8713886f306d1,
         type: 3}
       propertyPath: romanian
-      value: "Electric vehicles use \rbatteries containing metals, whose extraction
-        generates sulphur dioxide (SO2) and nitrogen oxides (NOx)\r: they are ozone
-        precursors."
+      value: Extragerea metalelor aflate in bateriile vehiculelor electrice genereaza
+        dioxid de sulf (SO2) si oxizi de azot (NOx). Acestia sunt precursorii ozonului.
       objectReference: {fileID: 0}
     - target: {fileID: 7553275593974926639, guid: 5bf5c70367df30d4cbc8713886f306d1,
         type: 3}
@@ -7913,6 +8018,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.13725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667399362525147286, guid: 5bf5c70367df30d4cbc8713886f306d1,
+        type: 3}
+      propertyPath: m_Name
+      value: Legend
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bf5c70367df30d4cbc8713886f306d1, type: 3}
@@ -33274,9 +33384,9 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: 'Wow..... The air of Metropolis is unbreathable.....
+      value: 'Wow..... Aerul din Metropolis este poluat.....
 
-        <color="yellow">Press D to move forward</color>'
+        <color="yellow">Apasa D pentru a merge in fata</color>'
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -33427,7 +33537,7 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: Which gas represents 80% of the volume of the atmosphere?
+      value: Care gaze reprezinta 80% din volumul atmosferei?
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -33644,7 +33754,7 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "The fumes\r"
+      value: Vaporii de fum
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -34135,22 +34245,22 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "metalic\r"
+      value: "Metalic\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: "m\xE9tallique"
+      value: "M\xE9tallique"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: metallico
+      value: Metallico
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "metalic\r"
+      value: Metalice
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -34414,7 +34524,8 @@ MonoBehaviour:
   english: Hold <color="yellow">SPACE D</color> to jump and move forward
   french: Maintenir <color="yellow">ESPACE D</color> pour sauter et avancer
   italian: Tenere premuto <color="yellow">SPAZIO  D</color> per saltare e andare avanti
-  romanian: Hold <color="yellow">SPACE D</color> to jump and move forward
+  romanian: Tine apasat <color="yellow">SPACE D</color> pentru a sari si pentru a
+    merge inainte
   nextDialogElems: []
   speakerIsPlayer: 1
   numberSelectedRandomly: 0
@@ -35403,22 +35514,22 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: english
-      value: "does not generate emissions\r"
+      value: "Does not generate emissions\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: "ne g\xE9n\xE8re pas d'\xE9missions"
+      value: "Ne g\xE9n\xE8re pas d'\xE9missions"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: italian
-      value: non genera emissioni
+      value: Non genera emissioni
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "does not generate emissions\r"
+      value: Nu genereaza emisii
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -35565,7 +35676,7 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: "The dust\r"
+      value: Praful
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -37557,8 +37668,9 @@ PrefabInstance:
     - target: {fileID: 4780483593641945159, guid: f59a83ba49c10ef42be0ac06bfcef029,
         type: 3}
       propertyPath: romanian
-      value: '40 million flights serve metropolitan areas in 2020. Aviation accounts
-        for 13% of carbon dioxide (CO2) emissions from transport activities. '
+      value: "\r\n40 de milioane de zboruri servesc zonelor metropolitane in 2020.
+        Aviatia reprezinta 13% din emisiile de dioxid de carbon (CO2) produse de activitatile
+        de transport."
       objectReference: {fileID: 0}
     - target: {fileID: 4780483593641945159, guid: f59a83ba49c10ef42be0ac06bfcef029,
         type: 3}
@@ -37581,6 +37693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.13725491
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215810122319828478, guid: f59a83ba49c10ef42be0ac06bfcef029,
+        type: 3}
+      propertyPath: m_Name
+      value: Legend
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f59a83ba49c10ef42be0ac06bfcef029, type: 3}
@@ -37748,8 +37865,8 @@ MonoBehaviour:
     rouge, les polluants \n- en jaune, ton ami Greta. "
   italian: "<color=\"yellow\">Premi M</color>per localizzare sulla mappa: \r\n- in
     rosso, le sostanze inquinanti \r\n- in giallo, la tua amica Greta.  "
-  romanian: "<color=\"yellow\">Press M to </color> to locate on the map: \r\n- in
-    red, the pollutants \r\n- in yellow, your friend Greta. "
+  romanian: "<color=\"yellow\">Apasa M pentru  </color> te localiza pe harta: \r\n-
+    cu rosu, poluantul \r\n- cu galben, prietena ta Greta. "
   nextDialogElems: []
   speakerIsPlayer: 1
   numberSelectedRandomly: 0
@@ -39912,9 +40029,9 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: 'It is present in the atmospheric air in a proportion of around 0.04%.
-        When the concentration of this gas in the atmospheric air increases, there
-        are respiratory and circulatory malfunctions. This gas is:'
+      value: "Este prezent in aerul atmosferic \xEEn proportie de aproximativ 0,04%.
+        Atunci cand concentratia acestui gaz in aerul atmosferic creste, exista defectiuni
+        respiratorii si circulatorii. Acest gaz este:"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -49723,8 +49840,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: What kind of links are between the atoms from the molecules of the gases
-        that pollute the atmospheric air?
+      value: Ce fel de legaturi exista intre atomii din moleculele gazelor care polueaza
+        aerul atmosferic?
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -50119,8 +50236,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: romanian
-      value: <color="yellow">Click on the red square</color> to see which pollutant
-        you need to tag.
+      value: <color="yellow">Apasa pe patratul rosu</color> pentru a vedea ce poluant
+        vei colecta.
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -55182,9 +55299,9 @@ PrefabInstance:
     - target: {fileID: 8335447242523552587, guid: 0c111c29eb8bf3c4d94037ad3601715d,
         type: 3}
       propertyPath: romanian
-      value: The use of solvents contributes to 82% of anthropogenic emissions of
-        Volatile Organic Compounds (VOCs). They cause irritation and a decrease in
-        respiratory capacity. Some compounds are considered carcinogenic.
+      value: "\r\nContributia solventilor a fost de 82% din totalul productiei de
+        compusi organici volatili (COV). Ei provoaca iritatii si diminuarea capacitatii
+        respiratorii. O parte din compusi sunt considerati cancerigeni."
       objectReference: {fileID: 0}
     - target: {fileID: 8335447242523552587, guid: 0c111c29eb8bf3c4d94037ad3601715d,
         type: 3}
@@ -57673,8 +57790,8 @@ PrefabInstance:
     - target: {fileID: 8464887580532947546, guid: e89b9195aec58c24290781d9f84a66b8,
         type: 3}
       propertyPath: romanian
-      value: 'The combustion of household waste releases heavy metals into the atmosphere:
-        lead (Pb), mercury (Hg), arsenic (As), cadmium (Cd) and nickel (Ni). '
+      value: 'Combustia deseurilor menajere elibereaza metale grele in atmosfera:
+        plumb (Pb), mercur (Hg), arsen (As), cadmiu (Cd) si nichel (Ni).'
       objectReference: {fileID: 0}
     - target: {fileID: 8464887580532947546, guid: e89b9195aec58c24290781d9f84a66b8,
         type: 3}
@@ -58862,10 +58979,9 @@ PrefabInstance:
     - target: {fileID: 4496699943980926052, guid: 31fbc3d6fdf77b943bc72d33a8f6ebde,
         type: 3}
       propertyPath: romanian
-      value: "Building sites are responsible for the emission of 10% of suspended
-        particles (\"Volatile Organic Compounds, precursors of ozone\"). Some of them,
-        such as PM10 particles, are smaller than 10 \xB5m (6 to 8 times smaller than
-        the thickness of a hair) and enter the respiratory tract."
+      value: "\r\nSantierele emit 10% din particule in suspensie: compusi organici
+        volatili. Particulele PM10, mai mici de 10 \u03BCm (de 6 pana la 8 ori mai
+        mici decat grosimea firului de par), patrund in sistemul respirator."
       objectReference: {fileID: 0}
     - target: {fileID: 4496699943980926052, guid: 31fbc3d6fdf77b943bc72d33a8f6ebde,
         type: 3}

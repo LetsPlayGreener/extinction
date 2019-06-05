@@ -39,10 +39,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Metropolis Level 3.unity
     guid: 184e67eeb609e0c4fb4049c91cb07c43
   - enabled: 1
-    path: Assets/Scenes/Factoryland Level 3.unity
+    path: Assets/Scenes/FactoryLevel 3.unity
     guid: 133526c36ef08a14eab121a3f2af9308
   - enabled: 1
-    path: Assets/Scenes/Factoryland Level 2.unity
+    path: Assets/Scenes/FactoryLevel 2.unity
     guid: 30b5f1c7249e35c48b85099a1264b8cd
   - enabled: 0
     path: Assets/Scenes/FactoryLevel1.unity
