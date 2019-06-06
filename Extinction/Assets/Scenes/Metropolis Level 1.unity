@@ -112,6 +112,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &2761008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 750087992}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4582064
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +331,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1300728671}
+    m_TransformParent: {fileID: 1603088396}
     m_Modifications:
     - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -404,7 +416,7 @@ PrefabInstance:
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -747,6 +759,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &57188623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1372090396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &57188625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57188623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
+  english: Congratulations! You answered everything right.... And thank you for the
+    survey!
+  french: Bravo ! Tu as tout juste... Et merci pour le sondage !
+  italian: Congratulazioni! Hai appena........ E grazie per il sondaggio!
+  romanian: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
+  nextDialogElems: []
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643879811}
+        m_MethodName: IncreaseValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326482291527018830}
+        m_MethodName: PlayCorrectEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997024794}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LevelSelection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821759243}
+        m_MethodName: PlayerAcquiredSkill
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CHEMISTRY Tell the composition of the atmosphere
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466716783}
+        m_MethodName: IncreaseCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
 --- !u!224 &86252424 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
@@ -775,6 +882,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &92475923 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1973907419}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &95643622
@@ -2120,7 +2239,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 1622941455}
+      objectReference: {fileID: 1572306877}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -2418,7 +2537,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 1611441098}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -2614,6 +2733,10 @@ PrefabInstance:
     - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
       propertyPath: french
       value: Bravo ! Tu as tout juste... Et merci pour le sondage !
+      objectReference: {fileID: 0}
+    - target: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3285652983684334962, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2850,6 +2973,11 @@ PrefabInstance:
       propertyPath: italian
       value: 'Composti organici volatili '
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483595168746541, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 1199542597}
     - target: {fileID: 4780483594996249197, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: english
@@ -2870,6 +2998,11 @@ PrefabInstance:
       propertyPath: french
       value: 'Les oxydes d''azote (NOx) '
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483594996249197, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 1199542597}
     - target: {fileID: 4780483594238181430, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: english
@@ -2889,6 +3022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: romanian
       value: Oxigenul (O2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594238181430, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -2910,6 +3048,11 @@ PrefabInstance:
       propertyPath: romanian
       value: 'Cristalele de gheata (H2O) '
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 92475923}
     - target: {fileID: 4780483594161207735, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: english
@@ -2925,6 +3068,11 @@ PrefabInstance:
       propertyPath: romanian
       value: Dioxidul de sulf, SO2
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483594161207735, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 239345182}
     - target: {fileID: 4780483594640815706, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
@@ -2995,6 +3143,11 @@ PrefabInstance:
       propertyPath: english
       value: The suflur dioxide (SO2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 92475923}
     - target: {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: english
@@ -3004,6 +3157,11 @@ PrefabInstance:
         type: 3}
       propertyPath: romanian
       value: Oxizii de azot (NOx) formati prin reactia la temperatura motorului.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594868385525, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
@@ -3020,16 +3178,41 @@ PrefabInstance:
       propertyPath: romanian
       value: Oxizii de azot NOx
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483594377348256, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4780483593867888869, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
       value: Metanul (CH4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4780483593867888869, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: nextDialogElems.Array.data[0]
+      value: 
+      objectReference: {fileID: 239345182}
     - target: {fileID: 4780483594654205817, guid: a64524550c55eb943a810972aa82e886,
         type: 3}
       propertyPath: romanian
       value: Despre ce jucator vorbesti tu, Greta? Traim in realitate, nu intr-un
         joc video...
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215810121743107048, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215810121307540659, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: m_Name
+      value: Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215810121295912524, guid: a64524550c55eb943a810972aa82e886,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a64524550c55eb943a810972aa82e886, type: 3}
@@ -3050,7 +3233,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1300728671}
+    m_TransformParent: {fileID: 1603088396}
     m_Modifications:
     - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -3131,7 +3314,7 @@ PrefabInstance:
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -3404,6 +3587,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &231041350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 285551669}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: BravoQ4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &231499468
 GameObject:
   m_ObjectHideFlags: 0
@@ -3483,6 +3701,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &239345182 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096375369}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &241149435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3629,6 +3859,18 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
     type: 3}
   m_PrefabInstance: {fileID: 1253632117}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &292411866 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1225480513}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -4259,6 +4501,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!224 &341309466 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5342554920139070791, guid: a64524550c55eb943a810972aa82e886,
+    type: 3}
+  m_PrefabInstance: {fileID: 188475968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &343714704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4375,6 +4623,198 @@ MonoBehaviour:
   movingSpeed: 2
   range: {x: -9.69, y: 0}
   flipWhenChangingDirection: 1
+--- !u!1001 &371727436
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 341309466}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: SorryQ2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Merci d'avoir r\xE9pondu au sondage !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Thank you for completing the survey! Don't hesitate to replay the level
+        again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
+        niveau !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Grazie per aver completato il sondaggio! Non esitate a rigiocare di nuovo
+        il livello!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: speakerIsPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayCorrectEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayerAttemptedSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: CHEMISTRY Identify ozone precursor gases
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: IncreaseCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &387936351
 GameObject:
   m_ObjectHideFlags: 0
@@ -4624,6 +5064,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &399678697 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1006347185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &406818035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4669,7 +5121,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 292411866}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -4793,7 +5245,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 399678697}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -4996,6 +5448,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &434468918 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 231041350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &434468920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434468918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
+  english: Congratulations! You answered everything right.... And thank you for the
+    survey!
+  french: Bravo ! Tu as tout juste... Et merci pour le sondage !
+  italian: Congratulazioni! Hai appena........ E grazie per il sondaggio!
+  romanian: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
+  nextDialogElems: []
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643879811}
+        m_MethodName: IncreaseValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326482291527018830}
+        m_MethodName: PlayCorrectEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997024794}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LevelSelection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821759243}
+        m_MethodName: PlayerAcquiredSkill
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CHEMISTRY Tell the composition of atmosphere
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466716783}
+        m_MethodName: IncreaseCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
 --- !u!1 &439657638
 GameObject:
   m_ObjectHideFlags: 0
@@ -5514,6 +6061,41 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &500772883
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 341309466}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: BravoQ2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &518818587
 GameObject:
   m_ObjectHideFlags: 0
@@ -5943,6 +6525,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &628921565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 700893662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &628921567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628921565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
+  english: Congratulations! You answered everything right.... And thank you for the
+    survey!
+  french: Bravo ! Tu as tout juste... Et merci pour le sondage !
+  italian: Congratulazioni! Hai appena........ E grazie per il sondaggio!
+  romanian: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
+  nextDialogElems: []
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643879811}
+        m_MethodName: IncreaseValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326482291527018830}
+        m_MethodName: PlayCorrectEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997024794}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LevelSelection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821759243}
+        m_MethodName: PlayerAcquiredSkill
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CHEMISTRY Identify ozone precursor gases
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466716783}
+        m_MethodName: IncreaseCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
 --- !u!1001 &629422344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5984,7 +6661,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 292411866}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -6790,6 +7467,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &700893662
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1145421743}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: BravoQ3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &710685056
 GameObject:
   m_ObjectHideFlags: 0
@@ -7045,6 +7757,390 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &750087992
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 86252424}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: SorryQ5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Merci d'avoir r\xE9pondu au sondage !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Thank you for completing the survey! Don't hesitate to replay the level
+        again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
+        niveau !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Grazie per aver completato il sondaggio! Non esitate a rigiocare di nuovo
+        il livello!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: speakerIsPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayCorrectEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayerAttemptedSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: CHEMISTRY Tell the composition of the atmosphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: IncreaseCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+--- !u!1001 &751309004
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2116496984}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: SorryQ7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Merci d'avoir r\xE9pondu au sondage !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Thank you for completing the survey! Don't hesitate to replay the level
+        again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
+        niveau !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Grazie per aver completato il sondaggio! Non esitate a rigiocare di nuovo
+        il livello!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: speakerIsPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayCorrectEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayerAttemptedSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: CHEMISTRY Define the link between atoms of air pollutant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: IncreaseCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &757756582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7226,7 +8322,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 1997857675}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -8420,6 +9516,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &873482613
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1367761796}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: BravoQ1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!114 &877910959 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
@@ -24651,7 +25782,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 2761008}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -25065,18 +26196,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 757756582}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &969240447 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886,
-    type: 3}
-  m_PrefabInstance: {fileID: 188475968}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &971397168
 GameObject:
   m_ObjectHideFlags: 0
@@ -25345,6 +26464,198 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1006347185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1244450410}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: SorryQ6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Merci d'avoir r\xE9pondu au sondage !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Thank you for completing the survey! Don't hesitate to replay the level
+        again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
+        niveau !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Grazie per aver completato il sondaggio! Non esitate a rigiocare di nuovo
+        il livello!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: speakerIsPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayCorrectEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayerAttemptedSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: CHEMISTRY Identify an air pollutant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: IncreaseCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &1014130123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25518,6 +26829,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1053908950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2116496984}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: BravoQ7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1064226702
 GameObject:
   m_ObjectHideFlags: 0
@@ -26005,6 +27351,293 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1096375369
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1367761796}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: SorryQ1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Merci d'avoir r\xE9pondu au sondage !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Thank you for completing the survey! Don't hesitate to replay the level
+        again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
+        niveau !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Grazie per aver completato il sondaggio! Non esitate a rigiocare di nuovo
+        il livello!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: speakerIsPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayCorrectEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayerAttemptedSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: CHEMISTRY Identify ozone precursor gases
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: IncreaseCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+--- !u!1 &1109255158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 500772883}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1109255160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109255158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
+  english: Congratulations! You answered everything right.... And thank you for the
+    survey!
+  french: Bravo ! Tu as tout juste... Et merci pour le sondage !
+  italian: Congratulazioni! Hai appena........ E grazie per il sondaggio!
+  romanian: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
+  nextDialogElems: []
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643879811}
+        m_MethodName: IncreaseValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326482291527018830}
+        m_MethodName: PlayCorrectEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997024794}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LevelSelection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821759243}
+        m_MethodName: PlayerAcquiredSkill
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CHEMISTRY Identify ozone precursor gases
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466716783}
+        m_MethodName: IncreaseCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
 --- !u!114 &1119990244 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
@@ -26414,6 +28047,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9c570ef92667094ea6916bb35c47735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &1145421743 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5342554919496374141, guid: a64524550c55eb943a810972aa82e886,
+    type: 3}
+  m_PrefabInstance: {fileID: 188475968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1159085053
 GameObject:
   m_ObjectHideFlags: 0
@@ -26870,6 +28509,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1199542597 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 371727436}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1201945687
 GameObject:
   m_ObjectHideFlags: 0
@@ -27024,7 +28675,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 1622941455}
+      objectReference: {fileID: 57188625}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -33212,6 +34863,198 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1225480513
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 825758853}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: SorryQ8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Merci d'avoir r\xE9pondu au sondage !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Thank you for completing the survey! Don't hesitate to replay the level
+        again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
+        niveau !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Grazie per aver completato il sondaggio! Non esitate a rigiocare di nuovo
+        il livello!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: speakerIsPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayCorrectEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayerAttemptedSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: CHEMISTRY Evaluate the emissions of a vehicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: IncreaseCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1242431545
 GameObject:
   m_ObjectHideFlags: 0
@@ -33500,7 +35343,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1300728671}
+    m_TransformParent: {fileID: 1603088396}
     m_Modifications:
     - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -33582,7 +35425,7 @@ PrefabInstance:
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -33760,7 +35603,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 399678697}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -34266,7 +36109,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 1611441098}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -34460,6 +36303,12 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -20
+--- !u!224 &1367761796 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5342554919720485318, guid: a64524550c55eb943a810972aa82e886,
+    type: 3}
+  m_PrefabInstance: {fileID: 188475968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1369104450 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
@@ -34472,6 +36321,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1372090396
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 86252424}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: BravoQ5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1391421548
 GameObject:
   m_ObjectHideFlags: 0
@@ -35261,7 +37145,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 2761008}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -35535,7 +37419,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 1622941455}
+      objectReference: {fileID: 1632194990}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -35682,7 +37566,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 1622941455}
+      objectReference: {fileID: 1986234255}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -35705,6 +37589,101 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+--- !u!1 &1572306875 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1053908950}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1572306877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572306875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
+  english: Congratulations! You answered everything right.... And thank you for the
+    survey!
+  french: Bravo ! Tu as tout juste... Et merci pour le sondage !
+  italian: Congratulazioni! Hai appena........ E grazie per il sondaggio!
+  romanian: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
+  nextDialogElems: []
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643879811}
+        m_MethodName: IncreaseValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326482291527018830}
+        m_MethodName: PlayCorrectEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997024794}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LevelSelection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821759243}
+        m_MethodName: PlayerAcquiredSkill
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CHEMISTRY Define the link between atoms of air pollutant
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466716783}
+        m_MethodName: IncreaseCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
 --- !u!1 &1578234337
 GameObject:
   m_ObjectHideFlags: 0
@@ -36177,6 +38156,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!224 &1603088396 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5342554919720437398, guid: a64524550c55eb943a810972aa82e886,
+    type: 3}
+  m_PrefabInstance: {fileID: 188475968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1610846410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36223,6 +38208,18 @@ PrefabInstance:
       objectReference: {fileID: 171782614}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c5c56d99c9e194db056e41d8b8f99b, type: 3}
+--- !u!114 &1611441098 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 751309004}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1615101441
 GameObject:
   m_ObjectHideFlags: 0
@@ -36339,18 +38336,101 @@ MonoBehaviour:
   movingSpeed: 2
   range: {x: -22.93, y: 0}
   flipWhenChangingDirection: 1
---- !u!114 &1622941455 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886,
+--- !u!1 &1632194988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
     type: 3}
-  m_PrefabInstance: {fileID: 188475968}
+  m_PrefabInstance: {fileID: 2055377130}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1632194990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632194988}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
+  english: Congratulations! You answered everything right.... And thank you for the
+    survey!
+  french: Bravo ! Tu as tout juste... Et merci pour le sondage !
+  italian: Congratulazioni! Hai appena........ E grazie per il sondaggio!
+  romanian: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
+  nextDialogElems: []
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643879811}
+        m_MethodName: IncreaseValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326482291527018830}
+        m_MethodName: PlayCorrectEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997024794}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LevelSelection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821759243}
+        m_MethodName: PlayerAcquiredSkill
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CHEMISTRY Evaluate the emissions of a vehicle
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466716783}
+        m_MethodName: IncreaseCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
 --- !u!114 &1658151365 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
@@ -37514,6 +39594,293 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d50de50d9f5c5d64d9f5cf108d5c590b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1830773903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 873482613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1830773905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830773903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
+  english: Congratulations! You answered everything right.... And thank you for the
+    survey!
+  french: Bravo ! Tu as tout juste... Et merci pour le sondage !
+  italian: Congratulazioni! Hai appena........ E grazie per il sondaggio!
+  romanian: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
+  nextDialogElems: []
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643879811}
+        m_MethodName: IncreaseValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326482291527018830}
+        m_MethodName: PlayCorrectEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997024794}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LevelSelection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821759243}
+        m_MethodName: PlayerAcquiredSkill
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CHEMISTRY Identify ozone precursor gases
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466716783}
+        m_MethodName: IncreaseCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
+--- !u!1001 &1837332319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 285551669}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: SorryQ4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Merci d'avoir r\xE9pondu au sondage !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Thank you for completing the survey! Don't hesitate to replay the level
+        again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
+        niveau !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Grazie per aver completato il sondaggio! Non esitate a rigiocare di nuovo
+        il livello!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: speakerIsPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayCorrectEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayerAttemptedSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: CHEMISTRY Tell the composition of atmosphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: IncreaseCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1840091850
 GameObject:
   m_ObjectHideFlags: 0
@@ -38220,7 +40587,7 @@ PrefabInstance:
     - target: {fileID: 3034471856551615192, guid: 8d3162471bf676645acf9b099dac643d,
         type: 3}
       propertyPath: text
-      value: Answer Greta's surey
+      value: Answer Greta's survey
       objectReference: {fileID: 0}
     - target: {fileID: 3034471856551615193, guid: 8d3162471bf676645acf9b099dac643d,
         type: 3}
@@ -39326,6 +41693,198 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1973907419
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1145421743}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: SorryQ3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: nextDialogElems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: text
+      value: "Merci d'avoir r\xE9pondu au sondage !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: english
+      value: Thank you for completing the survey! Don't hesitate to replay the level
+        again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: french
+      value: "Merci d'avoir r\xE9pondu au sondage ! N'h\xE9site pas \xE0 rejouer le
+        niveau !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: italian
+      value: Grazie per aver completato il sondaggio! Non esitate a rigiocare di nuovo
+        il livello!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: romanian
+      value: Va multumim pentru finalizarea sondajului! Nu ezitati sa reluati nivelul!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: speakerIsPlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 326482291527018830}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayCorrectEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1997024794}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1821759243}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlayerAttemptedSkill
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: CHEMISTRY Identify ozone precursor gases
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1466716783}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: IncreaseCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: OnElementRead.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1 &1978772612
 GameObject:
   m_ObjectHideFlags: 0
@@ -39508,6 +42067,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1986234253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1997653630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1986234255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986234253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Salut, je m\u2019appelle Almir. Bienvenue en Amazonie. "
+  english: Congratulations! You answered everything right.... And thank you for the
+    survey!
+  french: Bravo ! Tu as tout juste... Et merci pour le sondage !
+  italian: Congratulazioni! Hai appena........ E grazie per il sondaggio!
+  romanian: Felicitari! Ai raspuns corect la tot... Si iti multumesc pentru sondaj!
+  nextDialogElems: []
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643879811}
+        m_MethodName: IncreaseValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 326482291527018830}
+        m_MethodName: PlayCorrectEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1997024794}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LevelSelection
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821759243}
+        m_MethodName: PlayerAcquiredSkill
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CHEMISTRY Identify an air pollutant
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1466716783}
+        m_MethodName: IncreaseCount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 0}
 --- !u!114 &1997024794 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1990639186033523387, guid: 25ce4c4e1c0360846b129644ba7fe128,
@@ -39518,6 +42172,53 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a472bac3de50d3d499cfb51c4caacc02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1997653630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1244450410}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: BravoQ6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+--- !u!114 &1997857675 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1837332319}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2015479708
@@ -39736,7 +42437,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 1622941455}
+      objectReference: {fileID: 434468920}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -39801,7 +42502,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nextDialogElems.Array.data[0]
       value: 
-      objectReference: {fileID: 969240447}
+      objectReference: {fileID: 1997857675}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -39987,7 +42688,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1300728671}
+    m_TransformParent: {fileID: 1603088396}
     m_Modifications:
     - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -40076,7 +42777,7 @@ PrefabInstance:
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -40089,6 +42790,41 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
+--- !u!1001 &2055377130
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 825758853}
+    m_Modifications:
+    - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_Name
+      value: BravoQ8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c9cadd82034841745b8e122cb4761baf, type: 3}
 --- !u!1001 &2055767361
 PrefabInstance:
@@ -49801,7 +52537,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1300728671}
+    m_TransformParent: {fileID: 1603088396}
     m_Modifications:
     - target: {fileID: 7215810121369291775, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -49828,8 +52564,8 @@ PrefabInstance:
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: french
-      value: "Quels sont les liens entre les atomes des mol\xE9cules de gaz qui polluent
-        l'atmosph\xE8re ?"
+      value: "Quel est le type de liens entre les atomes des mol\xE9cules de gaz qui
+        polluent l'atmosph\xE8re ?"
       objectReference: {fileID: 0}
     - target: {fileID: 4780483594838898246, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -49886,7 +52622,7 @@ PrefabInstance:
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5342554919790772698, guid: c9cadd82034841745b8e122cb4761baf,
         type: 3}
@@ -55193,7 +57929,7 @@ PrefabInstance:
     - target: {fileID: 7654004680872565305, guid: 224c12f7e6d694047beacfa124897179,
         type: 3}
       propertyPath: canGenerateLA
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 224c12f7e6d694047beacfa124897179, type: 3}
@@ -55441,6 +58177,431 @@ PrefabInstance:
         type: 3}
       propertyPath: OnEnable.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZone.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassification.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZones.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassifications.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listNames.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1141565045}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: playerCanGenerate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZone.Array.data[0]
+      value: Mangrove
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZone.Array.data[1]
+      value: Foret Mesophile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZone.Array.data[2]
+      value: Foret Hygrophile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassification.Array.data[0]
+      value: sans graine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassification.Array.data[1]
+      value: avec graine sans fleur
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassification.Array.data[2]
+      value: avec graine et fleur
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZones.Array.data[0]
+      value: Mangrove
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZones.Array.data[1]
+      value: Foret Mesophile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZones.Array.data[2]
+      value: Foret Hygrophile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassifications.Array.data[0]
+      value: Aucune
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassifications.Array.data[1]
+      value: sans graine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassifications.Array.data[2]
+      value: avec graine sans fleur
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.data[0]
+      value: Atmospheric Pollution
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.data[1]
+      value: Atmospheric Pollution
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.data[2]
+      value: Atmospheric Pollution
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.data[3]
+      value: Atmospheric Pollution
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.data[4]
+      value: "hallucinog\xE8ne"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.data[5]
+      value: avec fruits antioxydants
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.data[6]
+      value: produit des noix
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listZones.Array.data[3]
+      value: Foret Hygrophile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listClassifications.Array.data[3]
+      value: avec graine et fleur
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listFeatures.Array.data[7]
+      value: urticante
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[0]
+      value: Avicennia
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[1]
+      value: Liane Type A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[2]
+      value: Liane Type B
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[3]
+      value: Liane Type C
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[4]
+      value: Palmier
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[5]
+      value: Chichicaste
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[6]
+      value: PlantA
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[7]
+      value: PlantB
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[8]
+      value: Noyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[9]
+      value: PlantC
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[10]
+      value: PlantD
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listSpecies.Array.data[11]
+      value: Roche
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 202538300}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DeactivateCanvasWithDelay
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 202538300}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DeactivateCanvasWithDelay
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 202538300}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DeactivateCanvasWithDelay
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 202538300}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DeactivateCanvasWithDelay
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[0]
+      value: 
+      objectReference: {fileID: 1357541991}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[1]
+      value: 
+      objectReference: {fileID: 1293066444}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[2]
+      value: 
+      objectReference: {fileID: 914017335}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[3]
+      value: 
+      objectReference: {fileID: 268923033}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[4]
+      value: 
+      objectReference: {fileID: 1347428154}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[5]
+      value: 
+      objectReference: {fileID: 711345356}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[6]
+      value: 
+      objectReference: {fileID: 592191150}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[7]
+      value: 
+      objectReference: {fileID: 1023122094}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: collectableUIBG.Array.data[8]
+      value: 
+      objectReference: {fileID: 1827764341}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listNames.Array.data[0]
+      value: Greenhouse Gases
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listNames.Array.data[1]
+      value: Volatile Organic Coumpound
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listNames.Array.data[2]
+      value: Suspended Particles
+      objectReference: {fileID: 0}
+    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: listNames.Array.data[3]
+      value: Heavy Metals
       objectReference: {fileID: 0}
     - target: {fileID: 6122195396357747505, guid: 767627bc9df43b14c86d0d39c0ec4661,
         type: 3}
@@ -56217,6 +59378,11 @@ PrefabInstance:
       propertyPath: OnInteractNotCollectedYet.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1655941248061030231, guid: 767627bc9df43b14c86d0d39c0ec4661,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7800478182908939734, guid: 767627bc9df43b14c86d0d39c0ec4661,
         type: 3}
       propertyPath: OnCollected.m_PersistentCalls.m_Calls.Array.size
@@ -56416,431 +59582,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZone.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassification.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZones.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassifications.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.size
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listNames.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1141565045}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: playerCanGenerate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZone.Array.data[0]
-      value: Mangrove
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZone.Array.data[1]
-      value: Foret Mesophile
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZone.Array.data[2]
-      value: Foret Hygrophile
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassification.Array.data[0]
-      value: sans graine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassification.Array.data[1]
-      value: avec graine sans fleur
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassification.Array.data[2]
-      value: avec graine et fleur
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZones.Array.data[0]
-      value: Mangrove
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZones.Array.data[1]
-      value: Foret Mesophile
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZones.Array.data[2]
-      value: Foret Hygrophile
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassifications.Array.data[0]
-      value: Aucune
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassifications.Array.data[1]
-      value: sans graine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassifications.Array.data[2]
-      value: avec graine sans fleur
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.data[0]
-      value: Atmospheric Pollution
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.data[1]
-      value: Atmospheric Pollution
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.data[2]
-      value: Atmospheric Pollution
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.data[3]
-      value: Atmospheric Pollution
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.data[4]
-      value: "hallucinog\xE8ne"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.data[5]
-      value: avec fruits antioxydants
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.data[6]
-      value: produit des noix
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listZones.Array.data[3]
-      value: Foret Hygrophile
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listClassifications.Array.data[3]
-      value: avec graine et fleur
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listFeatures.Array.data[7]
-      value: urticante
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[0]
-      value: Avicennia
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[1]
-      value: Liane Type A
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[2]
-      value: Liane Type B
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[3]
-      value: Liane Type C
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[4]
-      value: Palmier
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[5]
-      value: Chichicaste
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[6]
-      value: PlantA
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[7]
-      value: PlantB
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[8]
-      value: Noyer
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[9]
-      value: PlantC
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[10]
-      value: PlantD
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listSpecies.Array.data[11]
-      value: Roche
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 202538300}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DeactivateCanvasWithDelay
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 202538300}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: DeactivateCanvasWithDelay
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 202538300}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DeactivateCanvasWithDelay
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 202538300}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: DeactivateCanvasWithDelay
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[0]
-      value: 
-      objectReference: {fileID: 1357541991}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[1]
-      value: 
-      objectReference: {fileID: 1293066444}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[2]
-      value: 
-      objectReference: {fileID: 914017335}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[3]
-      value: 
-      objectReference: {fileID: 268923033}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[4]
-      value: 
-      objectReference: {fileID: 1347428154}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[5]
-      value: 
-      objectReference: {fileID: 711345356}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[6]
-      value: 
-      objectReference: {fileID: 592191150}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[7]
-      value: 
-      objectReference: {fileID: 1023122094}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: collectableUIBG.Array.data[8]
-      value: 
-      objectReference: {fileID: 1827764341}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedWrongType.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: OnGeneratedInWrongZone.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listNames.Array.data[0]
-      value: Greenhouse Gases
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listNames.Array.data[1]
-      value: Volatile Organic Coumpound
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listNames.Array.data[2]
-      value: Suspended Particles
-      objectReference: {fileID: 0}
-    - target: {fileID: 3821751668776918877, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: listNames.Array.data[3]
-      value: Heavy Metals
       objectReference: {fileID: 0}
     - target: {fileID: 7371656083194420496, guid: 767627bc9df43b14c86d0d39c0ec4661,
         type: 3}
@@ -57403,11 +60144,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PrefabType
-      objectReference: {fileID: 0}
-    - target: {fileID: 1655941248061030231, guid: 767627bc9df43b14c86d0d39c0ec4661,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9040535485388476614, guid: 767627bc9df43b14c86d0d39c0ec4661,
         type: 3}

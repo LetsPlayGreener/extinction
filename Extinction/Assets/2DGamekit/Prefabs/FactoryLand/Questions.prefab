@@ -1,0 +1,3037 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &210483064422992304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476732348120708202}
+  - component: {fileID: 3085679970642719734}
+  m_Layer: 5
+  m_Name: A3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &476732348120708202
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210483064422992304}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7022522271163213325}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3085679970642719734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210483064422992304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  french: "un ensemble d\u2019atomes, identiques ou non, unis les uns aux autres par
+    le biais de liaisons chimiques\r"
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 3085679970642719734}
+--- !u!1 &429615770756780153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2167530410820347010}
+  - component: {fileID: 533188037719217663}
+  m_Layer: 5
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2167530410820347010
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429615770756780153}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7022522271163213325}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &533188037719217663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429615770756780153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les cristaux de glace (H20) qui forment des cirrus
+  english: 
+  french: "une substance chimique affectant l\u2019organisme (m\xE9tabolisme, fonctions
+    reproductrices, syst\xE8me nerveux)\r"
+  italian: Les cristaux de glace (H20) qui forment des cirrus
+  romanian: Les cristaux de glace (H20) qui forment des cirrus
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 533188037719217663}
+--- !u!1 &457226589966951382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4292104288618520204}
+  - component: {fileID: 7187118598814908603}
+  m_Layer: 5
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4292104288618520204
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457226589966951382}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3989080027226971633}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7187118598814908603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457226589966951382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de souffre (SO2)
+  english: Le dioxyde de souffre (SO2)
+  french: "la disparition totale de certaines esp\xE8ces d\u2019amphibiens\r"
+  italian: Le dioxyde de souffre (SO2)
+  romanian: Le dioxyde de souffre (SO2)
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 7187118598814908603}
+--- !u!1 &930919060158653837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806332932452760124}
+  - component: {fileID: 9185612811033264512}
+  m_Layer: 5
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &806332932452760124
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930919060158653837}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5109443380130808429}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &9185612811033264512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930919060158653837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de souffre (SO2)
+  english: Le dioxyde de souffre (SO2)
+  french: "les oxydes d\u2019azote (NOx) \xE9mis par toute combustion de l\u2019atmosph\xE8re\r"
+  italian: Le dioxyde de souffre (SO2)
+  romanian: Le dioxyde de souffre (SO2)
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 9185612811033264512}
+--- !u!1 &1077199005975800650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6760289328457331598}
+  - component: {fileID: 4048087110022611123}
+  m_Layer: 5
+  m_Name: CsqcesPesticides (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6760289328457331598
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077199005975800650}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 5051562372945520798}
+  - {fileID: 4265757030296775831}
+  - {fileID: 8264096454228078364}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4048087110022611123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077199005975800650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  french: "Quelles activit\xE9s humaines favorisent l\u2019eutrophisation des milieux
+    aquatiques ?\r"
+  italian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 4048087110022611123}
+--- !u!1 &1333134075357562376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6480795646466530436}
+  - component: {fileID: 5974387655522553336}
+  m_Layer: 5
+  m_Name: A3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6480795646466530436
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333134075357562376}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7993968895635663792}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5974387655522553336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333134075357562376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  french: "un ensemble d\u2019atomes, identiques ou non, unis les uns aux autres par
+    le biais de liaisons chimiques\r"
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 5974387655522553336}
+--- !u!1 &1334574105538160517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4265757030296775831}
+  - component: {fileID: 3506980703666057345}
+  m_Layer: 5
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4265757030296775831
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334574105538160517}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6760289328457331598}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3506980703666057345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334574105538160517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de souffre (SO2)
+  english: Le dioxyde de souffre (SO2)
+  french: "L\u2019utilisation d\u2019engrais et de d\xE9tergents (azote et phosphates)\r"
+  italian: Le dioxyde de souffre (SO2)
+  romanian: Le dioxyde de souffre (SO2)
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 3506980703666057345}
+--- !u!1 &1597374251016328138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6608921270739077895}
+  - component: {fileID: 2023077664908086113}
+  m_Layer: 5
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6608921270739077895
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597374251016328138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3989080027226971633}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2023077664908086113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597374251016328138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les cristaux de glace (H20) qui forment des cirrus
+  english: 
+  french: "un d\xE9s\xE9quilibre \xE9cologique li\xE9 \xE0 des apports trop importants
+    en phosphore et en azote\r"
+  italian: Les cristaux de glace (H20) qui forment des cirrus
+  romanian: Les cristaux de glace (H20) qui forment des cirrus
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 2023077664908086113}
+--- !u!1 &2235542471648111696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1070952322183728152}
+  - component: {fileID: 5907750239598144777}
+  m_Layer: 5
+  m_Name: Molecule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1070952322183728152
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235542471648111696}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 6235482172866875266}
+  - {fileID: 7466721366133632159}
+  - {fileID: 3677570935218016575}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5907750239598144777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2235542471648111696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  french: "Qu\u2019est-ce qu\u2019une mol\xE9cule ? \r"
+  italian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 5907750239598144777}
+--- !u!1 &2819626324917518611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8264096454228078364}
+  - component: {fileID: 774953531168337011}
+  m_Layer: 5
+  m_Name: A3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8264096454228078364
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2819626324917518611}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6760289328457331598}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &774953531168337011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2819626324917518611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  french: "La pulv\xE9risation de pesticides "
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 774953531168337011}
+--- !u!1 &3011826212310955886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546479035399499}
+  - component: {fileID: 1132693139578407639}
+  m_Layer: 5
+  m_Name: CsqcesEutrophisation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546479035399499
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212310955886}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 561546478637384842}
+  - {fileID: 561546478433533237}
+  - {fileID: 561546478896498845}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693139578407639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212310955886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  french: "Quelle est la cons\xE9quence de l'eutrophisation d'un cours d'eau ? \r"
+  italian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693139578407639}
+--- !u!1 &3011826212508667567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546478637384842}
+  - component: {fileID: 1132693140514075414}
+  m_Layer: 5
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546478637384842
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212508667567}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546479035399499}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693140514075414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212508667567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les cristaux de glace (H20) qui forment des cirrus
+  english: 
+  french: "un d\xE9s\xE9quilibre \xE9cologique li\xE9 \xE0 des apports trop importants
+    en phosphore et en azote\r"
+  italian: Les cristaux de glace (H20) qui forment des cirrus
+  romanian: Les cristaux de glace (H20) qui forment des cirrus
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693140514075414}
+--- !u!1 &3011826212655663223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546478825931346}
+  - component: {fileID: 1132693140593702350}
+  m_Layer: 5
+  m_Name: Precurseur (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546478825931346
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212655663223}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546480094604354}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693140593702350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212655663223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Le m\xE9thane (CH4)"
+  english: "Le m\xE9thane (CH4)"
+  french: "De nutriments phosphat\xE9s\r"
+  italian: "Le m\xE9thane (CH4)"
+  romanian: "Le m\xE9thane (CH4)"
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693140593702350}
+--- !u!1 &3011826212725637816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546478896498845}
+  - component: {fileID: 1132693140527791873}
+  m_Layer: 5
+  m_Name: A3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546478896498845
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212725637816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546479035399499}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693140527791873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212725637816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  french: "la mortalit\xE9 des oiseaux li\xE9e \xE0 l\u2019ingestion de semences enrob\xE9es
+    de pesticides\r"
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693140527791873}
+--- !u!1 &3011826212759617700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546478392756865}
+  - component: {fileID: 1132693140225506589}
+  m_Layer: 5
+  m_Name: Precurseur (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546478392756865
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212759617700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546480474755811}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693140225506589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212759617700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
+  english: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
+  french: "Les reptiles\r"
+  italian: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
+  romanian: "Les particules fines, r\xE9sidus solides de la combustion des hydrocarbures. "
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693140225506589}
+--- !u!1 &3011826212782831376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546478433533237}
+  - component: {fileID: 1132693140184468137}
+  m_Layer: 5
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546478433533237
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212782831376}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546479035399499}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693140184468137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212782831376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de souffre (SO2)
+  english: Le dioxyde de souffre (SO2)
+  french: "le d\xE9p\xE9rissement de massifs forestiers du fait de l\u2019acidification
+    des sols \r"
+  italian: Le dioxyde de souffre (SO2)
+  romanian: Le dioxyde de souffre (SO2)
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693140184468137}
+--- !u!1 &3011826212966676773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546478583100160}
+  - component: {fileID: 1132693140298286236}
+  m_Layer: 5
+  m_Name: Precurseur (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546478583100160
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212966676773}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546480094604354}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693140298286236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826212966676773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de soufre, SO2
+  english: "De pesticides \xE0 base de nicotine \r\n"
+  french: Le dioxyde de soufre, SO2
+  italian: Le dioxyde de soufre, SO2
+  romanian: Le dioxyde de soufre, SO2
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693140298286236}
+--- !u!1 &3011826213164991538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546480401206807}
+  - component: {fileID: 1132693139023083915}
+  m_Layer: 5
+  m_Name: Precurseur (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546480401206807
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213164991538}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546480094604354}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693139023083915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213164991538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les oxydes d'azote NOx
+  english: Les oxydes d'azote NOx
+  french: "De compos\xE9s azot\xE9s \r\n"
+  italian: Les oxydes d'azote NOx
+  romanian: Les oxydes d'azote NOx
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693139023083915}
+--- !u!1 &3011826213222488262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546480474755811}
+  - component: {fileID: 1132693138943567231}
+  m_Layer: 5
+  m_Name: Familles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546480474755811
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213222488262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 561546479588804250}
+  - {fileID: 561546479945906394}
+  - {fileID: 561546478392756865}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693138943567231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213222488262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments est \xE9tranger \xE0 la formation de l'ozone
+    ? "
+  english: "Lequel de ces \xE9l\xE9ments est \xE9tranger \xE0 la formation de l'ozone
+    ? "
+  french: "Laquelle de ces esp\xE8ces animales n\u2019appartient pas au milieu aquatique
+    ?\r"
+  italian: "Lequel de ces \xE9l\xE9ments est \xE9tranger \xE0 la formation de l'ozone
+    ? "
+  romanian: "Lequel de ces \xE9l\xE9ments est \xE9tranger \xE0 la formation de l'ozone
+    ? "
+  nextDialogElems:
+  - {fileID: 4780483594450573396, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483595168746541, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594996249197, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594238181430, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693138943567231}
+--- !u!1 &3011826213404501607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546480094604354}
+  - component: {fileID: 1132693138523659230}
+  m_Layer: 5
+  m_Name: Insecticides
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546480094604354
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213404501607}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 561546478583100160}
+  - {fileID: 561546480401206807}
+  - {fileID: 561546478825931346}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693138523659230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213404501607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces gaz est pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces gaz est pr\xE9curseur de l'ozone ? "
+  french: "A cause de leur effets n\xE9fastes, les insecticides n\xE9onicotino\xEFdes,
+    sont connus sous le nom de \xAB tueurs d'abeilles \xBB. De quoi sont-ils faits
+    ?"
+  italian: "Lequel de ces gaz est pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces gaz est pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483594868385525, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594161207735, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594377348256, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593867888869, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693138523659230}
+--- !u!1 &3011826213430473112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546480137812925}
+  - component: {fileID: 1132693138749344801}
+  m_Layer: 5
+  m_Name: Questions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546480137812925
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213430473112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 561546480094604354}
+  - {fileID: 561546480474755811}
+  - {fileID: 561546479035399499}
+  - {fileID: 3989080027226971633}
+  - {fileID: 7022522271163213325}
+  - {fileID: 7993968895635663792}
+  - {fileID: 1070952322183728152}
+  - {fileID: 1921588330852290131}
+  - {fileID: 5109443380130808429}
+  - {fileID: 6760289328457331598}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693138749344801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213430473112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: 
+  english: 
+  french: "La pollution aux pesticides, l\u2019eutrophisation et les pluies acides
+    sont les trois principaux ph\xE9nom\xE8nes qui affectent la vie aquatique. Veux-tu
+    r\xE9pondre \xE0 mon sondage ? "
+  italian: 
+  romanian: 
+  nextDialogElems:
+  - {fileID: 0}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 1
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693138749344801}
+--- !u!1 &3011826213817447167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546479945906394}
+  - component: {fileID: 1132693139473731398}
+  m_Layer: 5
+  m_Name: Precurseur
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546479945906394
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213817447167}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546480474755811}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693139473731398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213817447167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action aux fortes temp\xE9ratures
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action aux fortes temp\xE9ratures
+    du moteur."
+  french: "Les algues\r"
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action aux fortes temp\xE9ratures
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action aux fortes temp\xE9ratures
+    du moteur."
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693139473731398}
+--- !u!1 &3011826213972118719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561546479588804250}
+  - component: {fileID: 1132693139292844294}
+  m_Layer: 5
+  m_Name: 'Precurseur '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &561546479588804250
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213972118719}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 561546480474755811}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1132693139292844294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3011826213972118719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
+  english: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
+  french: "Les amphibiens\r"
+  italian: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
+  romanian: "Les compos\xE9s organiques volatils issus de la combustion d'hydrocarbures."
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 1132693139292844294}
+--- !u!1 &3136961829463834430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7980288755979129921}
+  - component: {fileID: 8582080501759353389}
+  m_Layer: 5
+  m_Name: A3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7980288755979129921
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3136961829463834430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5109443380130808429}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8582080501759353389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3136961829463834430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  french: "les phosphate li\xE9es \xE0 l\u2019utilisation de d\xE9tergents et d\u2019engrais\r"
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 8582080501759353389}
+--- !u!1 &3729157169571752197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5051562372945520798}
+  - component: {fileID: 8563125245111053844}
+  m_Layer: 5
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5051562372945520798
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729157169571752197}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6760289328457331598}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8563125245111053844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3729157169571752197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les cristaux de glace (H20) qui forment des cirrus
+  english: 
+  french: "Les rejets dans l'atmosph\xE8re d'azote (NO) et d'oxydes soufre (SO2)\r"
+  italian: Les cristaux de glace (H20) qui forment des cirrus
+  romanian: Les cristaux de glace (H20) qui forment des cirrus
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 8563125245111053844}
+--- !u!1 &4105267701869223184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5765234005167053850}
+  - component: {fileID: 4810765394482984182}
+  m_Layer: 5
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5765234005167053850
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4105267701869223184}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7022522271163213325}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4810765394482984182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4105267701869223184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de souffre (SO2)
+  english: Le dioxyde de souffre (SO2)
+  french: "une substance chimique pure compos\xE9e d\u2019atomes d\u2019au moins deux
+    \xE9l\xE9ments chimiques\r\n"
+  italian: Le dioxyde de souffre (SO2)
+  romanian: Le dioxyde de souffre (SO2)
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 4810765394482984182}
+--- !u!1 &4361201435746866909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6235482172866875266}
+  - component: {fileID: 4702969029866815713}
+  m_Layer: 5
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6235482172866875266
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4361201435746866909}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1070952322183728152}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4702969029866815713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4361201435746866909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les cristaux de glace (H20) qui forment des cirrus
+  english: 
+  french: "une substance chimique affectant l\u2019organisme (m\xE9tabolisme, fonctions
+    reproductrices, syst\xE8me nerveux)\r"
+  italian: Les cristaux de glace (H20) qui forment des cirrus
+  romanian: Les cristaux de glace (H20) qui forment des cirrus
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 4702969029866815713}
+--- !u!1 &4669226478561403436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3677570935218016575}
+  - component: {fileID: 5652784590184280834}
+  m_Layer: 5
+  m_Name: A3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3677570935218016575
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669226478561403436}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1070952322183728152}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5652784590184280834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669226478561403436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  french: "Un ensemble d\u2019atomes, identiques ou non, unis les uns aux autres par
+    le biais de liaisons chimiques\r"
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 5652784590184280834}
+--- !u!1 &5136529107790659045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7993968895635663792}
+  - component: {fileID: 5933940012527777659}
+  m_Layer: 5
+  m_Name: "Compos\xE9sChimiques"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7993968895635663792
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5136529107790659045}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 3741136166849322156}
+  - {fileID: 6725042841192673263}
+  - {fileID: 6480795646466530436}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5933940012527777659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5136529107790659045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  french: "Qu\u2019est ce qu\u2019un compos\xE9 chimique ? "
+  italian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 5933940012527777659}
+--- !u!1 &5456134464290913860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6725042841192673263}
+  - component: {fileID: 6596290848267096056}
+  m_Layer: 5
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6725042841192673263
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5456134464290913860}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7993968895635663792}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6596290848267096056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5456134464290913860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de souffre (SO2)
+  english: Le dioxyde de souffre (SO2)
+  french: "une substance chimique pure compos\xE9e d\u2019atomes d\u2019au moins deux
+    \xE9l\xE9ments chimiques\r\n"
+  italian: Le dioxyde de souffre (SO2)
+  romanian: Le dioxyde de souffre (SO2)
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 6596290848267096056}
+--- !u!1 &5460634721576864038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4624744579960553595}
+  - component: {fileID: 4766991897326762308}
+  m_Layer: 5
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4624744579960553595
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460634721576864038}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5109443380130808429}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4766991897326762308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460634721576864038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les cristaux de glace (H20) qui forment des cirrus
+  english: 
+  french: "le dyoxide de souffre (SO2) \xE9mis par la combustion d\u2019\xE9nergies
+    fossiles \r"
+  italian: Les cristaux de glace (H20) qui forment des cirrus
+  romanian: Les cristaux de glace (H20) qui forment des cirrus
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 4766991897326762308}
+--- !u!1 &5480528956343522511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6686785551509634755}
+  - component: {fileID: 6072696942734431386}
+  m_Layer: 5
+  m_Name: A3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6686785551509634755
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5480528956343522511}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1921588330852290131}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6072696942734431386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5480528956343522511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  french: "Le ruissellement des phosphates vers les cours d\u2019eau"
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 6072696942734431386}
+--- !u!1 &5607766397348235308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1556196491127151677}
+  - component: {fileID: 8471275802707764163}
+  m_Layer: 5
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1556196491127151677
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5607766397348235308}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1921588330852290131}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8471275802707764163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5607766397348235308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les cristaux de glace (H20) qui forment des cirrus
+  english: 
+  french: "La prolif\xE9ration de cyanobact\xE9ries, parfois mortelles pour les animaux
+    et les humains\r"
+  italian: Les cristaux de glace (H20) qui forment des cirrus
+  romanian: Les cristaux de glace (H20) qui forment des cirrus
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 8471275802707764163}
+--- !u!1 &6474030086829066702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5109443380130808429}
+  - component: {fileID: 8280192856278760738}
+  m_Layer: 5
+  m_Name: PluiesAcides
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5109443380130808429
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6474030086829066702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4624744579960553595}
+  - {fileID: 806332932452760124}
+  - {fileID: 7980288755979129921}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8280192856278760738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6474030086829066702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  french: "Quelles sont les compos\xE9s chimiques qui participent au ph\xE9nom\xE8ne
+    des pluies acides ? "
+  italian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 8280192856278760738}
+--- !u!1 &6856821450372762192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4052497633369202692}
+  - component: {fileID: 9166787782722764951}
+  m_Layer: 5
+  m_Name: A3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4052497633369202692
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856821450372762192}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3989080027226971633}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &9166787782722764951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856821450372762192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  english: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  french: "le d\xE9veloppement d\u2019une biomasse qui exc\xE8de les capacit\xE9s
+    du milieu\r"
+  italian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  romanian: "Les oxydes d'azote (NOx) form\xE9s par r\xE9action \xE0 la temp\xE9rature
+    du moteur."
+  nextDialogElems:
+  - {fileID: 552854105, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 9166787782722764951}
+--- !u!1 &6914881244800167288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7466721366133632159}
+  - component: {fileID: 4761991651846534138}
+  m_Layer: 5
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7466721366133632159
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914881244800167288}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1070952322183728152}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4761991651846534138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914881244800167288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de souffre (SO2)
+  english: Le dioxyde de souffre (SO2)
+  french: "une substance chimique pure compos\xE9e d\u2019atomes d\u2019au moins deux
+    \xE9l\xE9ments chimiques\r\n"
+  italian: Le dioxyde de souffre (SO2)
+  romanian: Le dioxyde de souffre (SO2)
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 4761991651846534138}
+--- !u!1 &7066816284755515070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7022522271163213325}
+  - component: {fileID: 535535367430620513}
+  m_Layer: 5
+  m_Name: PerturbateursEndo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7022522271163213325
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7066816284755515070}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2167530410820347010}
+  - {fileID: 5765234005167053850}
+  - {fileID: 476732348120708202}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &535535367430620513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7066816284755515070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  french: "Qu\u2019est-ce qu\u2019un perturbateur endocrinien ? "
+  italian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 535535367430620513}
+--- !u!1 &7406563650299754677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 264016523680681516}
+  - component: {fileID: 686164099773912392}
+  m_Layer: 5
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &264016523680681516
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7406563650299754677}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1921588330852290131}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &686164099773912392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7406563650299754677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Le dioxyde de souffre (SO2)
+  english: Le dioxyde de souffre (SO2)
+  french: "Le rejet dans l'atmosph\xE8re d'azote (NO) et d'oxydes soufre (SO2)\r"
+  italian: Le dioxyde de souffre (SO2)
+  romanian: Le dioxyde de souffre (SO2)
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 686164099773912392}
+--- !u!1 &7472913519972833710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3989080027226971633}
+  - component: {fileID: 2087497324784320857}
+  m_Layer: 5
+  m_Name: CsqcesPesticides
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3989080027226971633
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472913519972833710}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 6608921270739077895}
+  - {fileID: 4292104288618520204}
+  - {fileID: 4052497633369202692}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2087497324784320857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7472913519972833710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  french: "Quelles cons\xE9quences les pesticides ont-ils sur la vie aquatique ? \r"
+  italian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 2087497324784320857}
+--- !u!1 &7500412103619957829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921588330852290131}
+  - component: {fileID: 3908090952830898810}
+  m_Layer: 5
+  m_Name: CsqcesAcidRains
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1921588330852290131
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7500412103619957829}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1556196491127151677}
+  - {fileID: 264016523680681516}
+  - {fileID: 6686785551509634755}
+  m_Father: {fileID: 561546480137812925}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3908090952830898810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7500412103619957829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  english: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  french: "Quelle est la cons\xE9quence des pluies acides ?\r"
+  italian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  romanian: "Lequel de ces \xE9l\xE9ments, rejet\xE9s par la combustion du k\xE9roz\xE8ne
+    est un pr\xE9curseur de l'ozone ? "
+  nextDialogElems:
+  - {fileID: 4780483593809442812, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593955905085, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483594281318274, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  - {fileID: 4780483593935897130, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 0
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 3908090952830898810}
+--- !u!1 &7597507795441966240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3741136166849322156}
+  - component: {fileID: 3331460730250953177}
+  m_Layer: 5
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3741136166849322156
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7597507795441966240}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7993968895635663792}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3331460730250953177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7597507795441966240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5354a1fe46074eafc402708d0fe64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: Les cristaux de glace (H20) qui forment des cirrus
+  english: 
+  french: "une substance chimique affectant l\u2019organisme (m\xE9tabolisme, fonctions
+    reproductrices, syst\xE8me nerveux)\r"
+  italian: Les cristaux de glace (H20) qui forment des cirrus
+  romanian: Les cristaux de glace (H20) qui forment des cirrus
+  nextDialogElems:
+  - {fileID: 4780483594631259125, guid: a64524550c55eb943a810972aa82e886, type: 3}
+  speakerIsPlayer: 1
+  numberSelectedRandomly: 0
+  addAfterRandom: []
+  callEventFunctionsOnSkipDialogue: 0
+  audio: {fileID: 0}
+  englishAudio: {fileID: 0}
+  frenchAudio: {fileID: 0}
+  italianAudio: {fileID: 0}
+  romanianAudio: {fileID: 0}
+  OnElementRead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Gamekit2D.DialogueElementReadEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    elem: {fileID: 3331460730250953177}
