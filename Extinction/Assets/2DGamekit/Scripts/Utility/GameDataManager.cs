@@ -86,7 +86,7 @@ public class GameDataManager : MonoBehaviour
 
     public void PlayerAcquiredSkill(string skillName)
     {
-        if(DataManager.playerData != null)
+        if (DataManager.playerData != null)
             DataManager.playerData.SetSkill(skillName, true);
     }
 
@@ -110,8 +110,19 @@ public class DataManager
 
     public static void LoadData()
     {
+#if UNITY_WEBGL
+        try
+        {
+            Serializer.DeserializeData<PlayerData>(PlayerPrefs.GetString("PlayerWebGLData"), out playerData);
+        }
+        catch (Exception)
+        {
+            playerData = null;
+        }
+#else
         Serializer.LoadData<PlayerData>(dataPath, out playerData);
-        if(playerData == null)
+#endif
+        if (playerData == null)
         {
             playerData = new PlayerData();
             SaveData();
@@ -120,8 +131,14 @@ public class DataManager
 
     public static void SaveData()
     {
-        if(playerData != null)
+        if (playerData != null)
+        {
+#if UNITY_WEBGL
+            PlayerPrefs.SetString("PlayerWebGLData", Serializer.SerializeData(playerData));
+#else
             Serializer.SaveData(dataPath, playerData);
+#endif
+        }
     }
 }
 
