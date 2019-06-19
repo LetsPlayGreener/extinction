@@ -66,6 +66,13 @@ namespace Gamekit2D {
                     playerAudioSource = playerInput.GetComponent<AudioSource>();
                 }
 
+                if (!playerAudioSource)
+                {
+                    playerAudioSource = GetComponent<AudioSource>();
+                    if (playerAudioSource)
+                        playerAudioSource.enabled = true;
+                }
+
                 dcc = this.GetComponent<DialogueCanvasController>();
                 if (dcc == null)
                     this.enabled = false;
