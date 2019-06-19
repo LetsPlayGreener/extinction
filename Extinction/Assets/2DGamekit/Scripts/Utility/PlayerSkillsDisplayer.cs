@@ -33,6 +33,7 @@ public class PlayerSkillsDisplayer : MonoBehaviour
                 {
                     tmpGO = GameObject.Instantiate(skillGOTemplate.gameObject);
                     tmpGO.transform.SetParent(skillGOTemplate.transform.parent);
+                    tmpGO.transform.localPosition = new Vector3(tmpGO.transform.localPosition.x, tmpGO.transform.localPosition.y, 0);
                     tmpRT = tmpGO.GetComponent<RectTransform>();
                     tmpRT.offsetMin = new Vector2(0, tmpRT.offsetMin.y);
                     tmpRT.offsetMax = new Vector2(0, tmpRT.offsetMax.y);
